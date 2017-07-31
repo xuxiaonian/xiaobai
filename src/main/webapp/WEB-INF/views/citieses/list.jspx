@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<div xmlns:jsp="http://java.sun.com/JSP/Page" xmlns:page="urn:jsptagdir:/WEB-INF/tags/form" xmlns:table="urn:jsptagdir:/WEB-INF/tags/form/fields" version="2.0">
+    <jsp:directive.page contentType="text/html;charset=UTF-8"/>
+    <jsp:output omit-xml-declaration="yes"/>
+    <page:list id="pl_com_huazhuo_shop_city_Cities" items="${citieses}" z="BF8C4okDwhXQnw66vWdfrgiPPps=">
+        <table:table data="${citieses}" id="l_com_huazhuo_shop_city_Cities" path="/citieses" z="mwvvZ8NtRTpant1pjx0yf0yGOFs=">
+            <table:column id="c_com_huazhuo_shop_city_Cities_name" property="name" z="o8k+fCUVoADssShSzTUcBifwQpw="/>
+            <table:column id="c_com_huazhuo_shop_city_Cities_pinyin" property="pinyin" z="soU/rDryyv+JQnhz2O7L6UowAbA="/>
+            <table:column id="c_com_huazhuo_shop_city_Cities_pinyinAbridge" property="pinyinAbridge" z="kB5r8haB6AmcRy0DsmblyO7GPbc="/>
+            <table:column id="c_com_huazhuo_shop_city_Cities_initial" property="initial" z="AQSAX6ZVGpCEqPBrXFGwN1RRAK4="/>
+            <table:column id="c_com_huazhuo_shop_city_Cities_zipcode" property="zipcode" z="ICl5mXuFwuS8xP3StTxJgKgAyFs="/>
+            <table:column id="c_com_huazhuo_shop_city_Cities_status" property="status" z="gUtHrrszh0akpVxO5vIbnJcR9H4="/>
+        </table:table>
+    </page:list>
+</div>

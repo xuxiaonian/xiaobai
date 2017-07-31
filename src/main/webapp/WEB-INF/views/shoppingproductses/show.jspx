@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<div xmlns:field="urn:jsptagdir:/WEB-INF/tags/form/fields" xmlns:jsp="http://java.sun.com/JSP/Page" xmlns:page="urn:jsptagdir:/WEB-INF/tags/form" version="2.0">
+    <jsp:directive.page contentType="text/html;charset=UTF-8"/>
+    <jsp:output omit-xml-declaration="yes"/>
+    <page:show id="ps_com_huazhuo_shop_domain_ShoppingProducts" object="${shoppingproducts}" path="/shoppingproductses" z="1IfIPHi/Rd0+jnYuWLqMBTZDJrA=">
+        <field:display field="name" id="s_com_huazhuo_shop_domain_ShoppingProducts_name" object="${shoppingproducts}" z="IS2J7sPcGE5EkAHAL2sdBiPwp6c="/>
+        <field:display field="price" id="s_com_huazhuo_shop_domain_ShoppingProducts_price" object="${shoppingproducts}" z="qt7svu0j9fnTJ5ZzeMRKLU/mgRY="/>
+        <field:display field="details" id="s_com_huazhuo_shop_domain_ShoppingProducts_details" object="${shoppingproducts}" z="f3YQGcCM+eha5seumcml6VFVVro="/>
+        <field:display field="shoppingCategoryId" id="s_com_huazhuo_shop_domain_ShoppingProducts_shoppingCategoryId" object="${shoppingproducts}" z="p1kodkGv5vQtf6+7yFfi+uBhPTk="/>
+        <field:display date="true" dateTimePattern="${shoppingProducts_createdat_date_format}" field="createdAt" id="s_com_huazhuo_shop_domain_ShoppingProducts_createdAt" object="${shoppingproducts}" z="V3ExVhVyvvxNCyy5um2GOMPWVBM="/>
+        <field:display date="true" dateTimePattern="${shoppingProducts_updatedat_date_format}" field="updatedAt" id="s_com_huazhuo_shop_domain_ShoppingProducts_updatedAt" object="${shoppingproducts}" z="qpEunR+RqF5gliV+3WDzdm1by6w="/>
+        <field:display field="onSale" id="s_com_huazhuo_shop_domain_ShoppingProducts_onSale" object="${shoppingproducts}" z="V5m6a07sN+26YmH+boPvyJprmNk="/>
+        <field:display field="count" id="s_com_huazhuo_shop_domain_ShoppingProducts_count" object="${shoppingproducts}" z="nj40u1pb/0Snu+uEDDngp+0jdQM="/>
+        <field:display field="artificialCount" id="s_com_huazhuo_shop_domain_ShoppingProducts_artificialCount" object="${shoppingproducts}" z="zSHCo07FijNdJ0rOvyAiEwzpKY0="/>
+        <field:display field="deleteStatus" id="s_com_huazhuo_shop_domain_ShoppingProducts_deleteStatus" object="${shoppingproducts}" z="UADtE3qJnz7zK0fS1LE60YrYEm0="/>
+        <field:display field="shopId" id="s_com_huazhuo_shop_domain_ShoppingProducts_shopId" object="${shoppingproducts}" z="u3sgIjFqOeKWCrMcnGYkB/dbXMQ="/>
+        <field:display field="orgPrice" id="s_com_huazhuo_shop_domain_ShoppingProducts_orgPrice" object="${shoppingproducts}" z="maKFd81FNP1SH5/aEKOqhDEe1FM="/>
+        <field:display date="true" dateTimePattern="${shoppingProducts_onsaledate_date_format}" field="onSaleDate" id="s_com_huazhuo_shop_domain_ShoppingProducts_onSaleDate" object="${shoppingproducts}" z="jCgta97tri7q1uzaaml2G+HNf4g="/>
+        <field:display field="productNumber" id="s_com_huazhuo_shop_domain_ShoppingProducts_productNumber" object="${shoppingproducts}" z="GycZNs1LgPr00nanT4Cw6pS8RII="/>
+        <field:display field="stock" id="s_com_huazhuo_shop_domain_ShoppingProducts_stock" object="${shoppingproducts}" z="a1L6IPVYFHCRd09pz1TCB6dgKE8="/>
+        <field:display field="stockWarning" id="s_com_huazhuo_shop_domain_ShoppingProducts_stockWarning" object="${shoppingproducts}" z="+hXnSAMPzGzIwMoJ2jhR0NHuC6o="/>
+        <field:display field="recommendReason" id="s_com_huazhuo_shop_domain_ShoppingProducts_recommendReason" object="${shoppingproducts}" z="AALHF0LmVPudvmduCcUsI4FEFPM="/>
+        <field:display field="productBrandId" id="s_com_huazhuo_shop_domain_ShoppingProducts_productBrandId" object="${shoppingproducts}" z="idON2NwfGJwA/UW8JktD3Pdskh4="/>
+        <field:display field="cost" id="s_com_huazhuo_shop_domain_ShoppingProducts_cost" object="${shoppingproducts}" z="K6h1ZPLPWqUeAXrPJXsH6mUZSMU="/>
+        <field:display field="shopFreightTemplate" id="s_com_huazhuo_shop_domain_ShoppingProducts_shopFreightTemplate" object="${shoppingproducts}" z="09wZglswHlgjEsDbEPshGass4nE="/>
+        <field:display field="invoice" id="s_com_huazhuo_shop_domain_ShoppingProducts_invoice" object="${shoppingproducts}" z="VC1nLtz5HwDFhQ+l+JpumYZcayM="/>
+        <field:display field="heading" id="s_com_huazhuo_shop_domain_ShoppingProducts_heading" object="${shoppingproducts}" z="oRDQKuew5oRtjb40O1a2RtRlFqk="/>
+        <field:display field="subheading" id="s_com_huazhuo_shop_domain_ShoppingProducts_subheading" object="${shoppingproducts}" z="XEoajlFmWBcr0/zF4nL1pXzXlso="/>
+        <field:display field="headImage" id="s_com_huazhuo_shop_domain_ShoppingProducts_headImage" object="${shoppingproducts}" z="2ehYOXnCKCMZyoB/6Xph5SCCNBs="/>
+        <field:display field="endImage" id="s_com_huazhuo_shop_domain_ShoppingProducts_endImage" object="${shoppingproducts}" z="lx7pnDeYv9/bs3nDCo/wZgjhRyQ="/>
+        <field:display field="status" id="s_com_huazhuo_shop_domain_ShoppingProducts_status" object="${shoppingproducts}" z="ZmslKBYfO/vnLN89ovO+HnQB8MA="/>
+        <field:display field="weight" id="s_com_huazhuo_shop_domain_ShoppingProducts_weight" object="${shoppingproducts}" z="94E/PXGZHybdqJJ8d5Hsg2i6Aiw="/>
+        <field:display field="shoppingSpecialCategoryId" id="s_com_huazhuo_shop_domain_ShoppingProducts_shoppingSpecialCategoryId" object="${shoppingproducts}" z="bfJfRogFQkosJpkR5w0zLrVRdxs="/>
+        <field:display field="isCost" id="s_com_huazhuo_shop_domain_ShoppingProducts_isCost" object="${shoppingproducts}" z="rj1KBMbzCcE15z+05SGvzNzJ24k="/>
+        <field:display field="shoppingProductMarkName" id="s_com_huazhuo_shop_domain_ShoppingProducts_shoppingProductMarkName" object="${shoppingproducts}" z="c9N8ssbnY7JEZZz9OoxnqHiqsqE="/>
+        <field:display field="review" id="s_com_huazhuo_shop_domain_ShoppingProducts_review" object="${shoppingproducts}" z="rv6fJVXvxhxrTCVVl79v5A+hf0I="/>
+        <field:display field="sysNumber" id="s_com_huazhuo_shop_domain_ShoppingProducts_sysNumber" object="${shoppingproducts}" z="W2zRrzdU/4ukinzLKcqNWruPMQY="/>
+        <field:display field="reviewReason" id="s_com_huazhuo_shop_domain_ShoppingProducts_reviewReason" object="${shoppingproducts}" z="y9KoOtPsaeqY1ZNeJDArGQypnBQ="/>
+        <field:display field="provinces" id="s_com_huazhuo_shop_domain_ShoppingProducts_provinces" object="${shoppingproducts}" z="m15nxtAbZRgUWQPBBKqkSeJRDcc="/>
+        <field:display field="cityId" id="s_com_huazhuo_shop_domain_ShoppingProducts_cityId" object="${shoppingproducts}" z="liqKHFJi215HLavJ0li33ltqiM4="/>
+        <field:display field="store" id="s_com_huazhuo_shop_domain_ShoppingProducts_store" object="${shoppingproducts}" z="YrMy3u3mp6+3z+uMUE+I7A7r9LA="/>
+        <field:display field="shoppingCategoryName" id="s_com_huazhuo_shop_domain_ShoppingProducts_shoppingCategoryName" object="${shoppingproducts}" z="UoLYzcOkQvGEk7c8wMFayBo8Wus="/>
+        <field:display date="true" dateTimePattern="${shoppingProducts_reviewdate_date_format}" field="reviewDate" id="s_com_huazhuo_shop_domain_ShoppingProducts_reviewDate" object="${shoppingproducts}" z="4Bf39yYSiXB1m4qXKxjQJSjIehY="/>
+    </page:show>
+</div>

@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<div xmlns:field="urn:jsptagdir:/WEB-INF/tags/form/fields" xmlns:jsp="http://java.sun.com/JSP/Page" xmlns:page="urn:jsptagdir:/WEB-INF/tags/form" version="2.0">
+    <jsp:directive.page contentType="text/html;charset=UTF-8"/>
+    <jsp:output omit-xml-declaration="yes"/>
+    <page:show id="ps_com_huazhuo_shop_domain_ShoppingCategories" object="${shoppingcategories}" path="/shoppingcategorieses" z="uhTlt3EwfKM5Nxw3PRJCkv7Da5k=">
+        <field:display field="name" id="s_com_huazhuo_shop_domain_ShoppingCategories_name" object="${shoppingcategories}" z="cIeRZxsYlulQkeCIZUMYznWoHQo="/>
+        <field:display field="description" id="s_com_huazhuo_shop_domain_ShoppingCategories_description" object="${shoppingcategories}" z="NS2499rb5mKAlFev2Ol8RjK2XYI="/>
+        <field:display field="image" id="s_com_huazhuo_shop_domain_ShoppingCategories_image" object="${shoppingcategories}" z="ouu+f/D+Zgm0trbS+uI0wpcK2dY="/>
+        <field:display field="status" id="s_com_huazhuo_shop_domain_ShoppingCategories_status" object="${shoppingcategories}" z="UYZWEVWI+eE1IdaQoKMEMOhHqbI="/>
+        <field:display field="parentId" id="s_com_huazhuo_shop_domain_ShoppingCategories_parentId" object="${shoppingcategories}" z="G5vBbQUmODv3aIBfDCqkXr1BNRY="/>
+        <field:display field="cityId" id="s_com_huazhuo_shop_domain_ShoppingCategories_cityId" object="${shoppingcategories}" z="EVNf6FCuke/ENiHmU3RG0OtolM4="/>
+        <field:display date="true" dateTimePattern="${shoppingCategories_createdat_date_format}" field="createdAt" id="s_com_huazhuo_shop_domain_ShoppingCategories_createdAt" object="${shoppingcategories}" z="UFiO36wW2SPhhJrrzB91Lowfzv8="/>
+        <field:display date="true" dateTimePattern="${shoppingCategories_updatedat_date_format}" field="updatedAt" id="s_com_huazhuo_shop_domain_ShoppingCategories_updatedAt" object="${shoppingcategories}" z="BbxeUq8ZqjmxB8M1s7g5uBu6mf0="/>
+        <field:display field="enabled" id="s_com_huazhuo_shop_domain_ShoppingCategories_enabled" object="${shoppingcategories}" z="jDzG9TpQpGPmuqvVRMHTgg835WQ="/>
+    </page:show>
+</div>

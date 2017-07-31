@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<div xmlns:c="http://java.sun.com/jsp/jstl/core" xmlns:field="urn:jsptagdir:/WEB-INF/tags/form/fields" xmlns:form="urn:jsptagdir:/WEB-INF/tags/form" xmlns:jsp="http://java.sun.com/JSP/Page" xmlns:spring="http://www.springframework.org/tags" version="2.0">
+    <jsp:directive.page contentType="text/html;charset=UTF-8"/>
+    <jsp:output omit-xml-declaration="yes"/>
+    <form:create id="fc_com_huazhuo_shop_domain_ShopOrderEvaluateImg" modelAttribute="shopOrderEvaluateImg" path="/shoporderevaluateimgs" render="${empty dependencies}" z="X+RWG+w1k3a3GB5mxr+c6/6+DSA=">
+        <field:input field="imgUrl" id="c_com_huazhuo_shop_domain_ShopOrderEvaluateImg_imgUrl" z="fJxonxqKIYlJjjBqrMN097zYhrE="/>
+        <field:select field="shoppingEvaluateId" id="c_com_huazhuo_shop_domain_ShopOrderEvaluateImg_shoppingEvaluateId" itemValue="id" items="${shoporderevaluates}" path="/shoporderevaluates" z="MasMfVkjLbp2Dh6n9qxATydWeFw="/>
+    </form:create>
+    <form:dependency dependencies="${dependencies}" id="d_com_huazhuo_shop_domain_ShopOrderEvaluateImg" render="${not empty dependencies}" z="joGFoMNFTjsZ2dw1plzxdiA4YxY="/>
+</div>

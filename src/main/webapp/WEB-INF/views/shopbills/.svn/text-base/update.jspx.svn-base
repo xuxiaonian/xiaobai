@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<div xmlns:field="urn:jsptagdir:/WEB-INF/tags/form/fields" xmlns:form="urn:jsptagdir:/WEB-INF/tags/form" xmlns:jsp="http://java.sun.com/JSP/Page" version="2.0">
+    <jsp:directive.page contentType="text/html;charset=UTF-8"/>
+    <jsp:output omit-xml-declaration="yes"/>
+    <form:update id="fu_com_huazhuo_shop_bill_ShopBill" modelAttribute="shopBill" path="/shopbills" versionField="Version" z="VS+ENjbkAeV5J5ESJ7GRF2ExOlE=">
+        <field:input field="billNumber" id="c_com_huazhuo_shop_bill_ShopBill_billNumber" z="mGpgK5Hn1/7vmBp4JWlTqOa2W84="/>
+        <field:datetime dateTimePattern="${shopBill_billstart_date_format}" field="billStart" id="c_com_huazhuo_shop_bill_ShopBill_billStart" z="tc5HuiMz2zCG6dwSQYWmdUUXF0g="/>
+        <field:datetime dateTimePattern="${shopBill_billend_date_format}" field="billEnd" id="c_com_huazhuo_shop_bill_ShopBill_billEnd" z="s/H50ERTbxGUpozwAZrwv38rlEw="/>
+        <field:datetime dateTimePattern="${shopBill_createdate_date_format}" field="createDate" id="c_com_huazhuo_shop_bill_ShopBill_createDate" z="DYRNYM+KPbBbCALjyXZpZtXVXFA="/>
+        <field:datetime dateTimePattern="${shopBill_enterdate_date_format}" field="enterDate" id="c_com_huazhuo_shop_bill_ShopBill_enterDate" z="fD/6EH5t3nDeX9luYGh6cyBZPwg="/>
+        <field:datetime dateTimePattern="${shopBill_settledate_date_format}" field="settleDate" id="c_com_huazhuo_shop_bill_ShopBill_settleDate" z="HuAkN9z6Yam7sQCYhLsHdpMTHP4="/>
+        <field:input field="billCost" id="c_com_huazhuo_shop_bill_ShopBill_billCost" validationMessageCode="field_invalid_number" z="fPgOROY17vr2IGWCqjG8LAI7uJA="/>
+        <field:input field="settleCost" id="c_com_huazhuo_shop_bill_ShopBill_settleCost" validationMessageCode="field_invalid_number" z="rCUc1/yDt1X/qD0M6aeiRm6oI9E="/>
+        <field:select field="billEnum" id="c_com_huazhuo_shop_bill_ShopBill_billEnum" items="${billenums}" path="billenums" z="MGs50HG8MCqY1m/KjBmMaXGf/2g="/>
+        <field:simple field="shopBillDetails" id="c_com_huazhuo_shop_bill_ShopBill_shopBillDetails" messageCode="entity_reference_not_managed" messageCodeAttribute="Shop Bill Detail" z="JYfqjtC5WXmX7yuL4plhf3mawF4="/>
+        <field:input field="shopId" id="c_com_huazhuo_shop_bill_ShopBill_shopId" validationMessageCode="field_invalid_integer" z="4uv6HvA38zx3D7J3+oWPtc6/9uY="/>
+        <field:select field="billShowEnum" id="c_com_huazhuo_shop_bill_ShopBill_billShowEnum" items="${billshowenums}" path="billshowenums" z="c+9Q1vHn+pnnMtMbP46Uo63fapw="/>
+    </form:update>
+</div>

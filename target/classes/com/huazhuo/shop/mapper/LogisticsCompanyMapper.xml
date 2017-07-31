@@ -1,0 +1,297 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd" >
+<mapper namespace="com.huazhuo.shop.mapper.LogisticsCompanyMapper" >
+  <resultMap id="BaseResultMap" type="com.huazhuo.shop.model.LogisticsCompany" >
+    <id column="id" property="id" jdbcType="INTEGER" />
+    <result column="logistics_code" property="logisticsCode" jdbcType="VARCHAR" />
+    <result column="logistics_name" property="logisticsName" jdbcType="VARCHAR" />
+    <result column="company_type" property="companyType" jdbcType="INTEGER" />
+    <result column="created_at" property="createdAt" jdbcType="TIMESTAMP" />
+    <result column="updated_at" property="updatedAt" jdbcType="TIMESTAMP" />
+    <result column="att1" property="att1" jdbcType="VARCHAR" />
+    <result column="att2" property="att2" jdbcType="VARCHAR" />
+    <result column="name" property="name" jdbcType="VARCHAR" />
+    <result column="version" property="version" jdbcType="INTEGER" />
+  </resultMap>
+  <sql id="Example_Where_Clause" >
+    <where >
+      <foreach collection="oredCriteria" item="criteria" separator="or" >
+        <if test="criteria.valid" >
+          <trim prefix="(" suffix=")" prefixOverrides="and" >
+            <foreach collection="criteria.criteria" item="criterion" >
+              <choose >
+                <when test="criterion.noValue" >
+                  and ${criterion.condition}
+                </when>
+                <when test="criterion.singleValue" >
+                  and ${criterion.condition} #{criterion.value}
+                </when>
+                <when test="criterion.betweenValue" >
+                  and ${criterion.condition} #{criterion.value} and #{criterion.secondValue}
+                </when>
+                <when test="criterion.listValue" >
+                  and ${criterion.condition}
+                  <foreach collection="criterion.value" item="listItem" open="(" close=")" separator="," >
+                    #{listItem}
+                  </foreach>
+                </when>
+              </choose>
+            </foreach>
+          </trim>
+        </if>
+      </foreach>
+    </where>
+  </sql>
+  <sql id="Update_By_Example_Where_Clause" >
+    <where >
+      <foreach collection="example.oredCriteria" item="criteria" separator="or" >
+        <if test="criteria.valid" >
+          <trim prefix="(" suffix=")" prefixOverrides="and" >
+            <foreach collection="criteria.criteria" item="criterion" >
+              <choose >
+                <when test="criterion.noValue" >
+                  and ${criterion.condition}
+                </when>
+                <when test="criterion.singleValue" >
+                  and ${criterion.condition} #{criterion.value}
+                </when>
+                <when test="criterion.betweenValue" >
+                  and ${criterion.condition} #{criterion.value} and #{criterion.secondValue}
+                </when>
+                <when test="criterion.listValue" >
+                  and ${criterion.condition}
+                  <foreach collection="criterion.value" item="listItem" open="(" close=")" separator="," >
+                    #{listItem}
+                  </foreach>
+                </when>
+              </choose>
+            </foreach>
+          </trim>
+        </if>
+      </foreach>
+    </where>
+  </sql>
+  <sql id="Base_Column_List" >
+    id, logistics_code, logistics_name, company_type, created_at, updated_at, att1, att2, 
+    name, version
+  </sql>
+  <select id="selectByExample" resultMap="BaseResultMap" parameterType="com.huazhuo.shop.model.LogisticsCompanyExample" >
+    select
+    <if test="distinct" >
+      distinct
+    </if>
+    <include refid="Base_Column_List" />
+    from logistics_company
+    <if test="_parameter != null" >
+      <include refid="Example_Where_Clause" />
+    </if>
+    <if test="orderByClause != null" >
+      order by ${orderByClause}
+    </if>
+  </select>
+  <select id="selectByPrimaryKey" resultMap="BaseResultMap" parameterType="java.lang.Integer" >
+    select 
+    <include refid="Base_Column_List" />
+    from logistics_company
+    where id = #{id,jdbcType=INTEGER}
+  </select>
+  <delete id="deleteByPrimaryKey" parameterType="java.lang.Integer" >
+    delete from logistics_company
+    where id = #{id,jdbcType=INTEGER}
+  </delete>
+  <delete id="deleteByExample" parameterType="com.huazhuo.shop.model.LogisticsCompanyExample" >
+    delete from logistics_company
+    <if test="_parameter != null" >
+      <include refid="Example_Where_Clause" />
+    </if>
+  </delete>
+  <insert id="insert" parameterType="com.huazhuo.shop.model.LogisticsCompany" >
+    insert into logistics_company (id, logistics_code, logistics_name, 
+      company_type, created_at, updated_at, 
+      att1, att2, name, version
+      )
+    values (#{id,jdbcType=INTEGER}, #{logisticsCode,jdbcType=VARCHAR}, #{logisticsName,jdbcType=VARCHAR}, 
+      #{companyType,jdbcType=INTEGER}, #{createdAt,jdbcType=TIMESTAMP}, #{updatedAt,jdbcType=TIMESTAMP}, 
+      #{att1,jdbcType=VARCHAR}, #{att2,jdbcType=VARCHAR}, #{name,jdbcType=VARCHAR}, #{version,jdbcType=INTEGER}
+      )
+  </insert>
+  <insert id="insertSelective" parameterType="com.huazhuo.shop.model.LogisticsCompany" >
+    insert into logistics_company
+    <trim prefix="(" suffix=")" suffixOverrides="," >
+      <if test="id != null" >
+        id,
+      </if>
+      <if test="logisticsCode != null" >
+        logistics_code,
+      </if>
+      <if test="logisticsName != null" >
+        logistics_name,
+      </if>
+      <if test="companyType != null" >
+        company_type,
+      </if>
+      <if test="createdAt != null" >
+        created_at,
+      </if>
+      <if test="updatedAt != null" >
+        updated_at,
+      </if>
+      <if test="att1 != null" >
+        att1,
+      </if>
+      <if test="att2 != null" >
+        att2,
+      </if>
+      <if test="name != null" >
+        name,
+      </if>
+      <if test="version != null" >
+        version,
+      </if>
+    </trim>
+    <trim prefix="values (" suffix=")" suffixOverrides="," >
+      <if test="id != null" >
+        #{id,jdbcType=INTEGER},
+      </if>
+      <if test="logisticsCode != null" >
+        #{logisticsCode,jdbcType=VARCHAR},
+      </if>
+      <if test="logisticsName != null" >
+        #{logisticsName,jdbcType=VARCHAR},
+      </if>
+      <if test="companyType != null" >
+        #{companyType,jdbcType=INTEGER},
+      </if>
+      <if test="createdAt != null" >
+        #{createdAt,jdbcType=TIMESTAMP},
+      </if>
+      <if test="updatedAt != null" >
+        #{updatedAt,jdbcType=TIMESTAMP},
+      </if>
+      <if test="att1 != null" >
+        #{att1,jdbcType=VARCHAR},
+      </if>
+      <if test="att2 != null" >
+        #{att2,jdbcType=VARCHAR},
+      </if>
+      <if test="name != null" >
+        #{name,jdbcType=VARCHAR},
+      </if>
+      <if test="version != null" >
+        #{version,jdbcType=INTEGER},
+      </if>
+    </trim>
+  </insert>
+  <select id="countByExample" parameterType="com.huazhuo.shop.model.LogisticsCompanyExample" resultType="java.lang.Integer" >
+    select count(*) from logistics_company
+    <if test="_parameter != null" >
+      <include refid="Example_Where_Clause" />
+    </if>
+  </select>
+  <update id="updateByExampleSelective" parameterType="map" >
+    update logistics_company
+    <set >
+      <if test="record.id != null" >
+        id = #{record.id,jdbcType=INTEGER},
+      </if>
+      <if test="record.logisticsCode != null" >
+        logistics_code = #{record.logisticsCode,jdbcType=VARCHAR},
+      </if>
+      <if test="record.logisticsName != null" >
+        logistics_name = #{record.logisticsName,jdbcType=VARCHAR},
+      </if>
+      <if test="record.companyType != null" >
+        company_type = #{record.companyType,jdbcType=INTEGER},
+      </if>
+      <if test="record.createdAt != null" >
+        created_at = #{record.createdAt,jdbcType=TIMESTAMP},
+      </if>
+      <if test="record.updatedAt != null" >
+        updated_at = #{record.updatedAt,jdbcType=TIMESTAMP},
+      </if>
+      <if test="record.att1 != null" >
+        att1 = #{record.att1,jdbcType=VARCHAR},
+      </if>
+      <if test="record.att2 != null" >
+        att2 = #{record.att2,jdbcType=VARCHAR},
+      </if>
+      <if test="record.name != null" >
+        name = #{record.name,jdbcType=VARCHAR},
+      </if>
+      <if test="record.version != null" >
+        version = #{record.version,jdbcType=INTEGER},
+      </if>
+    </set>
+    <if test="_parameter != null" >
+      <include refid="Update_By_Example_Where_Clause" />
+    </if>
+  </update>
+  <update id="updateByExample" parameterType="map" >
+    update logistics_company
+    set id = #{record.id,jdbcType=INTEGER},
+      logistics_code = #{record.logisticsCode,jdbcType=VARCHAR},
+      logistics_name = #{record.logisticsName,jdbcType=VARCHAR},
+      company_type = #{record.companyType,jdbcType=INTEGER},
+      created_at = #{record.createdAt,jdbcType=TIMESTAMP},
+      updated_at = #{record.updatedAt,jdbcType=TIMESTAMP},
+      att1 = #{record.att1,jdbcType=VARCHAR},
+      att2 = #{record.att2,jdbcType=VARCHAR},
+      name = #{record.name,jdbcType=VARCHAR},
+      version = #{record.version,jdbcType=INTEGER}
+    <if test="_parameter != null" >
+      <include refid="Update_By_Example_Where_Clause" />
+    </if>
+  </update>
+  <update id="updateByPrimaryKeySelective" parameterType="com.huazhuo.shop.model.LogisticsCompany" >
+    update logistics_company
+    <set >
+      <if test="logisticsCode != null" >
+        logistics_code = #{logisticsCode,jdbcType=VARCHAR},
+      </if>
+      <if test="logisticsName != null" >
+        logistics_name = #{logisticsName,jdbcType=VARCHAR},
+      </if>
+      <if test="companyType != null" >
+        company_type = #{companyType,jdbcType=INTEGER},
+      </if>
+      <if test="createdAt != null" >
+        created_at = #{createdAt,jdbcType=TIMESTAMP},
+      </if>
+      <if test="updatedAt != null" >
+        updated_at = #{updatedAt,jdbcType=TIMESTAMP},
+      </if>
+      <if test="att1 != null" >
+        att1 = #{att1,jdbcType=VARCHAR},
+      </if>
+      <if test="att2 != null" >
+        att2 = #{att2,jdbcType=VARCHAR},
+      </if>
+      <if test="name != null" >
+        name = #{name,jdbcType=VARCHAR},
+      </if>
+      <if test="version != null" >
+        version = #{version,jdbcType=INTEGER},
+      </if>
+    </set>
+    where id = #{id,jdbcType=INTEGER}
+  </update>
+  <update id="updateByPrimaryKey" parameterType="com.huazhuo.shop.model.LogisticsCompany" >
+    update logistics_company
+    set logistics_code = #{logisticsCode,jdbcType=VARCHAR},
+      logistics_name = #{logisticsName,jdbcType=VARCHAR},
+      company_type = #{companyType,jdbcType=INTEGER},
+      created_at = #{createdAt,jdbcType=TIMESTAMP},
+      updated_at = #{updatedAt,jdbcType=TIMESTAMP},
+      att1 = #{att1,jdbcType=VARCHAR},
+      att2 = #{att2,jdbcType=VARCHAR},
+      name = #{name,jdbcType=VARCHAR},
+      version = #{version,jdbcType=INTEGER}
+    where id = #{id,jdbcType=INTEGER}
+  </update>
+  <select id="findLogisticsCompanyByName" resultMap="BaseResultMap" parameterType="string">
+  select * from logistics_company where logistics_name = #{logisticsName}
+  </select>
+  <select id="findOrderById" resultType="map" parameterType="string">
+    SELECT id,order_status FROM shop_orders where order_number = #{orderNum}
+  </select>
+</mapper>

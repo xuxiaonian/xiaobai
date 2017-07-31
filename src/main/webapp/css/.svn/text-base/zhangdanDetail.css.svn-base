@@ -1,0 +1,114 @@
+.zState {
+  line-height: 60px;
+  color: #9A9A9A;
+  padding: 0 20px;
+  font-size: 14px;
+  margin-bottom: 48px;
+}
+.zState .state {
+  color: #017E44;
+  font-size: 20px;
+  font-weight: 700;
+}
+.bill {
+  padding: 0 20px;
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 36px;
+  color: #353535;
+  border-bottom: 1px solid #EEEEEE;
+}
+.mesge {
+  padding: 20px;
+}
+.mesge .bscT {
+  font-size: 16px;
+  line-height: 40px;
+  color: #323232;
+  background: #DDE1E4;
+  padding-left: 10px;
+}
+.mesge .basic {
+  padding-bottom: 36px;
+  border: 1px solid #E5E5E5;
+  margin-bottom: 20px;
+}
+.mesge .basic td {
+  padding-top: 36px;
+  font-size: 14px;
+}
+.mesge .basic .basicL {
+  color: #989898;
+}
+.mesge .basic .basicR {
+  color: #444444;
+  text-align: left;
+  padding-left: 20px;
+}
+.mesge .basic .bscH {
+  color: #444444;
+  font-weight: 700;
+  padding-bottom: 36px;
+}
+.mesge .basic .org {
+  color: #FF5B35;
+  font-size: 15px;
+  font-weight: 700;
+  padding-bottom: 36px;
+}
+.mesge .basic .org:last-child {
+  padding-left: 10px;
+}
+.mesge .order {
+  padding: 20px;
+  border: 1px solid #E5E5E5;
+}
+.mesge .order .goods {
+  border-top: 1px solid #E5E5E5;
+  border-left: 1px solid #E5E5E5;
+}
+.mesge .order .goods td {
+  border-right: 1px solid #E5E5E5;
+  border-bottom: 1px solid #E5E5E5;
+}
+.mesge .order .goods .goodsT {
+  background: #ECF0F1;
+  line-height: 44px;
+  color: #545859;
+  font-size: 14px;
+}
+.mesge .order .goods .goodsT td {
+  padding: 0px 22px;
+}
+.mesge .order .goods .goodsC td {
+  padding: 30px 22px;
+  line-height: 18px;
+  font-size: 14px;
+  color: #686868;
+}
+.mesge .order .daoC {
+  text-align: right;
+  padding-top: 20px;
+  float: right;
+  color: #3699DC;
+  text-decoration: underline;
+}
+.mesge .order .page {
+  margin: 30px 0 15px 0;
+}
+.mesge .order .page .yPage {
+  font-size: 0;
+  color: #333333;
+}
+.mesge .order .page .yPage i {
+  font-style: normal;
+  display: inline-block;
+  background: #EEEEEE;
+  height: 30px;
+  line-height: 30px;
+  font-size: ;
+  padding: 0 10px;
+  margin-left: 10px;
+  font-size: 14px;
+}
+/*# sourceMappingURL=zhangdanDetail.css.map */

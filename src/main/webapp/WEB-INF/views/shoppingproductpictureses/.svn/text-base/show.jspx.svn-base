@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<div xmlns:field="urn:jsptagdir:/WEB-INF/tags/form/fields" xmlns:jsp="http://java.sun.com/JSP/Page" xmlns:page="urn:jsptagdir:/WEB-INF/tags/form" version="2.0">
+    <jsp:directive.page contentType="text/html;charset=UTF-8"/>
+    <jsp:output omit-xml-declaration="yes"/>
+    <page:show id="ps_com_huazhuo_shop_domain_ShoppingProductPictures" object="${shoppingproductpictures}" path="/shoppingproductpictureses" z="xJXPylQ2eGY6WfXdxGoZWmVZtMU=">
+        <field:display field="image" id="s_com_huazhuo_shop_domain_ShoppingProductPictures_image" object="${shoppingproductpictures}" z="kYMp7UcAP/f5DGZdVkgPFVw8UzY="/>
+        <field:display field="name" id="s_com_huazhuo_shop_domain_ShoppingProductPictures_name" object="${shoppingproductpictures}" z="2eNeGk4TYq2A3MJ50j6Prjn3CKM="/>
+        <field:display date="true" dateTimePattern="${shoppingProductPictures_createdat_date_format}" field="createdAt" id="s_com_huazhuo_shop_domain_ShoppingProductPictures_createdAt" object="${shoppingproductpictures}" z="CFY2hJridgx0lQchgkF259+oPBQ="/>
+        <field:display date="true" dateTimePattern="${shoppingProductPictures_updatedat_date_format}" field="updatedAt" id="s_com_huazhuo_shop_domain_ShoppingProductPictures_updatedAt" object="${shoppingproductpictures}" z="77ZVVmoEYcMiZOHowRGeRicjNss="/>
+        <field:display field="attachment" id="s_com_huazhuo_shop_domain_ShoppingProductPictures_attachment" object="${shoppingproductpictures}" z="Aee9f7sGRaYVJkEuIwBdzDIcLKI="/>
+        <field:display field="shoppingProductId" id="s_com_huazhuo_shop_domain_ShoppingProductPictures_shoppingProductId" object="${shoppingproductpictures}" z="2qIQQXVrAKVz9SJkyZ/u43f2Jvc="/>
+    </page:show>
+</div>

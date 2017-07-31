@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<div xmlns:jsp="http://java.sun.com/JSP/Page" xmlns:page="urn:jsptagdir:/WEB-INF/tags/form" xmlns:table="urn:jsptagdir:/WEB-INF/tags/form/fields" version="2.0">
+    <jsp:directive.page contentType="text/html;charset=UTF-8"/>
+    <jsp:output omit-xml-declaration="yes"/>
+    <page:list id="pl_com_huazhuo_shop_domain_ShoppingProductsSpec" items="${shoppingproductsspecs}" z="cssMr+phnB3fhQ3U5PFCPnsn9S4=">
+        <table:table data="${shoppingproductsspecs}" id="l_com_huazhuo_shop_domain_ShoppingProductsSpec" path="/shoppingproductsspecs" z="8mCv7qmcDtIPn95fbeoFdRhIaAI=">
+            <table:column id="c_com_huazhuo_shop_domain_ShoppingProductsSpec_specName" property="specName" z="COutvr5tSs5SHTtaRHcltpzOT2w="/>
+            <table:column id="c_com_huazhuo_shop_domain_ShoppingProductsSpec_orgPrice" property="orgPrice" z="mR1fgno5mukn4FUFpjohf+UUk7k="/>
+            <table:column id="c_com_huazhuo_shop_domain_ShoppingProductsSpec_price" property="price" z="UxZ38LuO4SrOJ2lCJ/Fnkpdt/wo="/>
+            <table:column id="c_com_huazhuo_shop_domain_ShoppingProductsSpec_shoppingProducts" property="shoppingProducts" z="3uoltiMm9EDVetf42VX5GT31V8k="/>
+        </table:table>
+    </page:list>
+</div>

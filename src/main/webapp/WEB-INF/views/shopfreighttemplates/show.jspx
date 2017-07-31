@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<div xmlns:field="urn:jsptagdir:/WEB-INF/tags/form/fields" xmlns:jsp="http://java.sun.com/JSP/Page" xmlns:page="urn:jsptagdir:/WEB-INF/tags/form" version="2.0">
+    <jsp:directive.page contentType="text/html;charset=UTF-8"/>
+    <jsp:output omit-xml-declaration="yes"/>
+    <page:show id="ps_com_huazhuo_shop_domain_ShopFreightTemplate" object="${shopfreighttemplate}" path="/shopfreighttemplates" z="KWx1s0K94hdhtbcoTxP5Kx+Tx7Y=">
+        <field:display field="name" id="s_com_huazhuo_shop_domain_ShopFreightTemplate_name" object="${shopfreighttemplate}" z="Spo7q++Vuc4IS7Vc4HiiAvFAHCE="/>
+        <field:display field="provinces" id="s_com_huazhuo_shop_domain_ShopFreightTemplate_provinces" object="${shopfreighttemplate}" z="cn3jRD8+ebD4H138xWTz/UrsngY="/>
+        <field:display field="cities" id="s_com_huazhuo_shop_domain_ShopFreightTemplate_cities" object="${shopfreighttemplate}" z="zdwn4bMIJBmFU4Thv9o9EvBFzfA="/>
+        <field:display field="areas" id="s_com_huazhuo_shop_domain_ShopFreightTemplate_areas" object="${shopfreighttemplate}" z="A6S2LUSa/SpgIHc66cb8nOStRsU="/>
+        <field:display field="shopFreightTemplateType" id="s_com_huazhuo_shop_domain_ShopFreightTemplate_shopFreightTemplateType" object="${shopfreighttemplate}" z="mUXlfDPQMkMhO3P2PCDxayWw26k="/>
+        <field:display field="setType" id="s_com_huazhuo_shop_domain_ShopFreightTemplate_setType" object="${shopfreighttemplate}" z="fS9AxSosagEc/coudrMiDBX889U="/>
+        <field:display field="billing" id="s_com_huazhuo_shop_domain_ShopFreightTemplate_billing" object="${shopfreighttemplate}" z="EE1eLpxHN4fuQzbcCyHDKBCjKSE="/>
+        <field:display field="shipping" id="s_com_huazhuo_shop_domain_ShopFreightTemplate_shipping" object="${shopfreighttemplate}" z="ZMFmzDb4tAporkzmundistvMMzI="/>
+        <field:display field="shopId" id="s_com_huazhuo_shop_domain_ShopFreightTemplate_shopId" object="${shopfreighttemplate}" z="ayJyu2cdjxyoC1M7Wl+DZk0liRw="/>
+        <field:display date="true" dateTimePattern="${shopFreightTemplate_createdat_date_format}" field="createdAt" id="s_com_huazhuo_shop_domain_ShopFreightTemplate_createdAt" object="${shopfreighttemplate}" z="gzZ7YjX2OaWJ2PC4klkC8EsSzcQ="/>
+        <field:display date="true" dateTimePattern="${shopFreightTemplate_updatedat_date_format}" field="updatedAt" id="s_com_huazhuo_shop_domain_ShopFreightTemplate_updatedAt" object="${shopfreighttemplate}" z="qJ84WXFJTUJDBsTmCyR9o73RH3k="/>
+    </page:show>
+</div>

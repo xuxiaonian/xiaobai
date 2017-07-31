@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<div xmlns:jsp="http://java.sun.com/JSP/Page" xmlns:page="urn:jsptagdir:/WEB-INF/tags/form" xmlns:table="urn:jsptagdir:/WEB-INF/tags/form/fields" version="2.0">
+    <jsp:directive.page contentType="text/html;charset=UTF-8"/>
+    <jsp:output omit-xml-declaration="yes"/>
+    <page:list id="pl_com_huazhuo_shop_domain_ShopFastMail" items="${shopfastmails}" z="B4OYSXest5XnB62XXErvCi3jRFs=">
+        <table:table data="${shopfastmails}" id="l_com_huazhuo_shop_domain_ShopFastMail" path="/shopfastmails" z="yQNwXr1q88GSDK16jIZbgPHQAqo=">
+            <table:column id="c_com_huazhuo_shop_domain_ShopFastMail_shopId" property="shopId" z="XE+yQVdxRAGlOWK0wo/ApeVRLa8="/>
+            <table:column id="c_com_huazhuo_shop_domain_ShopFastMail_mailName" property="mailName" z="+Dxgd9p+VaRlLWGM6X+wsG2KUVY="/>
+            <table:column id="c_com_huazhuo_shop_domain_ShopFastMail_cost" property="cost" z="q+3oHpKVAOnVx1hBZadRIwTGvfI="/>
+            <table:column id="c_com_huazhuo_shop_domain_ShopFastMail_defCheck" property="defCheck" z="N/lM11PJSJ8Q5vRvX5zqs1d9vZE="/>
+            <table:column date="true" dateTimePattern="${shopFastMail_createdat_date_format}" id="c_com_huazhuo_shop_domain_ShopFastMail_createdAt" property="createdAt" z="mIUDmzhDu3DjOe0BPxVtNZCkxlI="/>
+            <table:column date="true" dateTimePattern="${shopFastMail_updatedat_date_format}" id="c_com_huazhuo_shop_domain_ShopFastMail_updatedAt" property="updatedAt" z="9NEA6jAfPtoXs4X9/aeJZhauYes="/>
+        </table:table>
+    </page:list>
+</div>

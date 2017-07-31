@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<div xmlns:jsp="http://java.sun.com/JSP/Page" xmlns:page="urn:jsptagdir:/WEB-INF/tags/form" xmlns:table="urn:jsptagdir:/WEB-INF/tags/form/fields" version="2.0">
+    <jsp:directive.page contentType="text/html;charset=UTF-8"/>
+    <jsp:output omit-xml-declaration="yes"/>
+    <page:list id="pl_com_huazhuo_shop_security_BackGroups" items="${backgroupses}" z="WIUMkuOkuTJ6PrmufdIDtpyxRAE=">
+        <table:table data="${backgroupses}" id="l_com_huazhuo_shop_security_BackGroups" path="/backgroupses" z="fW4ykZgyG22eBxDHYwzvlOp9I8Y=">
+            <table:column id="c_com_huazhuo_shop_security_BackGroups_groupName" property="groupName" z="Av2j8mCvv27I8qX2M9HGde7pc8A="/>
+        </table:table>
+    </page:list>
+</div>

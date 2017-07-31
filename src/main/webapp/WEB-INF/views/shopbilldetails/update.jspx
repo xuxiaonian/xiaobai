@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<div xmlns:field="urn:jsptagdir:/WEB-INF/tags/form/fields" xmlns:form="urn:jsptagdir:/WEB-INF/tags/form" xmlns:jsp="http://java.sun.com/JSP/Page" version="2.0">
+    <jsp:directive.page contentType="text/html;charset=UTF-8"/>
+    <jsp:output omit-xml-declaration="yes"/>
+    <form:update id="fu_com_huazhuo_shop_bill_ShopBillDetail" modelAttribute="shopBillDetail" path="/shopbilldetails" versionField="Version" z="nGvxNK7xUjTF4sOyRuU2u0osblE=">
+        <field:select field="shopOrders" id="c_com_huazhuo_shop_bill_ShopBillDetail_shopOrders" itemValue="id" items="${shoporderses}" path="/shoporderses" z="apvgLtypAiRXJJEVDLQZJ/mq/aQ="/>
+        <field:select field="shopBill" id="c_com_huazhuo_shop_bill_ShopBillDetail_shopBill" itemValue="id" items="${shopbills}" path="/shopbills" z="ZdSF0GcjHCJNPSVsiFpI0+t5zb8="/>
+        <field:select field="billEnumDetail" id="c_com_huazhuo_shop_bill_ShopBillDetail_billEnumDetail" items="${billenumdetails}" path="billenumdetails" z="coCvfmLfTdPBf2ktWrmMy8FE5lo="/>
+        <field:input field="orderCost" id="c_com_huazhuo_shop_bill_ShopBillDetail_orderCost" validationMessageCode="field_invalid_number" z="OrS9hv3OC5ynw9eES37juJ+E7Ng="/>
+        <field:input field="orderSettleCost" id="c_com_huazhuo_shop_bill_ShopBillDetail_orderSettleCost" validationMessageCode="field_invalid_number" z="0pJLdhjNMruab3kjKzFF4sm2HSA="/>
+        <field:checkbox field="isAdjustBill" id="c_com_huazhuo_shop_bill_ShopBillDetail_isAdjustBill" z="2/Xz2SpSBbTpnAi8LsNqfYDodP0="/>
+    </form:update>
+</div>

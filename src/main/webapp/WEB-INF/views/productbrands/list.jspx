@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<div xmlns:jsp="http://java.sun.com/JSP/Page" xmlns:page="urn:jsptagdir:/WEB-INF/tags/form" xmlns:table="urn:jsptagdir:/WEB-INF/tags/form/fields" version="2.0">
+    <jsp:directive.page contentType="text/html;charset=UTF-8"/>
+    <jsp:output omit-xml-declaration="yes"/>
+    <page:list id="pl_com_huazhuo_shop_domain_ProductBrand" items="${productbrands}" z="7ipDodfdtsFkQP2+h/UidDIZNfY=">
+        <table:table data="${productbrands}" id="l_com_huazhuo_shop_domain_ProductBrand" path="/productbrands" z="7jGseQ5OFxElxeJDiWTFJ2+Net8=">
+            <table:column id="c_com_huazhuo_shop_domain_ProductBrand_brandName" property="brandName" z="xPLhZ7srqUri/+lKKgmdWbFKqoM="/>
+            <table:column id="c_com_huazhuo_shop_domain_ProductBrand_brandStory" property="brandStory" z="RYF4GALshgcpkNX4Tj0wmioecH4="/>
+            <table:column id="c_com_huazhuo_shop_domain_ProductBrand_createdBy" property="createdBy" z="5/zDxpw14VAJ6v1r6ucZRCfZp2g="/>
+            <table:column date="true" dateTimePattern="${productBrand_createdat_date_format}" id="c_com_huazhuo_shop_domain_ProductBrand_createdAt" property="createdAt" z="PwRaIuWPjouqvzRpt8jwWyb0ofg="/>
+            <table:column date="true" dateTimePattern="${productBrand_updatedat_date_format}" id="c_com_huazhuo_shop_domain_ProductBrand_updatedAt" property="updatedAt" z="WJSGRMjbj86U5iDDL+IWfyGJGHA="/>
+            <table:column id="c_com_huazhuo_shop_domain_ProductBrand_att1" property="att1" z="gNLnE81V64pU9YT3OkJsh2NRxrU="/>
+        </table:table>
+    </page:list>
+</div>

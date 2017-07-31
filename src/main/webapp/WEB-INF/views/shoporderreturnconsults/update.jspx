@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<div xmlns:field="urn:jsptagdir:/WEB-INF/tags/form/fields" xmlns:form="urn:jsptagdir:/WEB-INF/tags/form" xmlns:jsp="http://java.sun.com/JSP/Page" version="2.0">
+    <jsp:directive.page contentType="text/html;charset=UTF-8"/>
+    <jsp:output omit-xml-declaration="yes"/>
+    <form:update id="fu_com_huazhuo_shop_domain_ShopOrderReturnConsult" modelAttribute="shopOrderReturnConsult" path="/shoporderreturnconsults" versionField="Version" z="WxKk6iNyOJWmUY7o8r2mh6bPvN4=">
+        <field:input field="content" id="c_com_huazhuo_shop_domain_ShopOrderReturnConsult_content" z="FprcrHj3+zCuB50kkUu09JzVBK0="/>
+        <field:datetime dateTimePattern="${shopOrderReturnConsult_createdat_date_format}" field="createdAt" id="c_com_huazhuo_shop_domain_ShopOrderReturnConsult_createdAt" z="y7eZ/LW3XBTHwiJYat8LfWpcXUU="/>
+        <field:datetime dateTimePattern="${shopOrderReturnConsult_updatedat_date_format}" field="updatedAt" id="c_com_huazhuo_shop_domain_ShopOrderReturnConsult_updatedAt" z="KvjndtxOItBUWaKzfCUK+/CKoRU="/>
+        <field:select field="shopOrderRetrunId" id="c_com_huazhuo_shop_domain_ShopOrderReturnConsult_shopOrderRetrunId" itemValue="id" items="${shoporderretruns}" path="/shoporderretruns" z="xJUSv0UuA1Q7+feDM+V8SS3cTg4="/>
+        <field:simple field="shopOrderReturnImgs" id="c_com_huazhuo_shop_domain_ShopOrderReturnConsult_shopOrderReturnImgs" messageCode="entity_reference_not_managed" messageCodeAttribute="Shop Order Return Img" z="bP07dDwbKO59XR+ZdhSzXMGrXAs="/>
+        <field:checkbox field="isShop" id="c_com_huazhuo_shop_domain_ShopOrderReturnConsult_isShop" z="NgdshIcp5WG2HALzKkar4yv3ApQ="/>
+    </form:update>
+</div>

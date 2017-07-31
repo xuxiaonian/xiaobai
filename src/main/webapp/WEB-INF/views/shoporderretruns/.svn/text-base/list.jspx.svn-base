@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<div xmlns:jsp="http://java.sun.com/JSP/Page" xmlns:page="urn:jsptagdir:/WEB-INF/tags/form" xmlns:table="urn:jsptagdir:/WEB-INF/tags/form/fields" version="2.0">
+    <jsp:directive.page contentType="text/html;charset=UTF-8"/>
+    <jsp:output omit-xml-declaration="yes"/>
+    <page:list id="pl_com_huazhuo_shop_domain_ShopOrderRetrun" items="${shoporderretruns}" z="T7BgPtlaESBEdDi75Du0vtMxC+E=">
+        <table:table data="${shoporderretruns}" id="l_com_huazhuo_shop_domain_ShopOrderRetrun" path="/shoporderretruns" z="nYJw1PnP4dbD/lsi0oMjq5x3C/0=">
+            <table:column id="c_com_huazhuo_shop_domain_ShopOrderRetrun_returnNumber" property="returnNumber" z="cXsgBBt1HH+JBaQl0C9nUPnJKQU="/>
+            <table:column date="true" dateTimePattern="${shopOrderRetrun_returntime_date_format}" id="c_com_huazhuo_shop_domain_ShopOrderRetrun_returnTime" property="returnTime" z="otZz0J5tHdTck2UOqvL2Bce+0/Y="/>
+            <table:column id="c_com_huazhuo_shop_domain_ShopOrderRetrun_shopOrderId" property="shopOrderId" z="Lf9k4OJ8wR7VNPQWQMSB6NB41Kc="/>
+            <table:column id="c_com_huazhuo_shop_domain_ShopOrderRetrun_returnCost" property="returnCost" z="ExyNrd5RjEgpz35SSz6x97cxrDg="/>
+            <table:column date="true" dateTimePattern="${shopOrderRetrun_createdat_date_format}" id="c_com_huazhuo_shop_domain_ShopOrderRetrun_createdAt" property="createdAt" z="FbdnGFzS8KWM9EKUf1tfm4MLAnA="/>
+            <table:column id="c_com_huazhuo_shop_domain_ShopOrderRetrun_shopOrderRetrunType" property="shopOrderRetrunType" z="EVUTatswhdTlYS3+Xl4u+B3FxRw="/>
+        </table:table>
+    </page:list>
+</div>

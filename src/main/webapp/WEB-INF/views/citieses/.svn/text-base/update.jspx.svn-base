@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<div xmlns:field="urn:jsptagdir:/WEB-INF/tags/form/fields" xmlns:form="urn:jsptagdir:/WEB-INF/tags/form" xmlns:jsp="http://java.sun.com/JSP/Page" version="2.0">
+    <jsp:directive.page contentType="text/html;charset=UTF-8"/>
+    <jsp:output omit-xml-declaration="yes"/>
+    <form:update id="fu_com_huazhuo_shop_city_Cities" modelAttribute="cities" path="/citieses" versionField="Version" z="VqVtnbkmgvbPJ35wS9wKImLWkHc=">
+        <field:input field="name" id="c_com_huazhuo_shop_city_Cities_name" z="TCheoKa1R7mUaY0gW/Hi6+L/45Y="/>
+        <field:input field="pinyin" id="c_com_huazhuo_shop_city_Cities_pinyin" z="Nn/XHTN2+A6apqvkZ+HOe8XgLi8="/>
+        <field:input field="pinyinAbridge" id="c_com_huazhuo_shop_city_Cities_pinyinAbridge" z="JvMlLDG6F+yFf5ez0+fHMDAuFys="/>
+        <field:input field="initial" id="c_com_huazhuo_shop_city_Cities_initial" z="B19NE/m+XDbwBTNHq+41wZp8m+Y="/>
+        <field:input field="zipcode" id="c_com_huazhuo_shop_city_Cities_zipcode" z="BDp4MnLJKt02awIbb7bagCNKaWA="/>
+        <field:input field="status" id="c_com_huazhuo_shop_city_Cities_status" validationMessageCode="field_invalid_integer" z="D35cpy9pr6fFx4/EkQ3eeebRRKI="/>
+        <field:datetime dateTimePattern="${cities_createdat_date_format}" field="createdAt" id="c_com_huazhuo_shop_city_Cities_createdAt" z="8RsU4+6N9gwhbIgyYIuQA8lVXHo="/>
+        <field:datetime dateTimePattern="${cities_updatedat_date_format}" field="updatedAt" id="c_com_huazhuo_shop_city_Cities_updatedAt" z="VI/I/xsWYMhklmLtkq9lBni5AWk="/>
+        <field:input field="count" id="c_com_huazhuo_shop_city_Cities_count" validationMessageCode="field_invalid_integer" z="9FzBqspUCpQlhUz00dlnHj9j9Eo="/>
+        <field:input field="cityCode" id="c_com_huazhuo_shop_city_Cities_cityCode" z="Max2dEhZ3TzLD6j7K+jRN9tdQ+s="/>
+        <field:input field="weather" id="c_com_huazhuo_shop_city_Cities_weather" z="WtFELTH6qFt93h+sZKI/Vh0TD0Q="/>
+        <field:input field="temperature" id="c_com_huazhuo_shop_city_Cities_temperature" z="+RsCM6uOs8kYNM7YLMh9M5eyhMw="/>
+        <field:input field="pmTwoPointFive" id="c_com_huazhuo_shop_city_Cities_pmTwoPointFive" z="xozI3WjtWNXyoHl0cRp8/OIFeik="/>
+        <field:input field="currentTemperature" id="c_com_huazhuo_shop_city_Cities_currentTemperature" z="ud2bwBfdtmWNgdh9DbymYSrcZjM="/>
+        <field:input field="hint" id="c_com_huazhuo_shop_city_Cities_hint" z="rN2aORBNx9NYXq0uNNCISGPFTZ8="/>
+        <field:select field="provinces" id="c_com_huazhuo_shop_city_Cities_provinces" itemValue="id" items="${provinceses}" path="/provinceses" z="efsonuerZtK5ODDeiZNiOW9XAPQ="/>
+    </form:update>
+</div>

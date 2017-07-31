@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<div xmlns:jsp="http://java.sun.com/JSP/Page" xmlns:page="urn:jsptagdir:/WEB-INF/tags/form" xmlns:table="urn:jsptagdir:/WEB-INF/tags/form/fields" version="2.0">
+    <jsp:directive.page contentType="text/html;charset=UTF-8"/>
+    <jsp:output omit-xml-declaration="yes"/>
+    <page:list id="pl_com_huazhuo_shop_quartz_ScheduleJob" items="${schedulejobs}" z="Y1HsKfdwuzexM5HxnWh7/NeJ224=">
+        <table:table data="${schedulejobs}" id="l_com_huazhuo_shop_quartz_ScheduleJob" path="/schedulejobs" z="zjVUHXE/nO+33S00/s1YQICHvDo=">
+            <table:column id="c_com_huazhuo_shop_quartz_ScheduleJob_jobName" property="jobName" z="DyZHuX9RrYUFubn55368g4+eWmA="/>
+            <table:column id="c_com_huazhuo_shop_quartz_ScheduleJob_jobGroup" property="jobGroup" z="8Pj8WlHnlgEHJFc9d4rncf2XQXQ="/>
+            <table:column id="c_com_huazhuo_shop_quartz_ScheduleJob_jobStatus" property="jobStatus" z="9pijfsoc2dMKsmvJC6EczLJ9e9g="/>
+            <table:column id="c_com_huazhuo_shop_quartz_ScheduleJob_cronExpression" property="cronExpression" z="tjfRqqsyY5f99ZwR+y70gebBFKI="/>
+            <table:column id="c_com_huazhuo_shop_quartz_ScheduleJob_jobdesc" property="jobdesc" z="vPnmoxHRtojy3T3LeGj1t8eFiLc="/>
+            <table:column id="c_com_huazhuo_shop_quartz_ScheduleJob_jobNumber" property="jobNumber" z="Z5uuZ1InaLn0v396mC2LAr6W5pg="/>
+        </table:table>
+    </page:list>
+</div>

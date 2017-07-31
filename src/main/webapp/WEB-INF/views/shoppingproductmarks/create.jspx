@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<div xmlns:c="http://java.sun.com/jsp/jstl/core" xmlns:field="urn:jsptagdir:/WEB-INF/tags/form/fields" xmlns:form="urn:jsptagdir:/WEB-INF/tags/form" xmlns:jsp="http://java.sun.com/JSP/Page" xmlns:spring="http://www.springframework.org/tags" version="2.0">
+    <jsp:directive.page contentType="text/html;charset=UTF-8"/>
+    <jsp:output omit-xml-declaration="yes"/>
+    <form:create id="fc_com_huazhuo_shop_domain_ShoppingProductMark" modelAttribute="shoppingProductMark" path="/shoppingproductmarks" render="${empty dependencies}" z="XaCH1mGCJg8CtplYA4ssN7zl4M4=">
+        <field:select field="shoppingProducts" id="c_com_huazhuo_shop_domain_ShoppingProductMark_shoppingProducts" itemValue="id" items="${shoppingproductses}" path="/shoppingproductses" z="iaci1ukGEsGm7oEypuXHxLehNbs="/>
+        <field:input field="name" id="c_com_huazhuo_shop_domain_ShoppingProductMark_name" z="FcKnba2Km2HCfxKfVc8Av01bdn0="/>
+        <field:input field="specialMarkCategoryId" id="c_com_huazhuo_shop_domain_ShoppingProductMark_specialMarkCategoryId" validationMessageCode="field_invalid_integer" z="dr0eTW/ogozNyq9YPl2iGOEYyxg="/>
+        <field:datetime dateTimePattern="${shoppingProductMark_createdat_date_format}" field="createdAt" id="c_com_huazhuo_shop_domain_ShoppingProductMark_createdAt" z="03JIpNuGpQ0ArQc3eX2FJZQxpMY="/>
+        <field:datetime dateTimePattern="${shoppingProductMark_updatedat_date_format}" field="updatedAt" id="c_com_huazhuo_shop_domain_ShoppingProductMark_updatedAt" z="NxcGfYZZt9b27LcsaH+APV9yEsA="/>
+    </form:create>
+    <form:dependency dependencies="${dependencies}" id="d_com_huazhuo_shop_domain_ShoppingProductMark" render="${not empty dependencies}" z="xyHBCZrT63j2nlke7z6GmXkeHt4="/>
+</div>

@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<div xmlns:field="urn:jsptagdir:/WEB-INF/tags/form/fields" xmlns:form="urn:jsptagdir:/WEB-INF/tags/form" xmlns:jsp="http://java.sun.com/JSP/Page" version="2.0">
+    <jsp:directive.page contentType="text/html;charset=UTF-8"/>
+    <jsp:output omit-xml-declaration="yes"/>
+    <form:update id="fu_com_huazhuo_shop_domain_Company" modelAttribute="company" path="/companys" versionField="Version" z="nAhNUz25o9P3iAf8zxmAoEGaAlk=">
+        <field:textarea field="name" id="c_com_huazhuo_shop_domain_Company_name" z="4I2adoeKlA6Vd8Unr5sYh9rFT3E="/>
+        <field:textarea field="imgUrl" id="c_com_huazhuo_shop_domain_Company_imgUrl" z="vnVf8v8F83WKuHUmqEsTwX1Ib/0="/>
+        <field:textarea field="address" id="c_com_huazhuo_shop_domain_Company_address" z="LL0qtzM+BkUnl4koDhXGTci40hk="/>
+        <field:input field="legalPersion" id="c_com_huazhuo_shop_domain_Company_legalPersion" z="22dvZfr0Tpygv5Bhdre2p3hjeHY="/>
+        <field:datetime dateTimePattern="${company_createdat_date_format}" field="createdAt" id="c_com_huazhuo_shop_domain_Company_createdAt" z="t0+oQpP7fDUVIicJ9DJ9k/7qo8A="/>
+        <field:datetime dateTimePattern="${company_updatedat_date_format}" field="updatedAt" id="c_com_huazhuo_shop_domain_Company_updatedAt" z="lkN2fyeLExxeDv9jfjcUomu0ilM="/>
+        <field:textarea field="remark" id="c_com_huazhuo_shop_domain_Company_remark" z="1+rD/qMDZAjBadbTYlBZr9PLWFs="/>
+        <field:select field="backUser" id="c_com_huazhuo_shop_domain_Company_backUser" itemValue="id" items="${backusers}" path="/backusers" z="ASPVK3m+gVokWHs3o096ASjVMFk="/>
+        <field:simple field="shops" id="c_com_huazhuo_shop_domain_Company_shops" messageCode="entity_reference_not_managed" messageCodeAttribute="Shops" z="KA9G1JKHJsRPezgRxbckuwLX0wY="/>
+        <field:input field="contactPerson" id="c_com_huazhuo_shop_domain_Company_contactPerson" z="SPSR8iTuWQBhc36khLSnTeFhk4A="/>
+        <field:input field="phone" id="c_com_huazhuo_shop_domain_Company_phone" z="D43nMwGSjaHTj8e05+CMFM4hbEU="/>
+        <field:input field="email" id="c_com_huazhuo_shop_domain_Company_email" validationMessageCode="field_invalid_email" z="Dk1SR5r5fGXuDYAX1zw6yJ+soQE="/>
+    </form:update>
+</div>

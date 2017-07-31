@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<div xmlns:jsp="http://java.sun.com/JSP/Page" xmlns:page="urn:jsptagdir:/WEB-INF/tags/form" xmlns:table="urn:jsptagdir:/WEB-INF/tags/form/fields" version="2.0">
+    <jsp:directive.page contentType="text/html;charset=UTF-8"/>
+    <jsp:output omit-xml-declaration="yes"/>
+    <page:list id="pl_com_huazhuo_shop_security_BackUser" items="${backusers}" z="fZseFNo7qWyV0TvtEr8wHfrpZXc=">
+        <table:table data="${backusers}" id="l_com_huazhuo_shop_security_BackUser" path="/backusers" z="o9uN5yt280dzdbWZ38KeniM0J0E=">
+            <table:column id="c_com_huazhuo_shop_security_BackUser_userName" property="userName" z="lde0ox9Hy9fvDI+jHT6qYPRSmPs="/>
+            <table:column id="c_com_huazhuo_shop_security_BackUser_fullName" property="fullName" z="lyIoUcNmOXV/jYTxlZlRIGWNdl4="/>
+            <table:column id="c_com_huazhuo_shop_security_BackUser_password" property="password" z="xw/6/Gd62PSOo8ElaLG8o45Uas0="/>
+            <table:column id="c_com_huazhuo_shop_security_BackUser_companyName" property="companyName" z="ohkc10kp4LqTaflqa/EgJbS8WQA="/>
+            <table:column id="c_com_huazhuo_shop_security_BackUser_provincesId" property="provincesId" z="FDp+U1o8i8E9jKcVLKU5Tl+pW7U="/>
+            <table:column id="c_com_huazhuo_shop_security_BackUser_citiesId" property="citiesId" z="Lm/KnNxg0adik0zj4pQtza2G6y0="/>
+        </table:table>
+    </page:list>
+</div>

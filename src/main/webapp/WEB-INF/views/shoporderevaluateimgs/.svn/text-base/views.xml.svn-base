@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE tiles-definitions PUBLIC "-//Apache Software Foundation//DTD Tiles Configuration 2.1//EN" "http://tiles.apache.org/dtds/tiles-config_2_1.dtd">
+<tiles-definitions>
+    <definition extends="default" name="shoporderevaluateimgs/list">
+        <put-attribute name="body" value="/WEB-INF/views/shoporderevaluateimgs/list.jspx"/>
+    </definition>
+<definition extends="default" name="shoporderevaluateimgs/show">
+        <put-attribute name="body" value="/WEB-INF/views/shoporderevaluateimgs/show.jspx"/>
+    </definition>
+<definition extends="default" name="shoporderevaluateimgs/create">
+        <put-attribute name="body" value="/WEB-INF/views/shoporderevaluateimgs/create.jspx"/>
+    </definition>
+<definition extends="default" name="shoporderevaluateimgs/update">
+        <put-attribute name="body" value="/WEB-INF/views/shoporderevaluateimgs/update.jspx"/>
+    </definition>
+</tiles-definitions>

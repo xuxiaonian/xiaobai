@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<div xmlns:c="http://java.sun.com/jsp/jstl/core" xmlns:field="urn:jsptagdir:/WEB-INF/tags/form/fields" xmlns:form="urn:jsptagdir:/WEB-INF/tags/form" xmlns:jsp="http://java.sun.com/JSP/Page" xmlns:spring="http://www.springframework.org/tags" version="2.0">
+    <jsp:directive.page contentType="text/html;charset=UTF-8"/>
+    <jsp:output omit-xml-declaration="yes"/>
+    <form:create id="fc_com_huazhuo_shop_domain_ShoppingProducts" modelAttribute="shoppingProducts" path="/shoppingproductses" render="${empty dependencies}" z="pjq/jiIHpVuqtiR82LKk50OtXqU=">
+        <field:input field="name" id="c_com_huazhuo_shop_domain_ShoppingProducts_name" z="5WVc9nK6hjadCaiWpYKtytKtdd4="/>
+        <field:input field="price" id="c_com_huazhuo_shop_domain_ShoppingProducts_price" z="v1f9NmGpDkWl62joL/ROWwThNXs="/>
+        <field:input field="details" id="c_com_huazhuo_shop_domain_ShoppingProducts_details" z="4vQbAel5LLRR5BAY+87y0HC2zU8="/>
+        <field:select field="shoppingCategoryId" id="c_com_huazhuo_shop_domain_ShoppingProducts_shoppingCategoryId" itemValue="id" items="${shoppingcategorieses}" path="/shoppingcategorieses" z="aZMBriiU2q052gba6VYqDo+nZmA="/>
+        <field:datetime dateTimePattern="${shoppingProducts_createdat_date_format}" field="createdAt" id="c_com_huazhuo_shop_domain_ShoppingProducts_createdAt" z="mCqqrjAnz218m7HOxEl2ziKeb3k="/>
+        <field:datetime dateTimePattern="${shoppingProducts_updatedat_date_format}" field="updatedAt" id="c_com_huazhuo_shop_domain_ShoppingProducts_updatedAt" z="iEfES4EXojc2rUOZL344u6RArhg="/>
+        <field:input field="onSale" id="c_com_huazhuo_shop_domain_ShoppingProducts_onSale" validationMessageCode="field_invalid_integer" z="D0gXykaNgfd8xqf8NvmOzNWZ4Js="/>
+        <field:input field="count" id="c_com_huazhuo_shop_domain_ShoppingProducts_count" validationMessageCode="field_invalid_integer" z="aoERmQivDQ5NqQwpGIXXYFgkPG0="/>
+        <field:input field="artificialCount" id="c_com_huazhuo_shop_domain_ShoppingProducts_artificialCount" validationMessageCode="field_invalid_integer" z="vhQtcuXhbsMAy61Tgo9xOg+EUcY="/>
+        <field:input field="deleteStatus" id="c_com_huazhuo_shop_domain_ShoppingProducts_deleteStatus" validationMessageCode="field_invalid_integer" z="LIT4yQWpBzMOCm7VN3CMS/caB9k="/>
+        <field:input field="shopId" id="c_com_huazhuo_shop_domain_ShoppingProducts_shopId" validationMessageCode="field_invalid_integer" z="GXue2Akgx1785ftut9zTICnsgiA="/>
+        <field:textarea field="orgPrice" id="c_com_huazhuo_shop_domain_ShoppingProducts_orgPrice" z="w2YtwcR+WHTZJQJH0GybnBtANMY="/>
+        <field:datetime dateTimePattern="${shoppingProducts_onsaledate_date_format}" field="onSaleDate" id="c_com_huazhuo_shop_domain_ShoppingProducts_onSaleDate" z="QZlT+LN1O7oOJW44CwgtLLIeiW4="/>
+        <field:input field="productNumber" id="c_com_huazhuo_shop_domain_ShoppingProducts_productNumber" z="G4ECkDDR68cS6rycl/F+C6PP/e4="/>
+        <field:input field="stock" id="c_com_huazhuo_shop_domain_ShoppingProducts_stock" validationMessageCode="field_invalid_integer" z="KZJV80hi4R7KosOyQC+Y1P14ONI="/>
+        <field:input field="stockWarning" id="c_com_huazhuo_shop_domain_ShoppingProducts_stockWarning" validationMessageCode="field_invalid_integer" z="9rLCDhlCiUYzsIagUzULEEyaDH4="/>
+        <field:textarea field="recommendReason" id="c_com_huazhuo_shop_domain_ShoppingProducts_recommendReason" z="kKRnsOQAlXHCGXzqMMLB7dps95Q="/>
+        <field:select field="productBrandId" id="c_com_huazhuo_shop_domain_ShoppingProducts_productBrandId" itemValue="id" items="${productbrands}" path="/productbrands" z="C89ciqlF6TDSwrSmuQAlFCgdATs="/>
+        <field:input field="cost" id="c_com_huazhuo_shop_domain_ShoppingProducts_cost" validationMessageCode="field_invalid_number" z="Lp0dPEi5o5mdBHAAj5iUHF4vC50="/>
+        <field:select field="shopFreightTemplate" id="c_com_huazhuo_shop_domain_ShoppingProducts_shopFreightTemplate" itemValue="id" items="${shopfreighttemplates}" path="/shopfreighttemplates" z="IuuvYoJRmYeMgKfLjsp0Ugpktw0="/>
+        <field:checkbox field="invoice" id="c_com_huazhuo_shop_domain_ShoppingProducts_invoice" z="hASH6rZEdc5t8d3pRBv/LsNFDyk="/>
+        <field:input field="heading" id="c_com_huazhuo_shop_domain_ShoppingProducts_heading" z="0NJZ0fbT/9c9tSxXKgUAWB7TsZI="/>
+        <field:input field="subheading" id="c_com_huazhuo_shop_domain_ShoppingProducts_subheading" z="KUGwmQgrITGFW9fthbPmMemJ7Us="/>
+        <field:input field="headImage" id="c_com_huazhuo_shop_domain_ShoppingProducts_headImage" z="gclpsZ+6+Wy+TPlgX4UHKMhyj94="/>
+        <field:input field="endImage" id="c_com_huazhuo_shop_domain_ShoppingProducts_endImage" z="fTV0zSW2VpfocTlb8Le8CwGgrR4="/>
+        <field:input field="status" id="c_com_huazhuo_shop_domain_ShoppingProducts_status" validationMessageCode="field_invalid_integer" z="eISsV7jB6TzpCROE4H0Z2V/Mi6s="/>
+        <field:input field="weight" id="c_com_huazhuo_shop_domain_ShoppingProducts_weight" validationMessageCode="field_invalid_integer" z="//yC83mMWKDWXJc7wlfFal+FmCM="/>
+        <field:input field="shoppingSpecialCategoryId" id="c_com_huazhuo_shop_domain_ShoppingProducts_shoppingSpecialCategoryId" validationMessageCode="field_invalid_integer" z="yjBFYPo3ISZkJPaipv9SA9dhC4M="/>
+        <field:simple field="shoppingProductsSpecs" id="c_com_huazhuo_shop_domain_ShoppingProducts_shoppingProductsSpecs" messageCode="entity_reference_not_managed" messageCodeAttribute="Shopping Products Spec" z="ZgrpD9Ud9tVTNTEIeSWGsYLDi0o="/>
+        <field:simple field="shoppingProductPictures" id="c_com_huazhuo_shop_domain_ShoppingProducts_shoppingProductPictures" messageCode="entity_reference_not_managed" messageCodeAttribute="Shopping Product Pictures" z="D/0XtsdDlcxmBj4FlFoZmartTQA="/>
+        <field:simple field="shoppingProductsParameters" id="c_com_huazhuo_shop_domain_ShoppingProducts_shoppingProductsParameters" messageCode="entity_reference_not_managed" messageCodeAttribute="Shopping Products Parameter" z="1jppodEmsn4yrFs/M7aHz9KH0kM="/>
+        <field:checkbox field="isCost" id="c_com_huazhuo_shop_domain_ShoppingProducts_isCost" z="I5/xq3QjPr//A5t62gF3QST9zm4="/>
+        <field:simple field="shoppingProductMarks" id="c_com_huazhuo_shop_domain_ShoppingProducts_shoppingProductMarks" messageCode="entity_reference_not_managed" messageCodeAttribute="Shopping Product Mark" z="Mx13zgldvNCmVHW40CnC9KLV/Zg="/>
+        <field:input field="shoppingProductMarkName" id="c_com_huazhuo_shop_domain_ShoppingProducts_shoppingProductMarkName" z="EpYu7kP7MIeFLHNsLNcKOJT8wGU="/>
+        <field:input field="review" id="c_com_huazhuo_shop_domain_ShoppingProducts_review" validationMessageCode="field_invalid_integer" z="PjiVlT6BJsZNf2e5O1SlWqlEzdk="/>
+        <field:input field="sysNumber" id="c_com_huazhuo_shop_domain_ShoppingProducts_sysNumber" z="5hP84VfK3tzZCumOztOsrcEwj/w="/>
+        <field:input field="reviewReason" id="c_com_huazhuo_shop_domain_ShoppingProducts_reviewReason" z="2O9bFfmVwU1Sg+hmCAcz6d6jziQ="/>
+        <field:select field="provinces" id="c_com_huazhuo_shop_domain_ShoppingProducts_provinces" itemValue="id" items="${provinceses}" path="/provinceses" z="0e+fAsqO9q0dNJswBT0iP+7JbD8="/>
+        <field:select field="cityId" id="c_com_huazhuo_shop_domain_ShoppingProducts_cityId" itemValue="id" items="${citieses}" path="/citieses" z="s+VD6sJO0a3yZxB1as3SFPvSj8Q="/>
+        <field:checkbox field="store" id="c_com_huazhuo_shop_domain_ShoppingProducts_store" z="aIYspKGub1uG50nrB9anbSWvw4s="/>
+        <field:input field="shoppingCategoryName" id="c_com_huazhuo_shop_domain_ShoppingProducts_shoppingCategoryName" z="BA6rStyK3UoK5KrIqf+AEIy89dw="/>
+        <field:datetime dateTimePattern="${shoppingProducts_reviewdate_date_format}" field="reviewDate" id="c_com_huazhuo_shop_domain_ShoppingProducts_reviewDate" z="g/YKAExKa6m7ibwgWzyLcmz502w="/>
+    </form:create>
+    <form:dependency dependencies="${dependencies}" id="d_com_huazhuo_shop_domain_ShoppingProducts" render="${not empty dependencies}" z="6gZjL0hLUU78KWUwCCc6HqWXBqY="/>
+</div>

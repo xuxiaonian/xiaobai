@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<div xmlns:jsp="http://java.sun.com/JSP/Page" xmlns:page="urn:jsptagdir:/WEB-INF/tags/form" xmlns:table="urn:jsptagdir:/WEB-INF/tags/form/fields" version="2.0">
+    <jsp:directive.page contentType="text/html;charset=UTF-8"/>
+    <jsp:output omit-xml-declaration="yes"/>
+    <page:list id="pl_com_huazhuo_shop_domain_ShopFreightTemplateDetailCity" items="${shopfreighttemplatedetailcitys}" z="p+b5prmhhyJgLf9HV3jCX3gVxFE=">
+        <table:table data="${shopfreighttemplatedetailcitys}" id="l_com_huazhuo_shop_domain_ShopFreightTemplateDetailCity" path="/shopfreighttemplatedetailcitys" z="tY29WbWPLgIFKQJWsxuz0GGDqOQ=">
+            <table:column id="c_com_huazhuo_shop_domain_ShopFreightTemplateDetailCity_provinces" property="provinces" z="+lnBAoMDNKIb4TTBu6Z+Aq+EHZs="/>
+            <table:column id="c_com_huazhuo_shop_domain_ShopFreightTemplateDetailCity_cities" property="cities" z="hCldx3r1XnELQz9pnUejrc7eeKM="/>
+            <table:column id="c_com_huazhuo_shop_domain_ShopFreightTemplateDetailCity_areas" property="areas" z="IGPHXrzBzQf7Xtvn8HXNhs7aOdQ="/>
+            <table:column id="c_com_huazhuo_shop_domain_ShopFreightTemplateDetailCity_shopFreightTemplateDetail" property="shopFreightTemplateDetail" z="uqOQrfUHIgewODeMElFgbCX2kM0="/>
+        </table:table>
+    </page:list>
+</div>

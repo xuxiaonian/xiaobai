@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<div xmlns:field="urn:jsptagdir:/WEB-INF/tags/form/fields" xmlns:jsp="http://java.sun.com/JSP/Page" xmlns:page="urn:jsptagdir:/WEB-INF/tags/form" version="2.0">
+    <jsp:directive.page contentType="text/html;charset=UTF-8"/>
+    <jsp:output omit-xml-declaration="yes"/>
+    <page:show id="ps_com_huazhuo_shop_domain_ShoppingProductMark" object="${shoppingproductmark}" path="/shoppingproductmarks" z="vNy6JYan99sK2ce2u4RcL4tzDoU=">
+        <field:display field="shoppingProducts" id="s_com_huazhuo_shop_domain_ShoppingProductMark_shoppingProducts" object="${shoppingproductmark}" z="nQa0llJ1r9TNk0/Ut8LDFFjs6iE="/>
+        <field:display field="name" id="s_com_huazhuo_shop_domain_ShoppingProductMark_name" object="${shoppingproductmark}" z="LDqXC08msDx91lKBRGU4gUrLMMY="/>
+        <field:display field="specialMarkCategoryId" id="s_com_huazhuo_shop_domain_ShoppingProductMark_specialMarkCategoryId" object="${shoppingproductmark}" z="tPvymZ60qqch9YgYzQWGQpH+cwI="/>
+        <field:display date="true" dateTimePattern="${shoppingProductMark_createdat_date_format}" field="createdAt" id="s_com_huazhuo_shop_domain_ShoppingProductMark_createdAt" object="${shoppingproductmark}" z="bI/AvSkl9JH1atvZlVJg8+MTxv0="/>
+        <field:display date="true" dateTimePattern="${shoppingProductMark_updatedat_date_format}" field="updatedAt" id="s_com_huazhuo_shop_domain_ShoppingProductMark_updatedAt" object="${shoppingproductmark}" z="nfjMxnkU+U9UyRFFi1rAlmP2qbo="/>
+    </page:show>
+</div>

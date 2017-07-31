@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<div xmlns:field="urn:jsptagdir:/WEB-INF/tags/form/fields" xmlns:form="urn:jsptagdir:/WEB-INF/tags/form" xmlns:jsp="http://java.sun.com/JSP/Page" version="2.0">
+    <jsp:directive.page contentType="text/html;charset=UTF-8"/>
+    <jsp:output omit-xml-declaration="yes"/>
+    <form:update id="fu_com_huazhuo_shop_domain_ShopFreightTemplateDetail" modelAttribute="shopFreightTemplateDetail" path="/shopfreighttemplatedetails" versionField="Version" z="uPO8Z5eh8W5vOZD5JkLOlI0ZcTI=">
+        <field:input field="count" id="c_com_huazhuo_shop_domain_ShopFreightTemplateDetail_count" validationMessageCode="field_invalid_integer" z="gIC9E1qd0833tWY6Zwev6BnQm3A="/>
+        <field:input field="freight" id="c_com_huazhuo_shop_domain_ShopFreightTemplateDetail_freight" validationMessageCode="field_invalid_number" z="h+h5+mr/+qO6gOY7DXmusCVbqyI="/>
+        <field:input field="addCount" id="c_com_huazhuo_shop_domain_ShopFreightTemplateDetail_addCount" validationMessageCode="field_invalid_integer" z="bUTRzOFyHikwGqrkOn82QGDOwV4="/>
+        <field:input field="addFreight" id="c_com_huazhuo_shop_domain_ShopFreightTemplateDetail_addFreight" validationMessageCode="field_invalid_number" z="XL0atOqhbbdK1hJSJ0EbDL/WNh8="/>
+        <field:select field="shopFreightTemplate" id="c_com_huazhuo_shop_domain_ShopFreightTemplateDetail_shopFreightTemplate" itemValue="id" items="${shopfreighttemplates}" path="/shopfreighttemplates" z="7Ckxjg33XXbm67Mo7WoQ5xa/XA0="/>
+        <field:simple field="shopFreightTemplateDetailCities" id="c_com_huazhuo_shop_domain_ShopFreightTemplateDetail_shopFreightTemplateDetailCities" messageCode="entity_reference_not_managed" messageCodeAttribute="Shop Freight Template Detail City" z="ilR+WfWBA+eJdhBlYT1suU4oMOI="/>
+    </form:update>
+</div>

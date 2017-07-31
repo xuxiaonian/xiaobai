@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<div xmlns:field="urn:jsptagdir:/WEB-INF/tags/form/fields" xmlns:jsp="http://java.sun.com/JSP/Page" xmlns:page="urn:jsptagdir:/WEB-INF/tags/form" version="2.0">
+    <jsp:directive.page contentType="text/html;charset=UTF-8"/>
+    <jsp:output omit-xml-declaration="yes"/>
+    <page:show id="ps_com_huazhuo_shop_quartz_ScheduleJob" object="${schedulejob}" path="/schedulejobs" z="4ICLfrnRs9LUv+o9q731twcPls8=">
+        <field:display field="jobName" id="s_com_huazhuo_shop_quartz_ScheduleJob_jobName" object="${schedulejob}" z="PxkAFwsOnb+eomM1lqKVbLFL7kI="/>
+        <field:display field="jobGroup" id="s_com_huazhuo_shop_quartz_ScheduleJob_jobGroup" object="${schedulejob}" z="OjhGvu3uoT41m9WplVnaAXcIDaU="/>
+        <field:display field="jobStatus" id="s_com_huazhuo_shop_quartz_ScheduleJob_jobStatus" object="${schedulejob}" z="NxRM3HhTahVIvOcq1UCMV6pIrag="/>
+        <field:display field="cronExpression" id="s_com_huazhuo_shop_quartz_ScheduleJob_cronExpression" object="${schedulejob}" z="YbJUjwN3Bjf/xI7oLJJvS4jO0Lw="/>
+        <field:display field="jobdesc" id="s_com_huazhuo_shop_quartz_ScheduleJob_jobdesc" object="${schedulejob}" z="HtwYibiDilFDk55wqzqTDvbXhsE="/>
+        <field:display field="jobNumber" id="s_com_huazhuo_shop_quartz_ScheduleJob_jobNumber" object="${schedulejob}" z="vtLgP/rlyAcHmICIOmDhNXWPq1E="/>
+        <field:display field="endNumber" id="s_com_huazhuo_shop_quartz_ScheduleJob_endNumber" object="${schedulejob}" z="1qauhWqeFoqt8cYOD8LtnoOq9Ic="/>
+    </page:show>
+</div>

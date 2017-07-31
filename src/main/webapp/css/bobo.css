@@ -1,0 +1,33 @@
+			.o_top{line-height: 72px;}
+			.o_cot_class{line-height: 60px; background: #fff; padding-left: 25px;}
+			.o_cot_class li{float: left;}
+			.o_cot_class li a{color:#333 !important;}
+			.j-content-top{padding: 0 !important;}
+			.o_top li{float: left;}
+			.o_top li a{color:#333 !important;}
+			.clear{overflow: hidden;}
+			.o_detail{padding: 46px;}
+			.o_content_border{border:1px solid #ccc; margin-top: 22px;}
+			.o_content{width: 100%; background: #fff; padding: 25px;}
+			.o_padding_left{padding-left: 10px; line-height: 46px; background: #dde1e4;}
+			.o_prudect_edit{line-height: 40px; background: #fff; border-bottom: 1px solid #ccc; padding-left: 25px; color: #000; font-weight: 600;font-size: 18px;}
+			.width_20,.width_40{display: block; line-height:34px;}
+			.width_20{width: 20%;}
+			.width_40{width: 40%;}
+			.left{float: left;}
+			.right{float: right;}
+			.o_detail_inp{margin-bottom: 40px;}
+			.green{color: #378937;}
+			.font_size14{font-size: 14px; color: #999;}
+			.width_80{width: 80%; border: 1px solid #ccc; text-align: center; font-size: 16px;}
+			.width_80 tr{height: 35px; border-bottom: 1px solid #ccc;}
+			.width_80 tr td{line-height: 35px;}
+			.width_80 tr .o_border_right{border:1px solid #ccc;}
+			.bond{font-weight: 600;}
+			.text_right{text-align: right;}
+			.btnFFF{border: 1px solid #378937; border-radius: 5px;}
+			.app,.o_add{line-height: 44px;}
+			.line_height{line-height: 36px; height: 36px;}
+			.line_height_20{line-height: 20px;}
+			.greyBtn{padding:5px 20px; background: #eee; color: #333; margin-right: 25px; border-radius: 6px;}
+			

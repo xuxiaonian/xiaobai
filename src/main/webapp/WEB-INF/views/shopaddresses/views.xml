@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE tiles-definitions PUBLIC "-//Apache Software Foundation//DTD Tiles Configuration 2.1//EN" "http://tiles.apache.org/dtds/tiles-config_2_1.dtd">
+<tiles-definitions>
+    <definition extends="default" name="shopaddresses/list">
+        <put-attribute name="body" value="/WEB-INF/views/shopaddresses/list.jspx"/>
+    </definition>
+<definition extends="default" name="shopaddresses/show">
+        <put-attribute name="body" value="/WEB-INF/views/shopaddresses/show.jspx"/>
+    </definition>
+<definition extends="default" name="shopaddresses/create">
+        <put-attribute name="body" value="/WEB-INF/views/shopaddresses/create.jsp"/>
+    </definition>
+<definition extends="default" name="shopaddresses/update">
+        <put-attribute name="body" value="/WEB-INF/views/shopaddresses/update.jsp"/>
+    </definition>
+</tiles-definitions>

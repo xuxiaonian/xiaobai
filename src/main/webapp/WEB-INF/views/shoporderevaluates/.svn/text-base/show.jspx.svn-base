@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<div xmlns:field="urn:jsptagdir:/WEB-INF/tags/form/fields" xmlns:jsp="http://java.sun.com/JSP/Page" xmlns:page="urn:jsptagdir:/WEB-INF/tags/form" version="2.0">
+    <jsp:directive.page contentType="text/html;charset=UTF-8"/>
+    <jsp:output omit-xml-declaration="yes"/>
+    <page:show id="ps_com_huazhuo_shop_domain_ShopOrderEvaluate" object="${shoporderevaluate}" path="/shoporderevaluates" z="oOgW5Zv80gLZBgmXlDslwTKX3OQ=">
+        <field:display field="content" id="s_com_huazhuo_shop_domain_ShopOrderEvaluate_content" object="${shoporderevaluate}" z="bae2ehNljpVZr9vqieL+uo01wf4="/>
+        <field:display field="grade" id="s_com_huazhuo_shop_domain_ShopOrderEvaluate_grade" object="${shoporderevaluate}" z="QLKmazXdwN+7ChYP7ShL95G89Aw="/>
+        <field:display date="true" dateTimePattern="${shopOrderEvaluate_createdat_date_format}" field="createdAt" id="s_com_huazhuo_shop_domain_ShopOrderEvaluate_createdAt" object="${shoporderevaluate}" z="+iuWW/f6fWmUOt/qJ1n7nXAZccA="/>
+        <field:display date="true" dateTimePattern="${shopOrderEvaluate_updatedat_date_format}" field="updatedAt" id="s_com_huazhuo_shop_domain_ShopOrderEvaluate_updatedAt" object="${shoporderevaluate}" z="2VWNLYwpvOfFRMDu5AT65GKpyBo="/>
+        <field:display field="mobileUserId" id="s_com_huazhuo_shop_domain_ShopOrderEvaluate_mobileUserId" object="${shoporderevaluate}" z="ZqUQ5cGc0K8Gp6ygO9pXuyjmpDA="/>
+        <field:display field="shoppingProductsId" id="s_com_huazhuo_shop_domain_ShopOrderEvaluate_shoppingProductsId" object="${shoporderevaluate}" z="L3SCmHxLJgk4Bh4ZOmVyQRQ29oE="/>
+        <field:display field="shopOrder" id="s_com_huazhuo_shop_domain_ShopOrderEvaluate_shopOrder" object="${shoporderevaluate}" z="FfnUWXL8FP9EUwRxf174kwqGu4U="/>
+    </page:show>
+</div>

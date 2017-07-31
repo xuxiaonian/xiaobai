@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<div xmlns:field="urn:jsptagdir:/WEB-INF/tags/form/fields" xmlns:jsp="http://java.sun.com/JSP/Page" xmlns:page="urn:jsptagdir:/WEB-INF/tags/form" version="2.0">
+    <jsp:directive.page contentType="text/html;charset=UTF-8"/>
+    <jsp:output omit-xml-declaration="yes"/>
+    <page:show id="ps_com_huazhuo_shop_domain_SpecialMarks" object="${specialmarks}" path="/specialmarkses" z="t4HVby3PSjXDDm0JSrb0Bj7V5WE=">
+        <field:display field="name" id="s_com_huazhuo_shop_domain_SpecialMarks_name" object="${specialmarks}" z="8GysznMJ4GWRLZUiFo3YwluQxCw="/>
+        <field:display field="specialMarkCategoryId" id="s_com_huazhuo_shop_domain_SpecialMarks_specialMarkCategoryId" object="${specialmarks}" z="7aam0/pt3uWDGXO3a+P8VTXbBW0="/>
+        <field:display date="true" dateTimePattern="${specialMarks_createdat_date_format}" field="createdAt" id="s_com_huazhuo_shop_domain_SpecialMarks_createdAt" object="${specialmarks}" z="RU1cby14HrckqGTSeETlh1qgLWc="/>
+        <field:display date="true" dateTimePattern="${specialMarks_updatedat_date_format}" field="updatedAt" id="s_com_huazhuo_shop_domain_SpecialMarks_updatedAt" object="${specialmarks}" z="rw3LkZZPyr+A/BUNKTalXx1YMjI="/>
+    </page:show>
+</div>

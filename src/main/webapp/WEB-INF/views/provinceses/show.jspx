@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<div xmlns:field="urn:jsptagdir:/WEB-INF/tags/form/fields" xmlns:jsp="http://java.sun.com/JSP/Page" xmlns:page="urn:jsptagdir:/WEB-INF/tags/form" version="2.0">
+    <jsp:directive.page contentType="text/html;charset=UTF-8"/>
+    <jsp:output omit-xml-declaration="yes"/>
+    <page:show id="ps_com_huazhuo_shop_city_Provinces" object="${provinces}" path="/provinceses" z="MuG366W6d7hXSeQj6lEZp+rCFno=">
+        <field:display field="provinceName" id="s_com_huazhuo_shop_city_Provinces_provinceName" object="${provinces}" z="3sTTy064oRhIqhoSozHSCiT7hMc="/>
+        <field:display field="indexId" id="s_com_huazhuo_shop_city_Provinces_indexId" object="${provinces}" z="u5XCqkn/iPQ+oOsoA7zzCyKvi/8="/>
+        <field:display field="spell" id="s_com_huazhuo_shop_city_Provinces_spell" object="${provinces}" z="5hlAT9I6Sg+BmvjDwm8VNRHduks="/>
+        <field:display field="locality" id="s_com_huazhuo_shop_city_Provinces_locality" object="${provinces}" z="wgnF1RMqsPCFPPP69xaKmzGkMOE="/>
+    </page:show>
+</div>

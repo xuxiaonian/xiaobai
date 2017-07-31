@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<div xmlns:jsp="http://java.sun.com/JSP/Page" xmlns:page="urn:jsptagdir:/WEB-INF/tags/form" xmlns:table="urn:jsptagdir:/WEB-INF/tags/form/fields" version="2.0">
+    <jsp:directive.page contentType="text/html;charset=UTF-8"/>
+    <jsp:output omit-xml-declaration="yes"/>
+    <page:list id="pl_com_huazhuo_shop_domain_ShoppingProductMark" items="${shoppingproductmarks}" z="EqWBkBMxZL16il2N/d7SBOJzpd4=">
+        <table:table data="${shoppingproductmarks}" id="l_com_huazhuo_shop_domain_ShoppingProductMark" path="/shoppingproductmarks" z="iuep3UGj8c/SVHKbeKMeOC01Z5E=">
+            <table:column id="c_com_huazhuo_shop_domain_ShoppingProductMark_shoppingProducts" property="shoppingProducts" z="xzkgBYN8c18kvqVbDGGXbF9YJj8="/>
+            <table:column id="c_com_huazhuo_shop_domain_ShoppingProductMark_name" property="name" z="kims5Z+Qy29jaEyER5CpXOsVuIw="/>
+            <table:column id="c_com_huazhuo_shop_domain_ShoppingProductMark_specialMarkCategoryId" property="specialMarkCategoryId" z="jR9z1CaJpwHuPIusmGaTRHGJR+Q="/>
+            <table:column date="true" dateTimePattern="${shoppingProductMark_createdat_date_format}" id="c_com_huazhuo_shop_domain_ShoppingProductMark_createdAt" property="createdAt" z="XRpuZgMWyPZUlMuyAInaTyov3m0="/>
+            <table:column date="true" dateTimePattern="${shoppingProductMark_updatedat_date_format}" id="c_com_huazhuo_shop_domain_ShoppingProductMark_updatedAt" property="updatedAt" z="W+zyZSaFCsRv6GnGGq3gstBKxxg="/>
+        </table:table>
+    </page:list>
+</div>

@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<div xmlns:jsp="http://java.sun.com/JSP/Page" xmlns:page="urn:jsptagdir:/WEB-INF/tags/form" xmlns:table="urn:jsptagdir:/WEB-INF/tags/form/fields" version="2.0">
+    <jsp:directive.page contentType="text/html;charset=UTF-8"/>
+    <jsp:output omit-xml-declaration="yes"/>
+    <page:list id="pl_com_huazhuo_shop_domain_ShoppingCategorySpecialMarks" items="${shoppingcategoryspecialmarkses}" z="E5uD43uoPgUUBnUOsYOPmn5QvU8=">
+        <table:table data="${shoppingcategoryspecialmarkses}" id="l_com_huazhuo_shop_domain_ShoppingCategorySpecialMarks" path="/shoppingcategoryspecialmarkses" z="fzGbMxtfmeX+bykzKzSWJzn+5no=">
+            <table:column id="c_com_huazhuo_shop_domain_ShoppingCategorySpecialMarks_shoppingCategoryId" property="shoppingCategoryId" z="mjqPgVPK9MW/Ey9CuzozE6DOUuw="/>
+            <table:column id="c_com_huazhuo_shop_domain_ShoppingCategorySpecialMarks_specialMarkId" property="specialMarkId" z="zM2SLSZT0MZbSTwp0FXTCm9hZfE="/>
+        </table:table>
+    </page:list>
+</div>

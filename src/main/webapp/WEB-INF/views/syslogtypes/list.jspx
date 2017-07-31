@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<div xmlns:jsp="http://java.sun.com/JSP/Page" xmlns:page="urn:jsptagdir:/WEB-INF/tags/form" xmlns:table="urn:jsptagdir:/WEB-INF/tags/form/fields" version="2.0">
+    <jsp:directive.page contentType="text/html;charset=UTF-8"/>
+    <jsp:output omit-xml-declaration="yes"/>
+    <page:list id="pl_com_huazhuo_shop_enumtype_SysLogType" items="${syslogtypes}" z="OGhVGJp7qFYkuRmUM8D62L2wl5Q=">
+        <table:table data="${syslogtypes}" id="l_com_huazhuo_shop_enumtype_SysLogType" path="/syslogtypes" z="0mxtZja8/TJy6ETvjF9Rii8q1fo=">
+            <table:column id="c_com_huazhuo_shop_enumtype_SysLogType_name" property="name" z="j6OmPYryZe9z6ZCboSpaOf0EArE="/>
+            <table:column id="c_com_huazhuo_shop_enumtype_SysLogType_state" property="state" z="b3he8F2M95otjs0C88aGbZyP6XU="/>
+        </table:table>
+    </page:list>
+</div>

@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<div xmlns:field="urn:jsptagdir:/WEB-INF/tags/form/fields" xmlns:jsp="http://java.sun.com/JSP/Page" xmlns:page="urn:jsptagdir:/WEB-INF/tags/form" version="2.0">
+    <jsp:directive.page contentType="text/html;charset=UTF-8"/>
+    <jsp:output omit-xml-declaration="yes"/>
+    <page:show id="ps_com_huazhuo_shop_domain_Shops" object="${shops}" path="/shopses" z="bYFhsLhLYjsuAheYQ7EXDSyYu4I=">
+        <field:display field="name" id="s_com_huazhuo_shop_domain_Shops_name" object="${shops}" z="eNRhXoI5S5W7LYuf7UjrzfCIeME="/>
+        <field:display field="url" id="s_com_huazhuo_shop_domain_Shops_url" object="${shops}" z="qDSN6XKYf99tB63yWAvDBPndnGw="/>
+        <field:display field="content" id="s_com_huazhuo_shop_domain_Shops_content" object="${shops}" z="cTjRbVgUIc8vk62P2Py5gT/TuNA="/>
+        <field:display date="true" dateTimePattern="${shops_createdat_date_format}" field="createdAt" id="s_com_huazhuo_shop_domain_Shops_createdAt" object="${shops}" z="9CwVpf2pWW0lHu8iM8QV9jASj98="/>
+        <field:display date="true" dateTimePattern="${shops_updatedat_date_format}" field="updatedAt" id="s_com_huazhuo_shop_domain_Shops_updatedAt" object="${shops}" z="uUX8NSipXJcU6COpA3gHIJI12GQ="/>
+        <field:display field="address" id="s_com_huazhuo_shop_domain_Shops_address" object="${shops}" z="96zrWiTtaP/cZln6/R8CNzX0f1Q="/>
+        <field:display field="phone" id="s_com_huazhuo_shop_domain_Shops_phone" object="${shops}" z="YZxEW4OyWWUHl2SC5mUDziRx+G8="/>
+        <field:display field="startYear" id="s_com_huazhuo_shop_domain_Shops_startYear" object="${shops}" z="adVP/FoCNfZLLgD45dhlNhkaHkY="/>
+        <field:display field="brand" id="s_com_huazhuo_shop_domain_Shops_brand" object="${shops}" z="FwLG+0kZBVG1bzK0Fck86ao0Y7c="/>
+        <field:display field="openTime" id="s_com_huazhuo_shop_domain_Shops_openTime" object="${shops}" z="fJd7/5W8oju/2AXAZnmcL9qWD5I="/>
+        <field:display field="cost" id="s_com_huazhuo_shop_domain_Shops_cost" object="${shops}" z="avLJH2tKKpAYeErgElzkx5dX+HM="/>
+        <field:display field="lon" id="s_com_huazhuo_shop_domain_Shops_lon" object="${shops}" z="Bd5GU8IBT5+jOTeJBbBBZbwnX+M="/>
+        <field:display field="lat" id="s_com_huazhuo_shop_domain_Shops_lat" object="${shops}" z="+0K65TPSdSZaBxChQEyiD7a6KKg="/>
+        <field:display field="company" id="s_com_huazhuo_shop_domain_Shops_company" object="${shops}" z="96sLqn2CKaHH28M4Pv9QKHS0e38="/>
+        <field:display field="cities" id="s_com_huazhuo_shop_domain_Shops_cities" object="${shops}" z="+M/A7A9DqpvnropLuBACcIydUIo="/>
+        <field:display field="persion" id="s_com_huazhuo_shop_domain_Shops_persion" object="${shops}" z="00vHuRYjPZxuwyyJZYrkcfyHerw="/>
+        <field:display field="servicePhone" id="s_com_huazhuo_shop_domain_Shops_servicePhone" object="${shops}" z="Gkhf3Ff3Kb0bdSyFnAn09niIiQ4="/>
+    </page:show>
+</div>

@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE tiles-definitions PUBLIC "-//Apache Software Foundation//DTD Tiles Configuration 2.1//EN" "http://tiles.apache.org/dtds/tiles-config_2_1.dtd">
+<tiles-definitions>
+    <definition extends="default" name="mobileuserses/list">
+        <put-attribute name="body" value="/WEB-INF/views/mobileuserses/list.jspx"/>
+    </definition>
+<definition extends="default" name="mobileuserses/show">
+        <put-attribute name="body" value="/WEB-INF/views/mobileuserses/show.jspx"/>
+    </definition>
+<definition extends="default" name="mobileuserses/create">
+        <put-attribute name="body" value="/WEB-INF/views/mobileuserses/create.jspx"/>
+    </definition>
+<definition extends="default" name="mobileuserses/update">
+        <put-attribute name="body" value="/WEB-INF/views/mobileuserses/update.jspx"/>
+    </definition>
+</tiles-definitions>

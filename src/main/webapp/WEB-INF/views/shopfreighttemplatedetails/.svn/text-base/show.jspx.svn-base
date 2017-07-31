@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<div xmlns:field="urn:jsptagdir:/WEB-INF/tags/form/fields" xmlns:jsp="http://java.sun.com/JSP/Page" xmlns:page="urn:jsptagdir:/WEB-INF/tags/form" version="2.0">
+    <jsp:directive.page contentType="text/html;charset=UTF-8"/>
+    <jsp:output omit-xml-declaration="yes"/>
+    <page:show id="ps_com_huazhuo_shop_domain_ShopFreightTemplateDetail" object="${shopfreighttemplatedetail}" path="/shopfreighttemplatedetails" z="PKlVPXIMobMUyj9s/tuDb/XHr9E=">
+        <field:display field="count" id="s_com_huazhuo_shop_domain_ShopFreightTemplateDetail_count" object="${shopfreighttemplatedetail}" z="3Bh/uJW9iX+NwZk+0BPSjnQPIzM="/>
+        <field:display field="freight" id="s_com_huazhuo_shop_domain_ShopFreightTemplateDetail_freight" object="${shopfreighttemplatedetail}" z="G6x6GTKL/3sTFwiKbgJgg9F4hi0="/>
+        <field:display field="addCount" id="s_com_huazhuo_shop_domain_ShopFreightTemplateDetail_addCount" object="${shopfreighttemplatedetail}" z="9VfTMd/2JW77pIjt59plLR4QY4M="/>
+        <field:display field="addFreight" id="s_com_huazhuo_shop_domain_ShopFreightTemplateDetail_addFreight" object="${shopfreighttemplatedetail}" z="83i4i0Dwk4rjDFQ8X9rJkhGRM3s="/>
+        <field:display field="shopFreightTemplate" id="s_com_huazhuo_shop_domain_ShopFreightTemplateDetail_shopFreightTemplate" object="${shopfreighttemplatedetail}" z="rpc7uo6lFgbFTY+8QzhB+qB0ano="/>
+    </page:show>
+</div>

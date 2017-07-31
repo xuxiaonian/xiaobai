@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<div xmlns:c="http://java.sun.com/jsp/jstl/core" xmlns:field="urn:jsptagdir:/WEB-INF/tags/form/fields" xmlns:form="urn:jsptagdir:/WEB-INF/tags/form" xmlns:jsp="http://java.sun.com/JSP/Page" xmlns:spring="http://www.springframework.org/tags" version="2.0">
+    <jsp:directive.page contentType="text/html;charset=UTF-8"/>
+    <jsp:output omit-xml-declaration="yes"/>
+    <form:create id="fc_com_huazhuo_shop_domain_ShopOrderEvaluate" modelAttribute="shopOrderEvaluate" path="/shoporderevaluates" render="${empty dependencies}" z="q7Ofj5KedDBHv9l2TzBnz/7lMtI=">
+        <field:input field="content" id="c_com_huazhuo_shop_domain_ShopOrderEvaluate_content" z="H36Wl4IajxdUnqJtQ4cNPb3iYzU="/>
+        <field:input field="grade" id="c_com_huazhuo_shop_domain_ShopOrderEvaluate_grade" validationMessageCode="field_invalid_integer" z="/wo3DCiQGA1ulN5nQ8Z3q03nGgA="/>
+        <field:datetime dateTimePattern="${shopOrderEvaluate_createdat_date_format}" field="createdAt" id="c_com_huazhuo_shop_domain_ShopOrderEvaluate_createdAt" z="00lOFGDF/hyQ3weDWTPb4rkh3uk="/>
+        <field:datetime dateTimePattern="${shopOrderEvaluate_updatedat_date_format}" field="updatedAt" id="c_com_huazhuo_shop_domain_ShopOrderEvaluate_updatedAt" z="IhI6P+8cwieSwI5TawbGnN1V3Ik="/>
+        <field:select field="mobileUserId" id="c_com_huazhuo_shop_domain_ShopOrderEvaluate_mobileUserId" itemValue="id" items="${mobileuserses}" path="/mobileuserses" z="pqi0f2hxl1aHAA1/IbSwfiAUnBI="/>
+        <field:select field="shoppingProductsId" id="c_com_huazhuo_shop_domain_ShopOrderEvaluate_shoppingProductsId" itemValue="id" items="${shoppingproductses}" path="/shoppingproductses" z="+SlQuQ+4P4eQYZzW7pR8FGMiVxk="/>
+        <field:select field="shopOrder" id="c_com_huazhuo_shop_domain_ShopOrderEvaluate_shopOrder" itemValue="id" items="${shoporderses}" path="/shoporderses" z="WNtyjBwTbdZeWBjsNurYmuperMw="/>
+        <field:simple field="shopOrderEvaluateReplies" id="c_com_huazhuo_shop_domain_ShopOrderEvaluate_shopOrderEvaluateReplies" messageCode="entity_reference_not_managed" messageCodeAttribute="Shop Order Evaluate Reply" z="cCWwh9+1HqfpQ2vpJp+s+PbJMgs="/>
+    </form:create>
+    <form:dependency dependencies="${dependencies}" id="d_com_huazhuo_shop_domain_ShopOrderEvaluate" render="${not empty dependencies}" z="jIei3xTUqlP4FFtSEvpl478+iMc="/>
+</div>

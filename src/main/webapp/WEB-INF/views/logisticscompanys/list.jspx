@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<div xmlns:jsp="http://java.sun.com/JSP/Page" xmlns:page="urn:jsptagdir:/WEB-INF/tags/form" xmlns:table="urn:jsptagdir:/WEB-INF/tags/form/fields" version="2.0">
+    <jsp:directive.page contentType="text/html;charset=UTF-8"/>
+    <jsp:output omit-xml-declaration="yes"/>
+    <page:list id="pl_com_huazhuo_shop_enumtype_LogisticsCompany" items="${logisticscompanys}" z="CS8ZTLV9bemfKTWpe9k6CeB2N7Y=">
+        <table:table data="${logisticscompanys}" id="l_com_huazhuo_shop_enumtype_LogisticsCompany" path="/logisticscompanys" z="eUa4H6q6BkCFGYbdJnIJlYwBHNE=">
+            <table:column id="c_com_huazhuo_shop_enumtype_LogisticsCompany_logisticsCode" property="logisticsCode" z="qSTl5EEW8QeOq8qK0p8RxDKQmlI="/>
+            <table:column id="c_com_huazhuo_shop_enumtype_LogisticsCompany_logisticsName" property="logisticsName" z="vVD2QQ0mjU+a/7mHmCFEi+1bX8s="/>
+            <table:column id="c_com_huazhuo_shop_enumtype_LogisticsCompany_companyType" property="companyType" z="bZv/g3Aj9w68ZpUOid+cR2XMDj4="/>
+            <table:column date="true" dateTimePattern="${logisticsCompany_createdat_date_format}" id="c_com_huazhuo_shop_enumtype_LogisticsCompany_createdAt" property="createdAt" z="UXwG6hFDQ0BuzFoeTSkri7+rcFg="/>
+            <table:column date="true" dateTimePattern="${logisticsCompany_updatedat_date_format}" id="c_com_huazhuo_shop_enumtype_LogisticsCompany_updatedAt" property="updatedAt" z="VsHHa1OJiXGDK43Xc8qMvMpuOFs="/>
+            <table:column id="c_com_huazhuo_shop_enumtype_LogisticsCompany_att1" property="att1" z="aVAV3IR6iYfxUVRXlC6ddNo4XR8="/>
+        </table:table>
+    </page:list>
+</div>

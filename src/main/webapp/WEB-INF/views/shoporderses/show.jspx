@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<div xmlns:field="urn:jsptagdir:/WEB-INF/tags/form/fields" xmlns:jsp="http://java.sun.com/JSP/Page" xmlns:page="urn:jsptagdir:/WEB-INF/tags/form" version="2.0">
+    <jsp:directive.page contentType="text/html;charset=UTF-8"/>
+    <jsp:output omit-xml-declaration="yes"/>
+    <page:show id="ps_com_huazhuo_shop_domain_ShopOrders" object="${shoporders}" path="/shoporderses" z="p6TzlAyjIM7IKYMLSkdQIR5lwjk=">
+        <field:display field="orderNumber" id="s_com_huazhuo_shop_domain_ShopOrders_orderNumber" object="${shoporders}" z="RkimK5mVzrpPVsqYp1UdyPKjR/M="/>
+        <field:display field="orderStatus" id="s_com_huazhuo_shop_domain_ShopOrders_orderStatus" object="${shoporders}" z="WFujWufnjHuNSwuviALaipWTvSg="/>
+        <field:display field="remarks" id="s_com_huazhuo_shop_domain_ShopOrders_remarks" object="${shoporders}" z="z2w2Vwi1mBOANQKpTRj8RZV2Z30="/>
+        <field:display field="mobileUserId" id="s_com_huazhuo_shop_domain_ShopOrders_mobileUserId" object="${shoporders}" z="4XWVfjk6Au6/n/pmdC3LkBKSZsk="/>
+        <field:display date="true" dateTimePattern="${shopOrders_ordertime_date_format}" field="orderTime" id="s_com_huazhuo_shop_domain_ShopOrders_orderTime" object="${shoporders}" z="FYQlumRGxhbIV2BhqoU2uXJetK0="/>
+        <field:display date="true" dateTimePattern="${shopOrders_payedat_date_format}" field="payedAt" id="s_com_huazhuo_shop_domain_ShopOrders_payedAt" object="${shoporders}" z="wvXQ6W+MJNSZaoqVVr7aDIvUZco="/>
+        <field:display field="logisticsNumber" id="s_com_huazhuo_shop_domain_ShopOrders_logisticsNumber" object="${shoporders}" z="eu17kEx94ikOOQKs3PN7+DXzVRA="/>
+        <field:display field="tripleOrderNumber" id="s_com_huazhuo_shop_domain_ShopOrders_tripleOrderNumber" object="${shoporders}" z="xV/+8+aSFj99jK8PeGy7uFCwHtc="/>
+        <field:display field="logisticsCompany" id="s_com_huazhuo_shop_domain_ShopOrders_logisticsCompany" object="${shoporders}" z="d2eKdqA7TuJVfxSLb9cYfVHgA5g="/>
+        <field:display field="deleteStatus" id="s_com_huazhuo_shop_domain_ShopOrders_deleteStatus" object="${shoporders}" z="ojOmmLmrc8Y2yMi4vCG15G7kc20="/>
+        <field:display field="collect" id="s_com_huazhuo_shop_domain_ShopOrders_collect" object="${shoporders}" z="MD9BmfZMy6N8Mpe2C6T2VKLeIeU="/>
+        <field:display field="address" id="s_com_huazhuo_shop_domain_ShopOrders_address" object="${shoporders}" z="o7GcYJXH1wGnxkBUT+5RMueRcew="/>
+        <field:display field="shopOrderscol" id="s_com_huazhuo_shop_domain_ShopOrders_shopOrderscol" object="${shoporders}" z="dA+oE2gj7xHpbZw+t/HyL6BWEJA="/>
+        <field:display date="true" dateTimePattern="${shopOrders_createdat_date_format}" field="createdAt" id="s_com_huazhuo_shop_domain_ShopOrders_createdAt" object="${shoporders}" z="kXRQLkJpM+mIbnUmceRXC0yzIY0="/>
+        <field:display date="true" dateTimePattern="${shopOrders_updatedat_date_format}" field="updatedAt" id="s_com_huazhuo_shop_domain_ShopOrders_updatedAt" object="${shoporders}" z="/S1Hh54S7S1ZY+BbILQ1Qrmpwiw="/>
+        <field:display field="att1" id="s_com_huazhuo_shop_domain_ShopOrders_att1" object="${shoporders}" z="kONeYijb023VEn/Q/FiC7c7jSM4="/>
+        <field:display field="att2" id="s_com_huazhuo_shop_domain_ShopOrders_att2" object="${shoporders}" z="WSG1sP9PE/Aqa4beQLb8JHHq4ls="/>
+        <field:display field="att3" id="s_com_huazhuo_shop_domain_ShopOrders_att3" object="${shoporders}" z="xl7I9i4utehQ5Nqb+qskpKenSao="/>
+        <field:display field="att4" id="s_com_huazhuo_shop_domain_ShopOrders_att4" object="${shoporders}" z="l9/9ZGU/BTou+ENc2INldCCmrmM="/>
+        <field:display field="att5" id="s_com_huazhuo_shop_domain_ShopOrders_att5" object="${shoporders}" z="4i2onqzehCKA77HGdXIXFxSdw+M="/>
+        <field:display field="fastMailId" id="s_com_huazhuo_shop_domain_ShopOrders_fastMailId" object="${shoporders}" z="E9oS6aijMHaKPeXbRE1nY8p1Spc="/>
+        <field:display field="mailCost" id="s_com_huazhuo_shop_domain_ShopOrders_mailCost" object="${shoporders}" z="yUZulIL2XvS9fwpyayNAawnTpVg="/>
+        <field:display field="isReturn" id="s_com_huazhuo_shop_domain_ShopOrders_isReturn" object="${shoporders}" z="FmFsMVXcsQqDUZL9cESfEIvd064="/>
+        <field:display field="shopId" id="s_com_huazhuo_shop_domain_ShopOrders_shopId" object="${shoporders}" z="E4g5W9ffNppHftZd0ZJXrPxRJNY="/>
+        <field:display date="true" dateTimePattern="${shopOrders_sendtime_date_format}" field="sendTime" id="s_com_huazhuo_shop_domain_ShopOrders_sendTime" object="${shoporders}" z="Pw5JDqG0MNPm2qjGr4GUx2BYJEE="/>
+        <field:display date="true" dateTimePattern="${shopOrders_endtime_date_format}" field="endTime" id="s_com_huazhuo_shop_domain_ShopOrders_endTime" object="${shoporders}" z="gjDL4dowwPLoj/g9dznceolVTfU="/>
+        <field:display field="isReturnSucc" id="s_com_huazhuo_shop_domain_ShopOrders_isReturnSucc" object="${shoporders}" z="aGrC8slFO2ULzyvCnemkwa3uqts="/>
+    </page:show>
+</div>

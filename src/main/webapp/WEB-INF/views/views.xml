@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE tiles-definitions PUBLIC "-//Apache Software Foundation//DTD Tiles Configuration 2.1//EN" "http://tiles.apache.org/dtds/tiles-config_2_1.dtd">
+<tiles-definitions>
+  <definition extends="public" name="register/registerSucc">
+        <put-attribute name="body" value="/WEB-INF/views/register/registerSucc.jsp"/>
+    </definition>
+  <definition extends="default" name="index">
+    <put-attribute name="body" value="/WEB-INF/views/index.jsp"/>
+  </definition>
+  <definition extends="default" name="indexHellp">
+    <put-attribute name="body" value="/WEB-INF/views/indexHellp.jsp"/>
+  </definition>
+ <definition extends="default" name="shopHellp">
+    <put-attribute name="body" value="/WEB-INF/views/shopHellp.jsp"/>
+  </definition>
+  <definition extends="public" name="dataAccessFailure">
+    <put-attribute name="body" value="/WEB-INF/views/dataAccessFailure.jspx"/>
+  </definition>
+
+  <definition extends="public" name="resourceNotFound">
+    <put-attribute name="body" value="/WEB-INF/views/resourceNotFound.jspx"/>
+  </definition>
+
+  <definition extends="public" name="uncaughtException">
+    <put-attribute name="body" value="/WEB-INF/views/uncaughtException.jspx"/>
+  </definition>
+<definition extends="public" name="register">
+        <put-attribute name="body" value="/WEB-INF/views/register.jsp"/>
+    </definition>
+<definition extends="public" name="registerSucc">
+        <put-attribute name="body" value="/WEB-INF/views/registerSucc.jsp"/>
+    </definition>
+<definition extends="public" name="forgetPassWord">
+        <put-attribute name="body" value="/WEB-INF/views/forgetPassWord.jsp"/>
+</definition>
+<definition extends="public" name="forgetSucc">
+        <put-attribute name="body" value="/WEB-INF/views/forgetSucc.jsp"/>
+</definition>
+<definition extends="public" name="forgetError">
+        <put-attribute name="body" value="/WEB-INF/views/forgetError.jsp"/>
+</definition>
+<definition extends="public" name="updatePassWord">
+        <put-attribute name="body" value="/WEB-INF/views/updatePassWord.jsp"/>
+</definition>
+<definition extends="public" name="login">
+        <put-attribute name="body" value="/WEB-INF/views/login.jsp"/>
+    </definition>
+    <definition extends="public" name="500">
+        <put-attribute name="body" value="/WEB-INF/views/500.jsp"/>
+    </definition>
+</tiles-definitions>

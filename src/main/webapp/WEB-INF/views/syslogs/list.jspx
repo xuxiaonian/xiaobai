@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<div xmlns:jsp="http://java.sun.com/JSP/Page" xmlns:page="urn:jsptagdir:/WEB-INF/tags/form" xmlns:table="urn:jsptagdir:/WEB-INF/tags/form/fields" version="2.0">
+    <jsp:directive.page contentType="text/html;charset=UTF-8"/>
+    <jsp:output omit-xml-declaration="yes"/>
+    <page:list id="pl_com_huazhuo_shop_log_SysLog" items="${syslogs}" z="OjcbNq466SaDGz2T/Tp62T5wnNQ=">
+        <table:table data="${syslogs}" id="l_com_huazhuo_shop_log_SysLog" path="/syslogs" z="FvAOUyFAEau/dorqN7q32T2SNZI=">
+            <table:column id="c_com_huazhuo_shop_log_SysLog_content" property="content" z="N+UCQ5snPZzNUZf7sShwTfqdR+Y="/>
+            <table:column id="c_com_huazhuo_shop_log_SysLog_processId" property="processId" z="5AOfY+Xf3tPqOQnV96bN/mcrz0s="/>
+            <table:column id="c_com_huazhuo_shop_log_SysLog_ip" property="ip" z="YRzBjmillAuI47qYWl2rdtxZcUY="/>
+            <table:column id="c_com_huazhuo_shop_log_SysLog_sysLogType" property="sysLogType" z="2Js6OLOghJ7+bHcPboUYswqO+X0="/>
+            <table:column date="true" dateTimePattern="${sysLog_createdat_date_format}" id="c_com_huazhuo_shop_log_SysLog_createdAt" property="createdAt" z="bOLsTkIxq0etQgzUNYCtFIKRXIk="/>
+            <table:column id="c_com_huazhuo_shop_log_SysLog_operator" property="operator" z="FtEkWGa5ylJ7IB7eDux8kVrSgJo="/>
+        </table:table>
+    </page:list>
+</div>

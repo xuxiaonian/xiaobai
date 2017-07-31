@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<div xmlns:field="urn:jsptagdir:/WEB-INF/tags/form/fields" xmlns:jsp="http://java.sun.com/JSP/Page" xmlns:page="urn:jsptagdir:/WEB-INF/tags/form" version="2.0">
+    <jsp:directive.page contentType="text/html;charset=UTF-8"/>
+    <jsp:output omit-xml-declaration="yes"/>
+    <page:show id="ps_com_huazhuo_shop_domain_ProductBrand" object="${productbrand}" path="/productbrands" z="RXJbFzw6/N/ffe3s2IPvg6gMWVU=">
+        <field:display field="brandName" id="s_com_huazhuo_shop_domain_ProductBrand_brandName" object="${productbrand}" z="0MbmTHQ4a9JhY4ITFWgX/jE+m80="/>
+        <field:display field="brandStory" id="s_com_huazhuo_shop_domain_ProductBrand_brandStory" object="${productbrand}" z="2WB/0D0JrgPyIQNw9srpFyyRuKo="/>
+        <field:display field="createdBy" id="s_com_huazhuo_shop_domain_ProductBrand_createdBy" object="${productbrand}" z="2YHAvJ7x3AvvS7vB7sGv87d8DZs="/>
+        <field:display date="true" dateTimePattern="${productBrand_createdat_date_format}" field="createdAt" id="s_com_huazhuo_shop_domain_ProductBrand_createdAt" object="${productbrand}" z="p7r8K8oZNOoa7dp+7SLJ20niyAo="/>
+        <field:display date="true" dateTimePattern="${productBrand_updatedat_date_format}" field="updatedAt" id="s_com_huazhuo_shop_domain_ProductBrand_updatedAt" object="${productbrand}" z="pPyE0i/+vbaTmFsiXKJ+S4Vzt2c="/>
+        <field:display field="att1" id="s_com_huazhuo_shop_domain_ProductBrand_att1" object="${productbrand}" z="tMS/A+XfZnxZvaeugDz0fwpcc58="/>
+        <field:display field="att2" id="s_com_huazhuo_shop_domain_ProductBrand_att2" object="${productbrand}" z="k8Wd22ylcveCwzYQRU3mzXzTTQk="/>
+        <field:display field="att3" id="s_com_huazhuo_shop_domain_ProductBrand_att3" object="${productbrand}" z="mM5VIZwv+r2bCsdm4BBuZy/vCFg="/>
+        <field:display field="att4" id="s_com_huazhuo_shop_domain_ProductBrand_att4" object="${productbrand}" z="8MLx9eYySMf/HA+LPH+KDE3ZtZw="/>
+        <field:display field="att5" id="s_com_huazhuo_shop_domain_ProductBrand_att5" object="${productbrand}" z="7j68HcBSX6m2DNwIvETqsIaO/fA="/>
+    </page:show>
+</div>

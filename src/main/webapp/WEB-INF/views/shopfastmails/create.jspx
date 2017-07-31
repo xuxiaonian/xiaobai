@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<div xmlns:c="http://java.sun.com/jsp/jstl/core" xmlns:field="urn:jsptagdir:/WEB-INF/tags/form/fields" xmlns:form="urn:jsptagdir:/WEB-INF/tags/form" xmlns:jsp="http://java.sun.com/JSP/Page" xmlns:spring="http://www.springframework.org/tags" version="2.0">
+    <jsp:directive.page contentType="text/html;charset=UTF-8"/>
+    <jsp:output omit-xml-declaration="yes"/>
+    <form:create id="fc_com_huazhuo_shop_domain_ShopFastMail" modelAttribute="shopFastMail" path="/shopfastmails" render="${empty dependencies}" z="rxwnqbCCey4U3Rj45BjgKm/gDMg=">
+        <field:input field="shopId" id="c_com_huazhuo_shop_domain_ShopFastMail_shopId" validationMessageCode="field_invalid_integer" z="hrDECZtqdv2+kBHai5bXgQBoyGI="/>
+        <field:input field="mailName" id="c_com_huazhuo_shop_domain_ShopFastMail_mailName" z="Z2BmBoMT3eefeGoni5nKRbrf96k="/>
+        <field:input field="cost" id="c_com_huazhuo_shop_domain_ShopFastMail_cost" z="ECHnkKkPxCF2Z0AY5f9WPQQgIQI="/>
+        <field:input field="defCheck" id="c_com_huazhuo_shop_domain_ShopFastMail_defCheck" validationMessageCode="field_invalid_integer" z="951wJOBAmnh2GLHlv6uxE4dUXdc="/>
+        <field:datetime dateTimePattern="${shopFastMail_createdat_date_format}" field="createdAt" id="c_com_huazhuo_shop_domain_ShopFastMail_createdAt" z="GbB+/qgTZN5hIZuGOsHgYwuH0mk="/>
+        <field:datetime dateTimePattern="${shopFastMail_updatedat_date_format}" field="updatedAt" id="c_com_huazhuo_shop_domain_ShopFastMail_updatedAt" z="fffd150PFYbXVXx8FtNNWjyq4EY="/>
+        <field:input field="att1" id="c_com_huazhuo_shop_domain_ShopFastMail_att1" z="R2fX/DE64qSe+EjflKOXRoS8LVY="/>
+        <field:input field="att2" id="c_com_huazhuo_shop_domain_ShopFastMail_att2" z="EdbmwzfWbAomwmAYt4WEG/HSgo4="/>
+        <field:input field="att3" id="c_com_huazhuo_shop_domain_ShopFastMail_att3" z="9aFdwx96HVpILiHamyE8n2LkQ5Q="/>
+        <field:input field="att4" id="c_com_huazhuo_shop_domain_ShopFastMail_att4" z="Kkaq7SMk8I0HmnTKLRtDGAT91Cc="/>
+        <field:input field="att5" id="c_com_huazhuo_shop_domain_ShopFastMail_att5" z="vUienDJCPQ263Lz7zjYu40JK4bI="/>
+    </form:create>
+    <form:dependency dependencies="${dependencies}" id="d_com_huazhuo_shop_domain_ShopFastMail" render="${not empty dependencies}" z="GLPu/KpsUzNUNn7Qqy2guHuoOnE="/>
+</div>

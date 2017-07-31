@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE tiles-definitions PUBLIC "-//Apache Software Foundation//DTD Tiles Configuration 2.1//EN" "http://tiles.apache.org/dtds/tiles-config_2_1.dtd">
+<tiles-definitions>
+	<definition extends="public" name="shoppingproductses/Jcrop">
+        <put-attribute name="body" value="/WEB-INF/views/shoppingproductses/Jcrop.jsp"/>
+    </definition>
+	<!-- 上架 -->
+    <definition extends="default" name="shoppingproductses/onSalelist">
+        <put-attribute name="body" value="/WEB-INF/views/shoppingproductses/onSalelist.jsp"/>
+    </definition>
+    <!-- 未上架 -->
+    <definition extends="default" name="shoppingproductses/noSalelist">
+        <put-attribute name="body" value="/WEB-INF/views/shoppingproductses/noSalelist.jsp"/>
+    </definition>
+    <!-- 审核未通过 -->
+ <definition extends="default" name="shoppingproductses/reviewlist">
+        <put-attribute name="body" value="/WEB-INF/views/shoppingproductses/reviewlist.jsp"/>
+    </definition>
+<definition extends="default" name="shoppingproductses/show">
+        <put-attribute name="body" value="/WEB-INF/views/shoppingproductses/show.jsp"/>
+    </definition>
+<definition extends="product" name="shoppingproductses/update">
+        <put-attribute name="body" value="/WEB-INF/views/shoppingproductses/update.jsp"/>
+    </definition>
+    
+<definition extends="default" name="shoppingproductses/createCategory">
+        <put-attribute name="body" value="/WEB-INF/views/shoppingproductses/createCategory.jsp"/>
+    </definition>
+<definition extends="default" name="shoppingproductses/updateCategory">
+        <put-attribute name="body" value="/WEB-INF/views/shoppingproductses/updateCategory.jsp"/>
+    </definition>
+<definition extends="product" name="shoppingproductses/create">
+        <put-attribute name="body" value="/WEB-INF/views/shoppingproductses/create.jsp"/>
+    </definition>
+<definition extends="default" name="shoppingproductses/list">
+        <put-attribute name="body" value="/WEB-INF/views/shoppingproductses/list.jspx"/>
+    </definition>
+    <definition extends="public" name="shoppingproductses/error">
+        <put-attribute name="body" value="/WEB-INF/views/shoppingproductses/404.jsp"/>
+    </definition>
+</tiles-definitions>

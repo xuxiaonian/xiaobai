@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<div xmlns:field="urn:jsptagdir:/WEB-INF/tags/form/fields" xmlns:jsp="http://java.sun.com/JSP/Page" xmlns:page="urn:jsptagdir:/WEB-INF/tags/form" version="2.0">
+    <jsp:directive.page contentType="text/html;charset=UTF-8"/>
+    <jsp:output omit-xml-declaration="yes"/>
+    <page:show id="ps_com_huazhuo_shop_bill_ShopBill" object="${shopbill}" path="/shopbills" z="Z0dYs2Dm2LvXmrCndeNCygtSsLk=">
+        <field:display field="billNumber" id="s_com_huazhuo_shop_bill_ShopBill_billNumber" object="${shopbill}" z="749Vjv8ydMYWPjpE6hWyi8dsDwk="/>
+        <field:display date="true" dateTimePattern="${shopBill_billstart_date_format}" field="billStart" id="s_com_huazhuo_shop_bill_ShopBill_billStart" object="${shopbill}" z="9RK8HUXgwOfaZVM259pnSMfb0tQ="/>
+        <field:display date="true" dateTimePattern="${shopBill_billend_date_format}" field="billEnd" id="s_com_huazhuo_shop_bill_ShopBill_billEnd" object="${shopbill}" z="qDcrOUD10RHkobijVSFjla9Q4Ig="/>
+        <field:display date="true" dateTimePattern="${shopBill_createdate_date_format}" field="createDate" id="s_com_huazhuo_shop_bill_ShopBill_createDate" object="${shopbill}" z="eBl8kS5+kCTTZ7S3iDxU/GIRUR4="/>
+        <field:display date="true" dateTimePattern="${shopBill_enterdate_date_format}" field="enterDate" id="s_com_huazhuo_shop_bill_ShopBill_enterDate" object="${shopbill}" z="1FEQusmXgUf7Bn/+xSI5vXBSEVo="/>
+        <field:display date="true" dateTimePattern="${shopBill_settledate_date_format}" field="settleDate" id="s_com_huazhuo_shop_bill_ShopBill_settleDate" object="${shopbill}" z="gE2yJE+lkoJtm9CALHf4upq8uuk="/>
+        <field:display field="billCost" id="s_com_huazhuo_shop_bill_ShopBill_billCost" object="${shopbill}" z="/YWosMxS7esYw765Ym5Q4AP9gTk="/>
+        <field:display field="settleCost" id="s_com_huazhuo_shop_bill_ShopBill_settleCost" object="${shopbill}" z="tVA4Z7ZOujcy/5uLMd1dPrZHBGk="/>
+        <field:display field="billEnum" id="s_com_huazhuo_shop_bill_ShopBill_billEnum" object="${shopbill}" z="M6VhjcRYpOI0yQXvXjrjM+tFbXo="/>
+        <field:display field="shopId" id="s_com_huazhuo_shop_bill_ShopBill_shopId" object="${shopbill}" z="voTva7TmJYQXYhxAP/rP0R1FJds="/>
+        <field:display field="billShowEnum" id="s_com_huazhuo_shop_bill_ShopBill_billShowEnum" object="${shopbill}" z="AQmG7tSq/XQ4dSFfywgXDcdxX1c="/>
+    </page:show>
+</div>

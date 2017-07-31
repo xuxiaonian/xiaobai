@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<div xmlns:c="http://java.sun.com/jsp/jstl/core" xmlns:field="urn:jsptagdir:/WEB-INF/tags/form/fields" xmlns:form="urn:jsptagdir:/WEB-INF/tags/form" xmlns:jsp="http://java.sun.com/JSP/Page" xmlns:spring="http://www.springframework.org/tags" version="2.0">
+    <jsp:directive.page contentType="text/html;charset=UTF-8"/>
+    <jsp:output omit-xml-declaration="yes"/>
+    <form:create id="fc_com_huazhuo_shop_domain_ShopFreightTemplate" modelAttribute="shopFreightTemplate" path="/shopfreighttemplates" render="${empty dependencies}" z="wrBdg3ts8Zc604aNHpbon0Ea6yI=">
+        <field:input field="name" id="c_com_huazhuo_shop_domain_ShopFreightTemplate_name" z="4mbVogLHIK9ECE5IB9BI8Dfm0ms="/>
+        <field:select field="provinces" id="c_com_huazhuo_shop_domain_ShopFreightTemplate_provinces" itemValue="id" items="${provinceses}" path="/provinceses" z="eZS6LzVYfaagrrdVmV9mkuCyWfU="/>
+        <field:select field="cities" id="c_com_huazhuo_shop_domain_ShopFreightTemplate_cities" itemValue="id" items="${citieses}" path="/citieses" z="wpI/Ag1EVcD1i3s5EuKNv8fdIPA="/>
+        <field:select field="areas" id="c_com_huazhuo_shop_domain_ShopFreightTemplate_areas" itemValue="id" items="${areases}" path="/areases" z="svK62Bkz4KxEU1FtsAEL6zJE2+0="/>
+        <field:select field="shopFreightTemplateType" id="c_com_huazhuo_shop_domain_ShopFreightTemplate_shopFreightTemplateType" itemValue="id" items="${shopfreighttemplatetypes}" path="/shopfreighttemplatetypes" z="o/+ioi7w8B/hD5VpMeU0AnYa1ic="/>
+        <field:input field="setType" id="c_com_huazhuo_shop_domain_ShopFreightTemplate_setType" z="5KV3my0KPmQxgfxtqhF2PsWiAic="/>
+        <field:input field="billing" id="c_com_huazhuo_shop_domain_ShopFreightTemplate_billing" z="vd3t1pXz34cZUxmBB9Rerno2TJs="/>
+        <field:input field="shipping" id="c_com_huazhuo_shop_domain_ShopFreightTemplate_shipping" z="IQ960cCO9eRyUaJCTDmD8r3k/y4="/>
+        <field:input field="shopId" id="c_com_huazhuo_shop_domain_ShopFreightTemplate_shopId" validationMessageCode="field_invalid_integer" z="ZkUD87td/kCitHJ8ZU4cSSmvN5o="/>
+        <field:simple field="shopFreightTemplateDetails" id="c_com_huazhuo_shop_domain_ShopFreightTemplate_shopFreightTemplateDetails" messageCode="entity_reference_not_managed" messageCodeAttribute="Shop Freight Template Detail" z="4E6wze5IXOUcfU7yETHr9RTDEgE="/>
+        <field:datetime dateTimePattern="${shopFreightTemplate_createdat_date_format}" field="createdAt" id="c_com_huazhuo_shop_domain_ShopFreightTemplate_createdAt" z="Ok1k1kxOIKAsS/k347O1hjiSiAI="/>
+        <field:datetime dateTimePattern="${shopFreightTemplate_updatedat_date_format}" field="updatedAt" id="c_com_huazhuo_shop_domain_ShopFreightTemplate_updatedAt" z="o0JffS8aMfLpCFwGo8AuDXOa7FU="/>
+    </form:create>
+    <form:dependency dependencies="${dependencies}" id="d_com_huazhuo_shop_domain_ShopFreightTemplate" render="${not empty dependencies}" z="g0blVUteg/7Vfs0gjvQhZf/2ckM="/>
+</div>

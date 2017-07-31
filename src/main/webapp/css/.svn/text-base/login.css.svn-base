@@ -1,0 +1,225 @@
+.header {
+	width: 100%;
+}
+
+.header .header_cot {
+	width: 1162px;
+	margin: 0 auto;
+	overflow: hidden;
+	padding: 20px 0;
+}
+
+.header .header_cot .logo {
+	width: 128px;
+	border-right: 1px solid #017e46;
+	height: 46px;
+	float: left;
+	background: url(../img/logo.png) no-repeat center center;
+}
+
+.header .header_cot .logoText {
+	height: 46px;
+	width: 150px;
+	float: left;
+	border-left: 1px solid #6fb695;
+	padding-left: 10px;
+	font-weight: 600;
+	font-size: 18px;
+}
+
+.bannerBg {
+	width: 100%;
+	height: 717px;
+	background: url(../img/bg.png) no-repeat center center;
+	background-size: cover;
+}
+
+.green {
+	color: #017e44;
+}
+
+.region {
+	width: 1162px;
+	margin: 0 auto;
+	position: relative;
+	height: 100%;
+}
+
+.regionCot {
+	width: 395px;
+	background: #fff;
+	border-radius: 6px;
+	position: absolute;
+	right: 158px;
+	top: 100px;
+}
+
+.regionCot h1 {
+	width: 100%;
+	line-height: 36px;
+	color: #fff;
+	background: #017e44;
+	font-size: 16px;
+	padding-left: 22px;
+	box-sizing: border-box;
+	border-top-left-radius: 6px;
+	border-top-right-radius: 6px;
+}
+
+.name,.passward {
+	width: 100%;
+	line-height: 50px;
+	border: 1px solid #ccc;
+	box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	padding-left: 15px;
+}
+
+.name {
+	margin-bottom: 32px;
+}
+/*.passward{margin-bottom: ;}*/
+.regionInp {
+	padding: 60px 22px 60px;
+}
+
+.rememberPwd {
+	overflow: hidden;
+	line-height: 48px;
+}
+
+.pwd {
+	background: url(../img/pwd.jpg) no-repeat center center;
+	height: 17px;
+	width: 17px;
+	display: block;
+	margin-top: 15px;
+	margin-right: 10px;
+}
+
+.left {
+	float: left;
+}
+
+.clear {
+	overflow: hidden;
+}
+
+.regionBtn {
+	color: #fff;
+	padding: 15px 60px;
+	background: #017e44;
+	border-radius: 5px;
+	float: left;
+}
+
+.enrollBtn {
+	color: #017e44;
+	padding: 15px 60px;
+	box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	border-radius: 5px;
+	border: 1px solid #017e44;
+	background: #fff;
+	float: right;
+}
+
+.forgetPwd {
+	line-height: 45px;
+	display: block;
+	width: 100%;
+	border-top: 1px solid #ccc;
+	text-align: right;
+	padding-right: 22px;
+	color: #017e44;
+	box-sizing: border-box;
+	-moz-box-sizing: border-box;
+}
+
+.header .header_cot .header_right_region {
+	line-height: 46px;
+}
+
+.phoneBack {
+	width: 100%;
+	background: #eee;
+}
+
+.phoneBack .phone_back_cot {
+	width: 1000px;
+	margin: 0 auto;
+	background: #fff;
+	padding-bottom: 200px;
+}
+
+.phoneBack_h1 {
+	line-height: 64px;
+	padding-left: 20px;
+	border-bottom: 2px solid #017E44;
+	border-top: 20px solid #eee;
+}
+
+.phoneBack_h1 .phone {
+	display: block;
+	height: 31px;
+	margin-top: 16px;
+	width: 23px;
+	background: url(img/phone.jpg) no-repeat center center;
+	margin-right: 20px;
+}
+
+.phone_back_cots {
+	padding-top: 20px;
+}
+
+.phone_back_cots input {
+	border: 1px solid #eee;
+	line-height: 50px;
+	display: block;
+	width: 255px;
+	padding-left: 10px;
+}
+
+.phone_back_cots .yanzhengma {
+	width: 110px;
+}
+
+.yanzhengmaBtn {
+	border: 1px solid #017E44;
+	color: #017E44;
+	padding: 13px 20px;
+	border-radius: 5px;
+	margin-left: 20px;
+}
+
+.phone_back_cots .h2 {
+	line-height: 50px;
+	padding-left: 300px;
+	margin: 40px 0;
+}
+
+.phone_back_cots .h2 span {
+	width: 100px;
+	text-align: right;
+}
+
+.phone_back_cots .h2 .margin_right {
+	margin-right: 40px;
+}
+
+.submit {
+	text-align: center;
+}
+
+.btnGreenFont {
+	padding: 13px 120px;
+	color: #fff;
+	background: #017E44;
+	border-radius: 5px;
+}
+
+.right {
+	float: right;
+}

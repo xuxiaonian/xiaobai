@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<div xmlns:c="http://java.sun.com/jsp/jstl/core" xmlns:field="urn:jsptagdir:/WEB-INF/tags/form/fields" xmlns:form="urn:jsptagdir:/WEB-INF/tags/form" xmlns:jsp="http://java.sun.com/JSP/Page" xmlns:spring="http://www.springframework.org/tags" version="2.0">
+    <jsp:directive.page contentType="text/html;charset=UTF-8"/>
+    <jsp:output omit-xml-declaration="yes"/>
+    <form:create id="fc_com_huazhuo_shop_security_BackAuthority" modelAttribute="backAuthority" path="/backauthoritys" render="${empty dependencies}" z="bNT6L5quDkezYqsX1j3IzAzy90s=">
+        <field:input field="authorityName" id="c_com_huazhuo_shop_security_BackAuthority_authorityName" max="28" required="true" z="h3jAGjkgCawzxV0KN03nFGMOedc="/>
+        <field:input field="name" id="c_com_huazhuo_shop_security_BackAuthority_name" z="PZqXAjGmMj/4k3qJvJOj8TjszVE="/>
+    </form:create>
+    <form:dependency dependencies="${dependencies}" id="d_com_huazhuo_shop_security_BackAuthority" render="${not empty dependencies}" z="7FSHALs6hl1lalRKk+wG3FL7aXQ="/>
+</div>

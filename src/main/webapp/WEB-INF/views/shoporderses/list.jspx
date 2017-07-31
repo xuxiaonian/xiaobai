@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<div xmlns:jsp="http://java.sun.com/JSP/Page" xmlns:page="urn:jsptagdir:/WEB-INF/tags/form" xmlns:table="urn:jsptagdir:/WEB-INF/tags/form/fields" version="2.0">
+    <jsp:directive.page contentType="text/html;charset=UTF-8"/>
+    <jsp:output omit-xml-declaration="yes"/>
+    <page:list id="pl_com_huazhuo_shop_domain_ShopOrders" items="${shoporderses}" z="wJ1eq0mG59yQLs74kjqHKt1Cd5k=">
+        <table:table data="${shoporderses}" id="l_com_huazhuo_shop_domain_ShopOrders" path="/shoporderses" z="YYuwSPBRr5Mb9+6r5PfAfzoHWio=">
+            <table:column id="c_com_huazhuo_shop_domain_ShopOrders_orderNumber" property="orderNumber" z="xTlPcXBTg0OwOlU4rF9/n4L4mm0="/>
+            <table:column id="c_com_huazhuo_shop_domain_ShopOrders_orderStatus" property="orderStatus" z="yaAAQf5Pl3pi11lDjGtjMvVZ9UQ="/>
+            <table:column id="c_com_huazhuo_shop_domain_ShopOrders_remarks" property="remarks" z="V2RHNdPZeTAAtDbhhc394iFSkuc="/>
+            <table:column id="c_com_huazhuo_shop_domain_ShopOrders_mobileUserId" property="mobileUserId" z="Cts/fit+xLuFOyMFM1v284hv6QI="/>
+            <table:column date="true" dateTimePattern="${shopOrders_ordertime_date_format}" id="c_com_huazhuo_shop_domain_ShopOrders_orderTime" property="orderTime" z="xHeKwaNX9qoi9/1UmsDY2idAYdk="/>
+            <table:column id="c_com_huazhuo_shop_domain_ShopOrders_shopId" property="shopId" z="yEh0Wl31Zyah+c83PMLq6q9OKdU="/>
+        </table:table>
+    </page:list>
+</div>

@@ -1,0 +1,148 @@
+.col-xs-my-1, .col-xs-my-2, .col-xs-my-3, .col-xs-my-4, .col-xs-my-5, .col-xs-my-6, .col-xs-my-7, .col-xs-my-8, .col-xs-my-9, .col-xs-my-10, .col-xs-my-11, .col-xs-my-12, .col-xs-my-13, .col-xs-my-14, .col-xs-my-15, .col-xs-my-16, .col-xs-my-17, .col-xs-my-18, .col-xs-my-19, .col-xs-my-20, .col-xs-my-21, .col-xs-my-22, .col-xs-my-23, .col-xs-my-24, .col-xs-my-25, .col-xs-my-26, .col-xs-my-27, .col-xs-my-28, .col-xs-my-29, .col-xs-my-30, .col-xs-my-31, .col-xs-my-32, .col-xs-my-33, .col-xs-my-34, .col-xs-my-35, .col-xs-my-36, .col-xs-my-37, .col-xs-my-38, .col-xs-my-39, .col-xs-my-40, .col-xs-my-41, .col-xs-my-42, .col-xs-my-43, .col-xs-my-44, .col-xs-my-45, .col-xs-my-46, .col-xs-my-47, .col-xs-my-48,
+{
+	position: relative;
+	min-height: 1px;
+	padding-right: 15px;
+	padding-left: 15px
+}
+.col-xs-my-1, .col-xs-my-2, .col-xs-my-3, .col-xs-my-4, .col-xs-my-5, .col-xs-my-6, .col-xs-my-7, .col-xs-my-8, .col-xs-my-9, .col-xs-my-10, .col-xs-my-11, .col-xs-my-12, .col-xs-my-13, .col-xs-my-14, .col-xs-my-15, .col-xs-my-16, .col-xs-my-17, .col-xs-my-18, .col-xs-my-19, .col-xs-my-20, .col-xs-my-21, .col-xs-my-22, .col-xs-my-23, .col-xs-my-24, .col-xs-my-25, .col-xs-my-26, .col-xs-my-27, .col-xs-my-28, .col-xs-my-29, .col-xs-my-30, .col-xs-my-31, .col-xs-my-32, .col-xs-my-33, .col-xs-my-34, .col-xs-my-35, .col-xs-my-36, .col-xs-my-37, .col-xs-my-38, .col-xs-my-39, .col-xs-my-40, .col-xs-my-41, .col-xs-my-42, .col-xs-my-43, .col-xs-my-44, .col-xs-my-45, .col-xs-my-46, .col-xs-my-47, .col-xs-my-48
+ {
+	float: left
+}
+.col-xs-my-1 {width:2.083333333333333%}
+.col-xs-my-2 {width:4.166666666666667%}
+.col-xs-my-3 {width:6.25%}
+.col-xs-my-4 {width:8.333333333333332%}
+.col-xs-my-5 {width:10.416666666666668%}
+.col-xs-my-6 {width:12.5%}
+.col-xs-my-7 {width:14.583333333333332%}
+.col-xs-my-8 {width:16.666666666666668%}
+.col-xs-my-9 {width:18.75%}
+.col-xs-my-10 {width:20.833333333333332%}
+.col-xs-my-11 {width:22.916666666666668%}
+.col-xs-my-12 {width:25.0%}
+.col-xs-my-13 {width:27.083333333333332%}
+.col-xs-my-14 {width:29.166666666666668%}
+.col-xs-my-15 {width:31.25%}
+.col-xs-my-16 {width:33.333333333333336%}
+.col-xs-my-17 {width:35.416666666666664%}
+.col-xs-my-18 {width:37.5%}
+.col-xs-my-19 {width:39.583333333333336%}
+.col-xs-my-20 {width:41.666666666666664%}
+.col-xs-my-21 {width:43.75%}
+.col-xs-my-22 {width:45.833333333333336%}
+.col-xs-my-23 {width:47.916666666666664%}
+.col-xs-my-24 {width:50.0%}
+.col-xs-my-25 {width:52.083333333333336%}
+.col-xs-my-26 {width:54.166666666666664%}
+.col-xs-my-27 {width:56.25%}
+.col-xs-my-28 {width:58.333333333333336%}
+.col-xs-my-29 {width:60.416666666666664%}
+.col-xs-my-30 {width:62.5%}
+.col-xs-my-31 {width:64.58333333333333%}
+.col-xs-my-32 {width:66.66666666666667%}
+.col-xs-my-33 {width:68.75%}
+.col-xs-my-34 {width:70.83333333333333%}
+.col-xs-my-35 {width:72.91666666666667%}
+.col-xs-my-36 {width:75.0%}
+.col-xs-my-37 {width:77.08333333333333%}
+.col-xs-my-38 {width:79.16666666666667%}
+.col-xs-my-39 {width:81.25%}
+.col-xs-my-40 {width:83.33333333333333%}
+.col-xs-my-41 {width:85.41666666666667%}
+.col-xs-my-42 {width:87.5%}
+.col-xs-my-43 {width:89.58333333333333%}
+.col-xs-my-44 {width:91.66666666666667%}
+.col-xs-my-45 {width:93.75%}
+.col-xs-my-46 {width:95.83333333333333%}
+.col-xs-my-47 {width:97.91666666666667%}
+.col-xs-my-48 {width:100.0%}
+
+.col-xs-my-pull-1 {width:2.083333333333333%}
+.col-xs-my-pull-2 {width:4.166666666666667%}
+.col-xs-my-pull-3 {width:6.25%}
+.col-xs-my-pull-4 {width:8.333333333333332%}
+.col-xs-my-pull-5 {width:10.416666666666668%}
+.col-xs-my-pull-6 {width:12.5%}
+.col-xs-my-pull-7 {width:14.583333333333332%}
+.col-xs-my-pull-8 {width:16.666666666666668%}
+.col-xs-my-pull-9 {width:18.75%}
+.col-xs-my-pull-10 {width:20.833333333333332%}
+.col-xs-my-pull-11 {width:22.916666666666668%}
+.col-xs-my-pull-12 {width:25.0%}
+.col-xs-my-pull-13 {width:27.083333333333332%}
+.col-xs-my-pull-14 {width:29.166666666666668%}
+.col-xs-my-pull-15 {width:31.25%}
+.col-xs-my-pull-16 {width:33.333333333333336%}
+.col-xs-my-pull-17 {width:35.416666666666664%}
+.col-xs-my-pull-18 {width:37.5%}
+.col-xs-my-pull-19 {width:39.583333333333336%}
+.col-xs-my-pull-20 {width:41.666666666666664%}
+.col-xs-my-pull-21 {width:43.75%}
+.col-xs-my-pull-22 {width:45.833333333333336%}
+.col-xs-my-pull-23 {width:47.916666666666664%}
+.col-xs-my-pull-24 {width:50.0%}
+.col-xs-my-pull-25 {width:52.083333333333336%}
+.col-xs-my-pull-26 {width:54.166666666666664%}
+.col-xs-my-pull-27 {width:56.25%}
+.col-xs-my-pull-28 {width:58.333333333333336%}
+.col-xs-my-pull-29 {width:60.416666666666664%}
+.col-xs-my-pull-30 {width:62.5%}
+.col-xs-my-pull-31 {width:64.58333333333333%}
+.col-xs-my-pull-32 {width:66.66666666666667%}
+.col-xs-my-pull-33 {width:68.75%}
+.col-xs-my-pull-34 {width:70.83333333333333%}
+.col-xs-my-pull-35 {width:72.91666666666667%}
+.col-xs-my-pull-36 {width:75.0%}
+.col-xs-my-pull-37 {width:77.08333333333333%}
+.col-xs-my-pull-38 {width:79.16666666666667%}
+.col-xs-my-pull-39 {width:81.25%}
+.col-xs-my-pull-40 {width:83.33333333333333%}
+.col-xs-my-pull-41 {width:85.41666666666667%}
+.col-xs-my-pull-42 {width:87.5%}
+.col-xs-my-pull-43 {width:89.58333333333333%}
+.col-xs-my-pull-44 {width:91.66666666666667%}
+.col-xs-my-pull-45 {width:93.75%}
+.col-xs-my-pull-46 {width:95.83333333333333%}
+.col-xs-my-pull-47 {width:97.91666666666667%}
+.col-xs-my-pull-48 {width:100.0%}
+
+.col-xs-my-offset-12 {
+	margin-left: 100%
+}
+.col-xs-my-offset-11 {
+	margin-left: 91.66666667%
+}
+.col-xs-my-offset-10 {
+	margin-left: 83.33333333%
+}
+.col-xs-my-offset-9 {
+	margin-left: 75%
+}
+.col-xs-my-offset-8 {
+	margin-left: 66.66666667%
+}
+.col-xs-my-offset-7 {
+	margin-left: 58.33333333%
+}
+.col-xs-my-offset-6 {
+	margin-left: 50%
+}
+.col-xs-my-offset-5 {
+	margin-left: 41.66666667%
+}
+.col-xs-my-offset-4 {
+	margin-left: 33.33333333%
+}
+.col-xs-my-offset-3 {
+	margin-left: 25%
+}
+.col-xs-my-offset-2 {
+	margin-left: 16.66666667%
+}
+.col-xs-my-offset-1 {
+	margin-left: 8.33333333%
+}
+.col-xs-my-offset-0 {
+	margin-left: 0
+}

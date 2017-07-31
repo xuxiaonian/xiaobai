@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<div xmlns:jsp="http://java.sun.com/JSP/Page" xmlns:page="urn:jsptagdir:/WEB-INF/tags/form" xmlns:table="urn:jsptagdir:/WEB-INF/tags/form/fields" version="2.0">
+    <jsp:directive.page contentType="text/html;charset=UTF-8"/>
+    <jsp:output omit-xml-declaration="yes"/>
+    <page:list id="pl_com_huazhuo_shop_domain_ShopOrderEvaluateReply" items="${shoporderevaluatereplys}" z="iw/66/hHeDuoLa0yrsi2SHoqXK4=">
+        <table:table data="${shoporderevaluatereplys}" id="l_com_huazhuo_shop_domain_ShopOrderEvaluateReply" path="/shoporderevaluatereplys" z="8ZzIuNmOIB5AD54geaE0xZNc6ks=">
+            <table:column id="c_com_huazhuo_shop_domain_ShopOrderEvaluateReply_content" property="content" z="wrrR998HfLpP4uTrKFnRS1dWQHQ="/>
+            <table:column id="c_com_huazhuo_shop_domain_ShopOrderEvaluateReply_shopOrderEvaluate" property="shopOrderEvaluate" z="2JoWNpkJ72kNDbW9ImI5EeXkub0="/>
+            <table:column date="true" dateTimePattern="${shopOrderEvaluateReply_createdat_date_format}" id="c_com_huazhuo_shop_domain_ShopOrderEvaluateReply_createdAt" property="createdAt" z="lXTJQJqCb2FoLrLmcqC6qqO6MLI="/>
+            <table:column date="true" dateTimePattern="${shopOrderEvaluateReply_updatedat_date_format}" id="c_com_huazhuo_shop_domain_ShopOrderEvaluateReply_updatedAt" property="updatedAt" z="os2U+9T7Q6uKvlUXs1UMvfNa5m0="/>
+        </table:table>
+    </page:list>
+</div>

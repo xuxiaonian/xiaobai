@@ -1,0 +1,132 @@
+// Spring Roo 1.2.1.RELEASE [rev 6eae723] log opened at 2016-11-09 13:38:49
+project --topLevelPackage com.huazhuo.shop
+persistence setup --provider HIBERNATE --database MYSQL  --jndiDataSource shop
+entity jpa --class ~.domain.BackUser --identifierType java.lang.Integer
+field string --fieldName name --notNull --sizeMax 20 --unique
+web mvc setup
+web mvc all --package ~.web
+exit
+// Spring Roo 1.2.1.RELEASE [rev 6eae723] log closed at 2016-11-09 13:39:56
+// Spring Roo 1.2.1.RELEASE [rev 6eae723] log opened at 2016-11-09 13:40:31
+security setup
+// Spring Roo 1.2.1.RELEASE [rev 6eae723] log closed at 2016-11-09 14:27:54
+// Spring Roo 1.2.1.RELEASE [rev 6eae723] log opened at 2016-11-09 14:29:50
+web mvc all --package ~.web
+// Spring Roo 1.2.1.RELEASE [rev 6eae723] log closed at 2016-11-09 14:46:05
+// Spring Roo 1.2.1.RELEASE [rev 6eae723] log opened at 2016-11-09 14:50:10
+web mvc all --package ~.web
+web mvc all --package ~.web
+web mvc all --package ~.web
+web mvc all --package ~.web
+web mvc all --package ~.web
+// Spring Roo 1.2.1.RELEASE [rev 6eae723] log closed at 2016-11-09 19:23:33
+// Spring Roo 1.2.1.RELEASE [rev 6eae723] log opened at 2016-11-10 09:13:42
+web mvc all --package ~.web
+web mvc all --package ~.web
+web mvc all --package ~.web
+web mvc all --package ~.web
+// Spring Roo 1.2.1.RELEASE [rev 6eae723] log closed at 2016-11-10 19:23:54
+// Spring Roo 1.2.1.RELEASE [rev 6eae723] log opened at 2016-11-11 09:21:34
+web mvc all --package ~.web
+web mvc all --package ~.web
+web mvc all --package ~.web
+web mvc all --package ~.web
+// Spring Roo 1.2.1.RELEASE [rev 6eae723] log closed at 2016-11-11 19:08:07
+// Spring Roo 1.2.1.RELEASE [rev 6eae723] log opened at 2016-11-12 10:22:34
+// Spring Roo 1.2.1.RELEASE [rev 6eae723] log closed at 2016-11-12 11:39:02
+// Spring Roo 1.2.1.RELEASE [rev 6eae723] log opened at 2016-11-12 15:37:57
+web mvc all --package ~.web
+// Spring Roo 1.2.1.RELEASE [rev 6eae723] log closed at 2016-11-12 18:36:00
+// Spring Roo 1.2.1.RELEASE [rev 6eae723] log opened at 2016-11-14 09:09:37
+hint
+// Spring Roo 1.2.1.RELEASE [rev 6eae723] log opened at 2016-11-14 15:18:07
+web mvc all --package ~.web
+// Spring Roo 1.2.1.RELEASE [rev 6eae723] log opened at 2016-11-15 10:17:45
+web mvc all --package ~.web
+// Spring Roo 1.2.1.RELEASE [rev 6eae723] log closed at 2016-11-15 20:21:41
+// Spring Roo 1.2.1.RELEASE [rev 6eae723] log opened at 2016-11-17 16:25:28
+hint
+// Spring Roo 1.2.1.RELEASE [rev 6eae723] log closed at 2016-11-17 17:58:20
+// Spring Roo 1.2.1.RELEASE [rev 6eae723] log opened at 2016-11-18 13:43:00
+// Spring Roo 1.2.1.RELEASE [rev 6eae723] log closed at 2016-11-18 19:19:53
+// Spring Roo 1.2.1.RELEASE [rev 6eae723] log opened at 2016-11-21 09:34:50
+// Spring Roo 1.2.1.RELEASE [rev 6eae723] log closed at 2016-11-21 09:45:27
+// Spring Roo 1.2.1.RELEASE [rev 6eae723] log opened at 2016-11-21 09:45:34
+// Spring Roo 1.2.1.RELEASE [rev 6eae723] log closed at 2016-11-21 10:01:53
+// Spring Roo 1.2.1.RELEASE [rev 6eae723] log opened at 2016-11-21 10:01:59
+// Spring Roo 1.2.1.RELEASE [rev 6eae723] log closed at 2016-11-21 11:16:19
+// Spring Roo 1.2.1.RELEASE [rev 6eae723] log opened at 2016-11-21 17:21:06
+// Spring Roo 1.2.1.RELEASE [rev 6eae723] log opened at 2016-11-21 17:22:35
+hint
+// Spring Roo 1.2.1.RELEASE [rev 6eae723] log closed at 2016-11-21 17:25:30
+// Spring Roo 1.2.1.RELEASE [rev 6eae723] log opened at 2016-11-21 17:25:40
+// Spring Roo 1.2.1.RELEASE [rev 6eae723] log closed at 2016-11-21 18:36:03
+// Spring Roo 1.2.1.RELEASE [rev 6eae723] log opened at 2016-11-23 09:50:38
+// Spring Roo 1.2.1.RELEASE [rev 6eae723] log closed at 2016-11-23 10:04:50
+// Spring Roo 1.2.1.RELEASE [rev 6eae723] log opened at 2016-11-23 10:07:14
+// Spring Roo 1.2.1.RELEASE [rev 6eae723] log closed at 2016-11-23 18:45:13
+// Spring Roo 1.2.1.RELEASE [rev 6eae723] log opened at 2016-11-24 11:31:33
+// Spring Roo 1.2.1.RELEASE [rev 6eae723] log closed at 2016-11-24 13:28:55
+// Spring Roo 1.2.1.RELEASE [rev 6eae723] log opened at 2016-11-24 13:40:53
+// Spring Roo 1.2.1.RELEASE [rev 6eae723] log closed at 2016-11-24 13:46:15
+// Spring Roo 1.2.1.RELEASE [rev 6eae723] log opened at 2016-11-24 14:10:31
+// Spring Roo 1.2.1.RELEASE [rev 6eae723] log closed at 2016-11-24 19:11:08
+// Spring Roo 1.2.1.RELEASE [rev 6eae723] log opened at 2016-11-25 16:31:09
+// Spring Roo 1.2.1.RELEASE [rev 6eae723] log closed at 2016-11-25 17:35:37
+// Spring Roo 1.2.1.RELEASE [rev 6eae723] log opened at 2016-11-28 09:47:01
+// Spring Roo 1.2.1.RELEASE [rev 6eae723] log closed at 2016-11-28 15:33:19
+// Spring Roo 1.2.1.RELEASE [rev 6eae723] log opened at 2016-11-29 14:24:09
+web mvc all --package ~.web
+// Spring Roo 1.2.1.RELEASE [rev 6eae723] log closed at 2016-11-29 18:40:29
+// Spring Roo 1.2.1.RELEASE [rev 6eae723] log opened at 2016-11-30 09:50:55
+// Spring Roo 1.2.1.RELEASE [rev 6eae723] log closed at 2016-11-30 18:43:27
+// Spring Roo 1.2.1.RELEASE [rev 6eae723] log opened at 2016-12-01 18:40:44
+hint
+// Spring Roo 1.2.1.RELEASE [rev 6eae723] log closed at 2016-12-01 19:11:14
+// Spring Roo 1.2.1.RELEASE [rev 6eae723] log opened at 2016-12-03 15:08:30
+hint
+hint
+// Spring Roo 1.2.1.RELEASE [rev 6eae723] log closed at 2016-12-03 17:30:11
+// Spring Roo 1.2.1.RELEASE [rev 6eae723] log opened at 2016-12-05 11:39:14
+// Spring Roo 1.2.1.RELEASE [rev 6eae723] log closed at 2016-12-05 11:46:00
+// Spring Roo 1.2.1.RELEASE [rev 6eae723] log opened at 2016-12-05 15:48:51
+// Spring Roo 1.2.1.RELEASE [rev 6eae723] log closed at 2016-12-05 19:12:55
+// Spring Roo 1.2.1.RELEASE [rev 6eae723] log opened at 2016-12-06 10:04:13
+web mvc all --package ~.web
+// Spring Roo 1.2.1.RELEASE [rev 6eae723] log closed at 2016-12-06 19:18:48
+// Spring Roo 1.2.1.RELEASE [rev 6eae723] log opened at 2016-12-07 10:06:29
+web mvc all --package ~.web
+// Spring Roo 1.2.1.RELEASE [rev 6eae723] log closed at 2016-12-07 19:21:40
+// Spring Roo 1.2.1.RELEASE [rev 6eae723] log opened at 2016-12-09 15:03:00
+hint
+// Spring Roo 1.2.1.RELEASE [rev 6eae723] log closed at 2016-12-09 15:07:30
+// Spring Roo 1.2.1.RELEASE [rev 6eae723] log opened at 2017-02-15 09:14:31
+hint
+// Spring Roo 1.2.1.RELEASE [rev 6eae723] log closed at 2017-02-15 09:18:56
+// Spring Roo 1.2.1.RELEASE [rev 6eae723] log opened at 2017-02-15 09:24:23
+// Spring Roo 1.2.1.RELEASE [rev 6eae723] log closed at 2017-02-15 09:26:46
+// Spring Roo 1.2.1.RELEASE [rev 6eae723] log opened at 2017-02-21 11:53:15
+// Spring Roo 1.2.1.RELEASE [rev 6eae723] log opened at 2017-02-21 11:56:03
+hint
+// Spring Roo 1.2.1.RELEASE [rev 6eae723] log closed at 2017-02-21 12:54:30
+// Spring Roo 1.2.1.RELEASE [rev 6eae723] log opened at 2017-02-21 12:54:39
+// [failed] hint
+// Spring Roo 1.2.1.RELEASE [rev 6eae723] log closed at 2017-02-21 13:03:44
+// Spring Roo 1.2.1.RELEASE [rev 6eae723] log opened at 2017-02-21 13:03:57
+hint
+// Spring Roo 1.2.1.RELEASE [rev 6eae723] log opened at 2017-02-21 13:04:48
+// Spring Roo 1.2.1.RELEASE [rev 6eae723] log closed at 2017-02-21 13:04:54
+web mvc all --package ~.web
+// Spring Roo 1.2.1.RELEASE [rev 6eae723] log opened at 2017-03-03 14:32:58
+hint
+// Spring Roo 1.2.1.RELEASE [rev 6eae723] log closed at 2017-03-06 14:08:58
+// Spring Roo 1.2.1.RELEASE [rev 6eae723] log opened at 2017-03-09 14:55:07
+// Spring Roo 1.2.1.RELEASE [rev 6eae723] log opened at 2017-03-09 14:55:56
+hint
+// Spring Roo 1.2.1.RELEASE [rev 6eae723] log closed at 2017-03-09 14:57:56
+// Spring Roo 1.2.1.RELEASE [rev 6eae723] log opened at 2017-03-14 17:05:40
+hint
+// Spring Roo 1.2.1.RELEASE [rev 6eae723] log closed at 2017-03-14 18:39:23
+// Spring Roo 1.2.1.RELEASE [rev 6eae723] log opened at 2017-03-18 15:25:52
+hint
+// Spring Roo 1.2.1.RELEASE [rev 6eae723] log closed at 2017-03-22 11:55:39

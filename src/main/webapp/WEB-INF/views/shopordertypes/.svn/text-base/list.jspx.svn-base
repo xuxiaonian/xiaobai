@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<div xmlns:jsp="http://java.sun.com/JSP/Page" xmlns:page="urn:jsptagdir:/WEB-INF/tags/form" xmlns:table="urn:jsptagdir:/WEB-INF/tags/form/fields" version="2.0">
+    <jsp:directive.page contentType="text/html;charset=UTF-8"/>
+    <jsp:output omit-xml-declaration="yes"/>
+    <page:list id="pl_com_huazhuo_shop_enumtype_ShopOrderType" items="${shopordertypes}" z="LYEXg4HjnaxUsDERYAmW/bM8fTg=">
+        <table:table data="${shopordertypes}" id="l_com_huazhuo_shop_enumtype_ShopOrderType" path="/shopordertypes" z="sJGmq82/IvkQX2UWOP/PMawfmAg=">
+            <table:column id="c_com_huazhuo_shop_enumtype_ShopOrderType_name" property="name" z="s2u5W8lJ4DRZaPgNde5dcOKV0Po="/>
+            <table:column id="c_com_huazhuo_shop_enumtype_ShopOrderType_state" property="state" z="E7VXsS2pBoZ9r5OKe06bj84q8Jc="/>
+        </table:table>
+    </page:list>
+</div>

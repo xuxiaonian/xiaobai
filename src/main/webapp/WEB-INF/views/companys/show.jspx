@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<div xmlns:field="urn:jsptagdir:/WEB-INF/tags/form/fields" xmlns:jsp="http://java.sun.com/JSP/Page" xmlns:page="urn:jsptagdir:/WEB-INF/tags/form" version="2.0">
+    <jsp:directive.page contentType="text/html;charset=UTF-8"/>
+    <jsp:output omit-xml-declaration="yes"/>
+    <page:show id="ps_com_huazhuo_shop_domain_Company" object="${company}" path="/companys" z="Y3XJRsQ00YLiHwl4vE1g+MwMfQA=">
+        <field:display field="name" id="s_com_huazhuo_shop_domain_Company_name" object="${company}" z="B6N0btW/66QL1dD9a/X8xCy6Eaw="/>
+        <field:display field="imgUrl" id="s_com_huazhuo_shop_domain_Company_imgUrl" object="${company}" z="z8tUfGcRVL3TRaDA5CgvXLgTVMw="/>
+        <field:display field="address" id="s_com_huazhuo_shop_domain_Company_address" object="${company}" z="QF5qrFSJnpI2rNUwtSSj7qXd41s="/>
+        <field:display field="legalPersion" id="s_com_huazhuo_shop_domain_Company_legalPersion" object="${company}" z="/EeuRSQfcx7tBbYHwo1CmwCnF+k="/>
+        <field:display date="true" dateTimePattern="${company_createdat_date_format}" field="createdAt" id="s_com_huazhuo_shop_domain_Company_createdAt" object="${company}" z="45Kr5Lb8QpMFZOgACCcWwKi9WaE="/>
+        <field:display date="true" dateTimePattern="${company_updatedat_date_format}" field="updatedAt" id="s_com_huazhuo_shop_domain_Company_updatedAt" object="${company}" z="jeuA0Ko1/0C1xOx4nFpTVDsEQLQ="/>
+        <field:display field="remark" id="s_com_huazhuo_shop_domain_Company_remark" object="${company}" z="X1gZ0aw2/plUZ+x/rbgJwwK5fDA="/>
+        <field:display field="backUser" id="s_com_huazhuo_shop_domain_Company_backUser" object="${company}" z="lchyM0YGoDerk/BJp9PKX3g4VDc="/>
+        <field:display field="contactPerson" id="s_com_huazhuo_shop_domain_Company_contactPerson" object="${company}" z="SxK899mm8XgJLluiZD7XFleYBj8="/>
+        <field:display field="phone" id="s_com_huazhuo_shop_domain_Company_phone" object="${company}" z="64whk0lEXxjOThUaKNBNcniOj7c="/>
+        <field:display field="email" id="s_com_huazhuo_shop_domain_Company_email" object="${company}" z="JPedZbhyOWUhvR+tUNwhdzD9MwA="/>
+    </page:show>
+</div>

@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<div xmlns:jsp="http://java.sun.com/JSP/Page" xmlns:page="urn:jsptagdir:/WEB-INF/tags/form" xmlns:table="urn:jsptagdir:/WEB-INF/tags/form/fields" version="2.0">
+    <jsp:directive.page contentType="text/html;charset=UTF-8"/>
+    <jsp:output omit-xml-declaration="yes"/>
+    <page:list id="pl_com_huazhuo_shop_security_BackAuthority" items="${backauthoritys}" z="p0dX92fXlyAnh+4StnDM5zFVhrE=">
+        <table:table data="${backauthoritys}" id="l_com_huazhuo_shop_security_BackAuthority" path="/backauthoritys" z="hwZCK1eiIU7k25KVP99bBn0AnP0=">
+            <table:column id="c_com_huazhuo_shop_security_BackAuthority_authorityName" property="authorityName" z="BQXtreujoQ5SKqSgtffZi/cvUxM="/>
+            <table:column id="c_com_huazhuo_shop_security_BackAuthority_name" property="name" z="oeyBg2bcUZAZcz6oAj+ZzgLGwwQ="/>
+        </table:table>
+    </page:list>
+</div>

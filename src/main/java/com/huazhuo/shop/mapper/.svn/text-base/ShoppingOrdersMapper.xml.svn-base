@@ -1,0 +1,597 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd" >
+<mapper namespace="com.huazhuo.shop.mapper.ShoppingOrdersMapper" >
+  <resultMap id="BaseResultMap" type="com.huazhuo.shop.model.ShoppingOrders" >
+    <id column="id" property="id" jdbcType="INTEGER" />
+    <result column="order_number" property="orderNumber" jdbcType="VARCHAR" />
+    <result column="logistics_number" property="logisticsNumber" jdbcType="VARCHAR" />
+    <result column="triple_order_number" property="tripleOrderNumber" jdbcType="VARCHAR" />
+    <result column="order_status" property="orderStatus" jdbcType="INTEGER" />
+    <result column="payment_status" property="paymentStatus" jdbcType="INTEGER" />
+    <result column="buy_couts" property="buyCouts" jdbcType="INTEGER" />
+    <result column="mobile_user_id" property="mobileUserId" jdbcType="INTEGER" />
+    <result column="shopping_product_id" property="shoppingProductId" jdbcType="INTEGER" />
+    <result column="shopping_address_id" property="shoppingAddressId" jdbcType="INTEGER" />
+    <result column="created_at" property="createdAt" jdbcType="TIMESTAMP" />
+    <result column="updated_at" property="updatedAt" jdbcType="TIMESTAMP" />
+    <result column="logistics_company" property="logisticsCompany" jdbcType="VARCHAR" />
+    <result column="order_time" property="orderTime" jdbcType="TIMESTAMP" />
+    <result column="delete_status" property="deleteStatus" jdbcType="INTEGER" />
+    <result column="platform_serial_number" property="platformSerialNumber" jdbcType="VARCHAR" />
+    <result column="collect" property="collect" jdbcType="VARCHAR" />
+    <result column="payed_at" property="payedAt" jdbcType="TIMESTAMP" />
+  </resultMap>
+  <resultMap id="ResultMapWithBLOBs" type="com.huazhuo.shop.model.ShoppingOrders" extends="BaseResultMap" >
+    <result column="remarks" property="remarks" jdbcType="LONGVARCHAR" />
+  </resultMap>
+  <sql id="Example_Where_Clause" >
+    <where >
+      <foreach collection="oredCriteria" item="criteria" separator="or" >
+        <if test="criteria.valid" >
+          <trim prefix="(" suffix=")" prefixOverrides="and" >
+            <foreach collection="criteria.criteria" item="criterion" >
+              <choose >
+                <when test="criterion.noValue" >
+                  and ${criterion.condition}
+                </when>
+                <when test="criterion.singleValue" >
+                  and ${criterion.condition} #{criterion.value}
+                </when>
+                <when test="criterion.betweenValue" >
+                  and ${criterion.condition} #{criterion.value} and #{criterion.secondValue}
+                </when>
+                <when test="criterion.listValue" >
+                  and ${criterion.condition}
+                  <foreach collection="criterion.value" item="listItem" open="(" close=")" separator="," >
+                    #{listItem}
+                  </foreach>
+                </when>
+              </choose>
+            </foreach>
+          </trim>
+        </if>
+      </foreach>
+    </where>
+  </sql>
+  <sql id="Update_By_Example_Where_Clause" >
+    <where >
+      <foreach collection="example.oredCriteria" item="criteria" separator="or" >
+        <if test="criteria.valid" >
+          <trim prefix="(" suffix=")" prefixOverrides="and" >
+            <foreach collection="criteria.criteria" item="criterion" >
+              <choose >
+                <when test="criterion.noValue" >
+                  and ${criterion.condition}
+                </when>
+                <when test="criterion.singleValue" >
+                  and ${criterion.condition} #{criterion.value}
+                </when>
+                <when test="criterion.betweenValue" >
+                  and ${criterion.condition} #{criterion.value} and #{criterion.secondValue}
+                </when>
+                <when test="criterion.listValue" >
+                  and ${criterion.condition}
+                  <foreach collection="criterion.value" item="listItem" open="(" close=")" separator="," >
+                    #{listItem}
+                  </foreach>
+                </when>
+              </choose>
+            </foreach>
+          </trim>
+        </if>
+      </foreach>
+    </where>
+  </sql>
+  <sql id="Base_Column_List" >
+    id, order_number, logistics_number, triple_order_number, order_status, payment_status, 
+    buy_couts, mobile_user_id, shopping_product_id, shopping_address_id, created_at, 
+    updated_at, logistics_company, order_time, delete_status, platform_serial_number, 
+    collect, payed_at
+  </sql>
+  <sql id="Blob_Column_List" >
+    remarks
+  </sql>
+  <select id="selectByExampleWithBLOBs" resultMap="ResultMapWithBLOBs" parameterType="com.huazhuo.shop.model.ShoppingOrdersExample" >
+    select
+    <if test="distinct" >
+      distinct
+    </if>
+    <include refid="Base_Column_List" />
+    ,
+    <include refid="Blob_Column_List" />
+    from shopping_orders
+    <if test="_parameter != null" >
+      <include refid="Example_Where_Clause" />
+    </if>
+    <if test="orderByClause != null" >
+      order by ${orderByClause}
+    </if>
+  </select>
+  <select id="selectByExample" resultMap="BaseResultMap" parameterType="com.huazhuo.shop.model.ShoppingOrdersExample" >
+    select
+    <if test="distinct" >
+      distinct
+    </if>
+    <include refid="Base_Column_List" />
+    from shopping_orders
+    <if test="_parameter != null" >
+      <include refid="Example_Where_Clause" />
+    </if>
+    <if test="orderByClause != null" >
+      order by ${orderByClause}
+    </if>
+  </select>
+  <select id="selectByPrimaryKey" resultMap="ResultMapWithBLOBs" parameterType="java.lang.Integer" >
+    select 
+    <include refid="Base_Column_List" />
+    ,
+    <include refid="Blob_Column_List" />
+    from shopping_orders
+    where id = #{id,jdbcType=INTEGER}
+  </select>
+  <delete id="deleteByPrimaryKey" parameterType="java.lang.Integer" >
+    delete from shopping_orders
+    where id = #{id,jdbcType=INTEGER}
+  </delete>
+  <delete id="deleteByExample" parameterType="com.huazhuo.shop.model.ShoppingOrdersExample" >
+    delete from shopping_orders
+    <if test="_parameter != null" >
+      <include refid="Example_Where_Clause" />
+    </if>
+  </delete>
+  <insert id="insert" parameterType="com.huazhuo.shop.model.ShoppingOrders" >
+    insert into shopping_orders (id, order_number, logistics_number, 
+      triple_order_number, order_status, payment_status, 
+      buy_couts, mobile_user_id, shopping_product_id, 
+      shopping_address_id, created_at, updated_at, 
+      logistics_company, order_time, delete_status, 
+      platform_serial_number, collect, payed_at, 
+      remarks)
+    values (#{id,jdbcType=INTEGER}, #{orderNumber,jdbcType=VARCHAR}, #{logisticsNumber,jdbcType=VARCHAR}, 
+      #{tripleOrderNumber,jdbcType=VARCHAR}, #{orderStatus,jdbcType=INTEGER}, #{paymentStatus,jdbcType=INTEGER}, 
+      #{buyCouts,jdbcType=INTEGER}, #{mobileUserId,jdbcType=INTEGER}, #{shoppingProductId,jdbcType=INTEGER}, 
+      #{shoppingAddressId,jdbcType=INTEGER}, #{createdAt,jdbcType=TIMESTAMP}, #{updatedAt,jdbcType=TIMESTAMP}, 
+      #{logisticsCompany,jdbcType=VARCHAR}, #{orderTime,jdbcType=TIMESTAMP}, #{deleteStatus,jdbcType=INTEGER}, 
+      #{platformSerialNumber,jdbcType=VARCHAR}, #{collect,jdbcType=VARCHAR}, #{payedAt,jdbcType=TIMESTAMP}, 
+      #{remarks,jdbcType=LONGVARCHAR})
+  </insert>
+  <insert id="insertSelective" parameterType="com.huazhuo.shop.model.ShoppingOrders" >
+    insert into shopping_orders
+    <trim prefix="(" suffix=")" suffixOverrides="," >
+      <if test="id != null" >
+        id,
+      </if>
+      <if test="orderNumber != null" >
+        order_number,
+      </if>
+      <if test="logisticsNumber != null" >
+        logistics_number,
+      </if>
+      <if test="tripleOrderNumber != null" >
+        triple_order_number,
+      </if>
+      <if test="orderStatus != null" >
+        order_status,
+      </if>
+      <if test="paymentStatus != null" >
+        payment_status,
+      </if>
+      <if test="buyCouts != null" >
+        buy_couts,
+      </if>
+      <if test="mobileUserId != null" >
+        mobile_user_id,
+      </if>
+      <if test="shoppingProductId != null" >
+        shopping_product_id,
+      </if>
+      <if test="shoppingAddressId != null" >
+        shopping_address_id,
+      </if>
+      <if test="createdAt != null" >
+        created_at,
+      </if>
+      <if test="updatedAt != null" >
+        updated_at,
+      </if>
+      <if test="logisticsCompany != null" >
+        logistics_company,
+      </if>
+      <if test="orderTime != null" >
+        order_time,
+      </if>
+      <if test="deleteStatus != null" >
+        delete_status,
+      </if>
+      <if test="platformSerialNumber != null" >
+        platform_serial_number,
+      </if>
+      <if test="collect != null" >
+        collect,
+      </if>
+      <if test="payedAt != null" >
+        payed_at,
+      </if>
+      <if test="remarks != null" >
+        remarks,
+      </if>
+    </trim>
+    <trim prefix="values (" suffix=")" suffixOverrides="," >
+      <if test="id != null" >
+        #{id,jdbcType=INTEGER},
+      </if>
+      <if test="orderNumber != null" >
+        #{orderNumber,jdbcType=VARCHAR},
+      </if>
+      <if test="logisticsNumber != null" >
+        #{logisticsNumber,jdbcType=VARCHAR},
+      </if>
+      <if test="tripleOrderNumber != null" >
+        #{tripleOrderNumber,jdbcType=VARCHAR},
+      </if>
+      <if test="orderStatus != null" >
+        #{orderStatus,jdbcType=INTEGER},
+      </if>
+      <if test="paymentStatus != null" >
+        #{paymentStatus,jdbcType=INTEGER},
+      </if>
+      <if test="buyCouts != null" >
+        #{buyCouts,jdbcType=INTEGER},
+      </if>
+      <if test="mobileUserId != null" >
+        #{mobileUserId,jdbcType=INTEGER},
+      </if>
+      <if test="shoppingProductId != null" >
+        #{shoppingProductId,jdbcType=INTEGER},
+      </if>
+      <if test="shoppingAddressId != null" >
+        #{shoppingAddressId,jdbcType=INTEGER},
+      </if>
+      <if test="createdAt != null" >
+        #{createdAt,jdbcType=TIMESTAMP},
+      </if>
+      <if test="updatedAt != null" >
+        #{updatedAt,jdbcType=TIMESTAMP},
+      </if>
+      <if test="logisticsCompany != null" >
+        #{logisticsCompany,jdbcType=VARCHAR},
+      </if>
+      <if test="orderTime != null" >
+        #{orderTime,jdbcType=TIMESTAMP},
+      </if>
+      <if test="deleteStatus != null" >
+        #{deleteStatus,jdbcType=INTEGER},
+      </if>
+      <if test="platformSerialNumber != null" >
+        #{platformSerialNumber,jdbcType=VARCHAR},
+      </if>
+      <if test="collect != null" >
+        #{collect,jdbcType=VARCHAR},
+      </if>
+      <if test="payedAt != null" >
+        #{payedAt,jdbcType=TIMESTAMP},
+      </if>
+      <if test="remarks != null" >
+        #{remarks,jdbcType=LONGVARCHAR},
+      </if>
+    </trim>
+  </insert>
+  <select id="countByExample" parameterType="com.huazhuo.shop.model.ShoppingOrdersExample" resultType="java.lang.Integer" >
+    select count(*) from shopping_orders
+    <if test="_parameter != null" >
+      <include refid="Example_Where_Clause" />
+    </if>
+  </select>
+  <update id="updateByExampleSelective" parameterType="map" >
+    update shopping_orders
+    <set >
+      <if test="record.id != null" >
+        id = #{record.id,jdbcType=INTEGER},
+      </if>
+      <if test="record.orderNumber != null" >
+        order_number = #{record.orderNumber,jdbcType=VARCHAR},
+      </if>
+      <if test="record.logisticsNumber != null" >
+        logistics_number = #{record.logisticsNumber,jdbcType=VARCHAR},
+      </if>
+      <if test="record.tripleOrderNumber != null" >
+        triple_order_number = #{record.tripleOrderNumber,jdbcType=VARCHAR},
+      </if>
+      <if test="record.orderStatus != null" >
+        order_status = #{record.orderStatus,jdbcType=INTEGER},
+      </if>
+      <if test="record.paymentStatus != null" >
+        payment_status = #{record.paymentStatus,jdbcType=INTEGER},
+      </if>
+      <if test="record.buyCouts != null" >
+        buy_couts = #{record.buyCouts,jdbcType=INTEGER},
+      </if>
+      <if test="record.mobileUserId != null" >
+        mobile_user_id = #{record.mobileUserId,jdbcType=INTEGER},
+      </if>
+      <if test="record.shoppingProductId != null" >
+        shopping_product_id = #{record.shoppingProductId,jdbcType=INTEGER},
+      </if>
+      <if test="record.shoppingAddressId != null" >
+        shopping_address_id = #{record.shoppingAddressId,jdbcType=INTEGER},
+      </if>
+      <if test="record.createdAt != null" >
+        created_at = #{record.createdAt,jdbcType=TIMESTAMP},
+      </if>
+      <if test="record.updatedAt != null" >
+        updated_at = #{record.updatedAt,jdbcType=TIMESTAMP},
+      </if>
+      <if test="record.logisticsCompany != null" >
+        logistics_company = #{record.logisticsCompany,jdbcType=VARCHAR},
+      </if>
+      <if test="record.orderTime != null" >
+        order_time = #{record.orderTime,jdbcType=TIMESTAMP},
+      </if>
+      <if test="record.deleteStatus != null" >
+        delete_status = #{record.deleteStatus,jdbcType=INTEGER},
+      </if>
+      <if test="record.platformSerialNumber != null" >
+        platform_serial_number = #{record.platformSerialNumber,jdbcType=VARCHAR},
+      </if>
+      <if test="record.collect != null" >
+        collect = #{record.collect,jdbcType=VARCHAR},
+      </if>
+      <if test="record.payedAt != null" >
+        payed_at = #{record.payedAt,jdbcType=TIMESTAMP},
+      </if>
+      <if test="record.remarks != null" >
+        remarks = #{record.remarks,jdbcType=LONGVARCHAR},
+      </if>
+    </set>
+    <if test="_parameter != null" >
+      <include refid="Update_By_Example_Where_Clause" />
+    </if>
+  </update>
+  <update id="updateByExampleWithBLOBs" parameterType="map" >
+    update shopping_orders
+    set id = #{record.id,jdbcType=INTEGER},
+      order_number = #{record.orderNumber,jdbcType=VARCHAR},
+      logistics_number = #{record.logisticsNumber,jdbcType=VARCHAR},
+      triple_order_number = #{record.tripleOrderNumber,jdbcType=VARCHAR},
+      order_status = #{record.orderStatus,jdbcType=INTEGER},
+      payment_status = #{record.paymentStatus,jdbcType=INTEGER},
+      buy_couts = #{record.buyCouts,jdbcType=INTEGER},
+      mobile_user_id = #{record.mobileUserId,jdbcType=INTEGER},
+      shopping_product_id = #{record.shoppingProductId,jdbcType=INTEGER},
+      shopping_address_id = #{record.shoppingAddressId,jdbcType=INTEGER},
+      created_at = #{record.createdAt,jdbcType=TIMESTAMP},
+      updated_at = #{record.updatedAt,jdbcType=TIMESTAMP},
+      logistics_company = #{record.logisticsCompany,jdbcType=VARCHAR},
+      order_time = #{record.orderTime,jdbcType=TIMESTAMP},
+      delete_status = #{record.deleteStatus,jdbcType=INTEGER},
+      platform_serial_number = #{record.platformSerialNumber,jdbcType=VARCHAR},
+      collect = #{record.collect,jdbcType=VARCHAR},
+      payed_at = #{record.payedAt,jdbcType=TIMESTAMP},
+      remarks = #{record.remarks,jdbcType=LONGVARCHAR}
+    <if test="_parameter != null" >
+      <include refid="Update_By_Example_Where_Clause" />
+    </if>
+  </update>
+  <update id="updateByExample" parameterType="map" >
+    update shopping_orders
+    set id = #{record.id,jdbcType=INTEGER},
+      order_number = #{record.orderNumber,jdbcType=VARCHAR},
+      logistics_number = #{record.logisticsNumber,jdbcType=VARCHAR},
+      triple_order_number = #{record.tripleOrderNumber,jdbcType=VARCHAR},
+      order_status = #{record.orderStatus,jdbcType=INTEGER},
+      payment_status = #{record.paymentStatus,jdbcType=INTEGER},
+      buy_couts = #{record.buyCouts,jdbcType=INTEGER},
+      mobile_user_id = #{record.mobileUserId,jdbcType=INTEGER},
+      shopping_product_id = #{record.shoppingProductId,jdbcType=INTEGER},
+      shopping_address_id = #{record.shoppingAddressId,jdbcType=INTEGER},
+      created_at = #{record.createdAt,jdbcType=TIMESTAMP},
+      updated_at = #{record.updatedAt,jdbcType=TIMESTAMP},
+      logistics_company = #{record.logisticsCompany,jdbcType=VARCHAR},
+      order_time = #{record.orderTime,jdbcType=TIMESTAMP},
+      delete_status = #{record.deleteStatus,jdbcType=INTEGER},
+      platform_serial_number = #{record.platformSerialNumber,jdbcType=VARCHAR},
+      collect = #{record.collect,jdbcType=VARCHAR},
+      payed_at = #{record.payedAt,jdbcType=TIMESTAMP}
+    <if test="_parameter != null" >
+      <include refid="Update_By_Example_Where_Clause" />
+    </if>
+  </update>
+  <update id="updateByPrimaryKeySelective" parameterType="com.huazhuo.shop.model.ShoppingOrders" >
+    update shopping_orders
+    <set >
+      <if test="orderNumber != null" >
+        order_number = #{orderNumber,jdbcType=VARCHAR},
+      </if>
+      <if test="logisticsNumber != null" >
+        logistics_number = #{logisticsNumber,jdbcType=VARCHAR},
+      </if>
+      <if test="tripleOrderNumber != null" >
+        triple_order_number = #{tripleOrderNumber,jdbcType=VARCHAR},
+      </if>
+      <if test="orderStatus != null" >
+        order_status = #{orderStatus,jdbcType=INTEGER},
+      </if>
+      <if test="paymentStatus != null" >
+        payment_status = #{paymentStatus,jdbcType=INTEGER},
+      </if>
+      <if test="buyCouts != null" >
+        buy_couts = #{buyCouts,jdbcType=INTEGER},
+      </if>
+      <if test="mobileUserId != null" >
+        mobile_user_id = #{mobileUserId,jdbcType=INTEGER},
+      </if>
+      <if test="shoppingProductId != null" >
+        shopping_product_id = #{shoppingProductId,jdbcType=INTEGER},
+      </if>
+      <if test="shoppingAddressId != null" >
+        shopping_address_id = #{shoppingAddressId,jdbcType=INTEGER},
+      </if>
+      <if test="createdAt != null" >
+        created_at = #{createdAt,jdbcType=TIMESTAMP},
+      </if>
+      <if test="updatedAt != null" >
+        updated_at = #{updatedAt,jdbcType=TIMESTAMP},
+      </if>
+      <if test="logisticsCompany != null" >
+        logistics_company = #{logisticsCompany,jdbcType=VARCHAR},
+      </if>
+      <if test="orderTime != null" >
+        order_time = #{orderTime,jdbcType=TIMESTAMP},
+      </if>
+      <if test="deleteStatus != null" >
+        delete_status = #{deleteStatus,jdbcType=INTEGER},
+      </if>
+      <if test="platformSerialNumber != null" >
+        platform_serial_number = #{platformSerialNumber,jdbcType=VARCHAR},
+      </if>
+      <if test="collect != null" >
+        collect = #{collect,jdbcType=VARCHAR},
+      </if>
+      <if test="payedAt != null" >
+        payed_at = #{payedAt,jdbcType=TIMESTAMP},
+      </if>
+      <if test="remarks != null" >
+        remarks = #{remarks,jdbcType=LONGVARCHAR},
+      </if>
+    </set>
+    where id = #{id,jdbcType=INTEGER}
+  </update>
+  <update id="updateByPrimaryKeyWithBLOBs" parameterType="com.huazhuo.shop.model.ShoppingOrders" >
+    update shopping_orders
+    set order_number = #{orderNumber,jdbcType=VARCHAR},
+      logistics_number = #{logisticsNumber,jdbcType=VARCHAR},
+      triple_order_number = #{tripleOrderNumber,jdbcType=VARCHAR},
+      order_status = #{orderStatus,jdbcType=INTEGER},
+      payment_status = #{paymentStatus,jdbcType=INTEGER},
+      buy_couts = #{buyCouts,jdbcType=INTEGER},
+      mobile_user_id = #{mobileUserId,jdbcType=INTEGER},
+      shopping_product_id = #{shoppingProductId,jdbcType=INTEGER},
+      shopping_address_id = #{shoppingAddressId,jdbcType=INTEGER},
+      created_at = #{createdAt,jdbcType=TIMESTAMP},
+      updated_at = #{updatedAt,jdbcType=TIMESTAMP},
+      logistics_company = #{logisticsCompany,jdbcType=VARCHAR},
+      order_time = #{orderTime,jdbcType=TIMESTAMP},
+      delete_status = #{deleteStatus,jdbcType=INTEGER},
+      platform_serial_number = #{platformSerialNumber,jdbcType=VARCHAR},
+      collect = #{collect,jdbcType=VARCHAR},
+      payed_at = #{payedAt,jdbcType=TIMESTAMP},
+      remarks = #{remarks,jdbcType=LONGVARCHAR}
+    where id = #{id,jdbcType=INTEGER}
+  </update>
+  <update id="updateByPrimaryKey" parameterType="com.huazhuo.shop.model.ShoppingOrders" >
+    update shopping_orders
+    set order_number = #{orderNumber,jdbcType=VARCHAR},
+      logistics_number = #{logisticsNumber,jdbcType=VARCHAR},
+      triple_order_number = #{tripleOrderNumber,jdbcType=VARCHAR},
+      order_status = #{orderStatus,jdbcType=INTEGER},
+      payment_status = #{paymentStatus,jdbcType=INTEGER},
+      buy_couts = #{buyCouts,jdbcType=INTEGER},
+      mobile_user_id = #{mobileUserId,jdbcType=INTEGER},
+      shopping_product_id = #{shoppingProductId,jdbcType=INTEGER},
+      shopping_address_id = #{shoppingAddressId,jdbcType=INTEGER},
+      created_at = #{createdAt,jdbcType=TIMESTAMP},
+      updated_at = #{updatedAt,jdbcType=TIMESTAMP},
+      logistics_company = #{logisticsCompany,jdbcType=VARCHAR},
+      order_time = #{orderTime,jdbcType=TIMESTAMP},
+      delete_status = #{deleteStatus,jdbcType=INTEGER},
+      platform_serial_number = #{platformSerialNumber,jdbcType=VARCHAR},
+      collect = #{collect,jdbcType=VARCHAR},
+      payed_at = #{payedAt,jdbcType=TIMESTAMP}
+    where id = #{id,jdbcType=INTEGER}
+  </update>
+  
+  <sql id="where">
+<where>
+1=1 
+  <if test="uuid != null">AND UUID=#{uuid}</if>
+  <if test="name != null">AND NAME=#{name}</if>
+  <if test="code != null">AND CODE=#{code}</if>
+  <if test="branchs != null and branchs.length>0">
+  AND BRANCH in 
+  <foreach collection="branchs" index="index" item="item" open="(" separator="," close=")">  
+            #{item}   
+    </foreach>
+  </if>
+</where>
+</sql>
+  
+  <!-- 订单查询 -->
+  <select id="findShopOrdersList" parameterType="map" resultType="map">
+     SELECT sos.id,sos.order_number,sos.order_status,sos.order_time,sos.att1,sos.att2,sos.collect,sos.is_return_succ,sos.is_return,
+     sos.address,sor.audit,sor.shop_order_retrun_type,date_format(sos.order_time,'%Y-%m-%d %H:%i:%S') orderTimeStr,
+     date_format(sos.payed_at,'%Y-%m-%d %H:%i:%S') payedAt,sol.product_name,sol.product_property, sol.price,
+     IFNULL(sol.buy_couts,0) buy_couts ,sos.remarks
+  	 FROM  shop_order_list sol LEFT JOIN shop_orders sos ON sol.shop_order_id = sos.id 
+  	 LEFT JOIN shop_order_retrun sor ON sos.id = sor.shop_order_id   WHERE sos.shop_id =#{shopId}
+      <if test="type!=null and  type==4"> 
+    	 AND sos.order_status IN ('4','6')
+       </if>
+      <if test="type!=null and  type==5"> 
+    	 AND sos.order_status IN ('5','7','8')
+       </if>
+        <if test="type!=null and  type==1"> 
+    	 AND sos.order_status=#{type}
+       </if>
+        <if test="type!=null and  type==2"> 
+    	 AND sos.order_status=#{type}
+       </if>
+       <if test="type!=null and  type==3"> 
+    	 AND sos.order_status=#{type}
+       </if>
+     <if test="selectDate!=null and  selectDate=='orderTime' ">
+     	<if test="postDateStart!=null and  postDateStart!='' ">
+     		AND unix_timestamp(date_format(sos.order_time,'%Y-%m-%d')) >= unix_timestamp(#{postDateStart})
+     	</if>
+     	<if test="postDateEnd!=null and  postDateEnd!='' ">
+     		AND unix_timestamp(date_format(sos.order_time,'%Y-%m-%d')) &lt;= unix_timestamp(#{postDateEnd})
+     	</if>
+     </if>
+      <if test="selectDate!=null and  selectDate=='payedAt' ">
+     	<if test="postDateStart!=null and  postDateStart!='' ">
+     		AND unix_timestamp(date_format(sos.payed_at,'%Y-%m-%d')) >= unix_timestamp(#{postDateStart})
+     	</if>
+     	<if test="postDateEnd!=null and  postDateEnd!='' ">
+     		AND unix_timestamp(date_format(sos.payed_at,'%Y-%m-%d')) &lt;= unix_timestamp(#{postDateEnd})
+     	</if>
+     </if>
+      <if test="selectDate!=null and  selectDate=='sendTime' ">
+     	<if test="postDateStart!=null and  postDateStart!='' ">
+     		AND unix_timestamp(date_format(sos.send_time,'%Y-%m-%d')) >= unix_timestamp(#{postDateStart})
+     	</if>
+     	<if test="postDateEnd!=null and  postDateEnd!='' ">
+     		AND unix_timestamp(date_format(sos.send_time,'%Y-%m-%d')) &lt;= unix_timestamp(#{postDateEnd})
+     	</if>
+     </if>
+     <if test="inputNumber!=null and  inputNumber=='orderNumber' ">
+     	<if test="postText!=null and  postText!='' ">
+     		AND sos.order_number like '%${postText}%'
+     	</if>
+     </if>
+     <if test="inputNumber!=null and inputNumber=='productName' ">
+     	<if test="postText!=null and postText!='' ">
+     		AND sos.order_number like '%${postText}%'
+     	</if>
+     </if>
+     <if test="inputNumber!=null and inputNumber=='att1' ">
+     	<if test="postText!=null and postText!='' ">
+     		AND sos.att1 like '%${postText}%'
+     	</if>
+     </if>
+     <if test="inputNumber!=null and inputNumber=='att2' ">
+     	<if test="postText!=null and postText!='' ">
+     		AND sos.att2 like '%${postText}%'
+     	</if>
+     </if>
+     ORDER BY sos.order_time DESC
+  </select>
+  <select id="findShopOrdersListDetial" parameterType="string" resultType="map">
+     SELECT product_id,product_name,price,product_property,sum(buy_couts) buy_couts from shop_order_list WHERE shop_order_id=#{orderId} GROUP BY product_id 
+  </select>
+  <select id="findCgReturnGoods" parameterType="integer" resultType="map">
+     SELECT scs.id,scs.return_goods FROM shopping_products sps,shopping_categories  scs WHERE sps.shopping_category_id = scs.id AND sps.id=#{productsId} 
+  </select>
+  <select id="findCategoryId" parameterType="integer" resultType="boolean">
+     SELECT IFNULL(return_goods,0)return_goods FROM shopping_categories WHERE id =#{categoryId} 
+  </select>
+  
+</mapper>

@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE tiles-definitions PUBLIC "-//Apache Software Foundation//DTD Tiles Configuration 2.1//EN" "http://tiles.apache.org/dtds/tiles-config_2_1.dtd">
+<tiles-definitions>
+    <definition extends="default" name="citieses/list">
+        <put-attribute name="body" value="/WEB-INF/views/citieses/list.jspx"/>
+    </definition>
+<definition extends="default" name="citieses/show">
+        <put-attribute name="body" value="/WEB-INF/views/citieses/show.jspx"/>
+    </definition>
+<definition extends="default" name="citieses/create">
+        <put-attribute name="body" value="/WEB-INF/views/citieses/create.jspx"/>
+    </definition>
+<definition extends="default" name="citieses/update">
+        <put-attribute name="body" value="/WEB-INF/views/citieses/update.jspx"/>
+    </definition>
+</tiles-definitions>

@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<div xmlns:jsp="http://java.sun.com/JSP/Page" xmlns:page="urn:jsptagdir:/WEB-INF/tags/form" xmlns:table="urn:jsptagdir:/WEB-INF/tags/form/fields" version="2.0">
+    <jsp:directive.page contentType="text/html;charset=UTF-8"/>
+    <jsp:output omit-xml-declaration="yes"/>
+    <page:list id="pl_com_huazhuo_shop_domain_ShopFreightTemplateDetail" items="${shopfreighttemplatedetails}" z="ZntEzlnEEErr6RZcp1uErDp8Bcs=">
+        <table:table data="${shopfreighttemplatedetails}" id="l_com_huazhuo_shop_domain_ShopFreightTemplateDetail" path="/shopfreighttemplatedetails" z="QziUPVQbHXOkun+6ryo20l6ZI3o=">
+            <table:column id="c_com_huazhuo_shop_domain_ShopFreightTemplateDetail_count" property="count" z="ulN75gNSPIi5E12Py3uKDMek/6g="/>
+            <table:column id="c_com_huazhuo_shop_domain_ShopFreightTemplateDetail_freight" property="freight" z="cv5bHqPfqjy4SMVE4qhVEa+6jzY="/>
+            <table:column id="c_com_huazhuo_shop_domain_ShopFreightTemplateDetail_addCount" property="addCount" z="kkDePLELh8q8n+gW0vrBy2Kyy3c="/>
+            <table:column id="c_com_huazhuo_shop_domain_ShopFreightTemplateDetail_addFreight" property="addFreight" z="oMmLJ7G8Lm6SaH/UQSlhxLmcKRE="/>
+            <table:column id="c_com_huazhuo_shop_domain_ShopFreightTemplateDetail_shopFreightTemplate" property="shopFreightTemplate" z="K8a7FvxxQdgfH8pup0jBpbbrr/M="/>
+        </table:table>
+    </page:list>
+</div>

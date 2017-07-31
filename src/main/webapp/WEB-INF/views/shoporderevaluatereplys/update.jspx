@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<div xmlns:field="urn:jsptagdir:/WEB-INF/tags/form/fields" xmlns:form="urn:jsptagdir:/WEB-INF/tags/form" xmlns:jsp="http://java.sun.com/JSP/Page" version="2.0">
+    <jsp:directive.page contentType="text/html;charset=UTF-8"/>
+    <jsp:output omit-xml-declaration="yes"/>
+    <form:update id="fu_com_huazhuo_shop_domain_ShopOrderEvaluateReply" modelAttribute="shopOrderEvaluateReply" path="/shoporderevaluatereplys" versionField="Version" z="Q79hfVUIz6Aj3j3nZ75vlAqXseI=">
+        <field:input field="content" id="c_com_huazhuo_shop_domain_ShopOrderEvaluateReply_content" z="qN3TkTP8QkKnsT6AYmA7m8LG5pM="/>
+        <field:select field="shopOrderEvaluate" id="c_com_huazhuo_shop_domain_ShopOrderEvaluateReply_shopOrderEvaluate" itemValue="id" items="${shoporderevaluates}" path="/shoporderevaluates" z="8Tjq3IrenUSYe8kKmJdN3vo2/b4="/>
+        <field:datetime dateTimePattern="${shopOrderEvaluateReply_createdat_date_format}" field="createdAt" id="c_com_huazhuo_shop_domain_ShopOrderEvaluateReply_createdAt" z="4Xc7G5dy0dIDvTxx3LTAcrM8ap0="/>
+        <field:datetime dateTimePattern="${shopOrderEvaluateReply_updatedat_date_format}" field="updatedAt" id="c_com_huazhuo_shop_domain_ShopOrderEvaluateReply_updatedAt" z="jzAJW2I2v8nLHnvTXhI55Nw2u2Y="/>
+    </form:update>
+</div>

@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<div xmlns:field="urn:jsptagdir:/WEB-INF/tags/form/fields" xmlns:jsp="http://java.sun.com/JSP/Page" xmlns:page="urn:jsptagdir:/WEB-INF/tags/form" version="2.0">
+    <jsp:directive.page contentType="text/html;charset=UTF-8"/>
+    <jsp:output omit-xml-declaration="yes"/>
+    <page:show id="ps_com_huazhuo_shop_domain_ShopFreightTemplateDetailCity" object="${shopfreighttemplatedetailcity}" path="/shopfreighttemplatedetailcitys" z="d3NgtaYsnRC6wT0WoSmWvzhzQGY=">
+        <field:display field="provinces" id="s_com_huazhuo_shop_domain_ShopFreightTemplateDetailCity_provinces" object="${shopfreighttemplatedetailcity}" z="XsDfOmYt5MdsWVeG7pQvgzmV/xQ="/>
+        <field:display field="cities" id="s_com_huazhuo_shop_domain_ShopFreightTemplateDetailCity_cities" object="${shopfreighttemplatedetailcity}" z="lfQmW6rV8T5tFDhNVMNQU2aV1Y0="/>
+        <field:display field="areas" id="s_com_huazhuo_shop_domain_ShopFreightTemplateDetailCity_areas" object="${shopfreighttemplatedetailcity}" z="+b5XYCht0qitGYD3CIOe1BZmwZ8="/>
+        <field:display field="shopFreightTemplateDetail" id="s_com_huazhuo_shop_domain_ShopFreightTemplateDetailCity_shopFreightTemplateDetail" object="${shopfreighttemplatedetailcity}" z="OHxtgMvXB8zw/O5dy23PHbY5MBg="/>
+    </page:show>
+</div>

@@ -1,0 +1,53 @@
+td{line-height:38px;}
+.registerform .inputxt,
+.registerform textarea{
+	padding:10px;
+	width:245px;
+}
+.Validform_checktip{display:none; line-height:38px; height:38px;}
+.Validform_wrong,
+.Validform_right,
+.Validform_loading{display:block;}
+.info{
+	margin-left:8px; 
+	border:1px solid #ccc; 
+	padding:10px 5px 8px 7px; 
+	color:#666; 
+	float:left;
+	position:relative;
+	display:none;
+	line-height:20px;
+}
+.dec {
+    top: 9px;
+    display: block;
+    height: 17px;
+    overflow: hidden;
+    position: absolute;
+    left: -8px;
+    width: 8px;
+}
+.dec s {
+    font-family: simsun;
+    font-size: 16px;
+    height: 19px;
+    left: 0;
+    line-height: 21px;
+    position: absolute;
+    text-decoration: none;
+    top: 0;
+    width: 17px;
+}
+.dec .dec1 {
+    color: #ccc;
+}
+.dec .dec2 {
+    color: #fff;
+    left: 1px;
+}.Validform_error{background-color: #ffe7e7}
+.Validform_wrong {
+    color: red;
+    padding-left: 20px;
+    white-space: nowrap;
+    background: url(../images/error.png) no-repeat left center;
+}

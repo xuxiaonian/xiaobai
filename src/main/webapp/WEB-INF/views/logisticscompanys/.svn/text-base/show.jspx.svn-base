@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<div xmlns:field="urn:jsptagdir:/WEB-INF/tags/form/fields" xmlns:jsp="http://java.sun.com/JSP/Page" xmlns:page="urn:jsptagdir:/WEB-INF/tags/form" version="2.0">
+    <jsp:directive.page contentType="text/html;charset=UTF-8"/>
+    <jsp:output omit-xml-declaration="yes"/>
+    <page:show id="ps_com_huazhuo_shop_enumtype_LogisticsCompany" object="${logisticscompany}" path="/logisticscompanys" z="UbJJRHJWB67s6xIsGYqKahKrkyM=">
+        <field:display field="logisticsCode" id="s_com_huazhuo_shop_enumtype_LogisticsCompany_logisticsCode" object="${logisticscompany}" z="58AtAm41z2V89tS4jofVkjDIJlY="/>
+        <field:display field="logisticsName" id="s_com_huazhuo_shop_enumtype_LogisticsCompany_logisticsName" object="${logisticscompany}" z="qSXX1LIYcHw750WxzuBZWj794Ds="/>
+        <field:display field="companyType" id="s_com_huazhuo_shop_enumtype_LogisticsCompany_companyType" object="${logisticscompany}" z="TpFeKWbpOiJHXnISNRT1c3KcZzw="/>
+        <field:display date="true" dateTimePattern="${logisticsCompany_createdat_date_format}" field="createdAt" id="s_com_huazhuo_shop_enumtype_LogisticsCompany_createdAt" object="${logisticscompany}" z="wI73eEn5X6vVEMfdbaohqn+3l/w="/>
+        <field:display date="true" dateTimePattern="${logisticsCompany_updatedat_date_format}" field="updatedAt" id="s_com_huazhuo_shop_enumtype_LogisticsCompany_updatedAt" object="${logisticscompany}" z="EHeonK4si/7xT/PKieDDiX8zoio="/>
+        <field:display field="att1" id="s_com_huazhuo_shop_enumtype_LogisticsCompany_att1" object="${logisticscompany}" z="TGi1K156/QGJ1tdn2lj7mHZq2Uo="/>
+        <field:display field="att2" id="s_com_huazhuo_shop_enumtype_LogisticsCompany_att2" object="${logisticscompany}" z="fzf0w3cGDThIL7S6Dzsje+b92rU="/>
+    </page:show>
+</div>

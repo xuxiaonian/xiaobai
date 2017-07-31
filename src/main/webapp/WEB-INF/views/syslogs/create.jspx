@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<div xmlns:c="http://java.sun.com/jsp/jstl/core" xmlns:field="urn:jsptagdir:/WEB-INF/tags/form/fields" xmlns:form="urn:jsptagdir:/WEB-INF/tags/form" xmlns:jsp="http://java.sun.com/JSP/Page" xmlns:spring="http://www.springframework.org/tags" version="2.0">
+    <jsp:directive.page contentType="text/html;charset=UTF-8"/>
+    <jsp:output omit-xml-declaration="yes"/>
+    <form:create id="fc_com_huazhuo_shop_log_SysLog" modelAttribute="sysLog" path="/syslogs" render="${empty dependencies}" z="zfJgIsH7/x+AHAnhUoWcQ/fABtg=">
+        <field:input field="content" id="c_com_huazhuo_shop_log_SysLog_content" z="Pb2dOdXus+A3VP03Tke09XFQdzE="/>
+        <field:input field="processId" id="c_com_huazhuo_shop_log_SysLog_processId" validationMessageCode="field_invalid_integer" z="vCFZWmILEHwhucI4MW1rAb7SA6E="/>
+        <field:input field="ip" id="c_com_huazhuo_shop_log_SysLog_ip" z="IFgLo/gbVF8+5Ikh0Qcu2B7PUmM="/>
+        <field:select field="sysLogType" id="c_com_huazhuo_shop_log_SysLog_sysLogType" itemValue="id" items="${syslogtypes}" path="/syslogtypes" z="phrHE0oo8vt6KDYzrrV51Rs49OA="/>
+        <field:datetime dateTimePattern="${sysLog_createdat_date_format}" field="createdAt" id="c_com_huazhuo_shop_log_SysLog_createdAt" z="npYawyX7TmuoeBMs6IplMksRvmU="/>
+        <field:datetime dateTimePattern="${sysLog_updatedat_date_format}" field="updatedAt" id="c_com_huazhuo_shop_log_SysLog_updatedAt" z="jsfsSJ6c7G8WLC3IQWh2jtoHkEA="/>
+        <field:checkbox field="state" id="c_com_huazhuo_shop_log_SysLog_state" z="CdkiZJ/lvViGSCQMKFUg9SWIa+A="/>
+        <field:input field="operator" id="c_com_huazhuo_shop_log_SysLog_operator" z="8f7E0ywCtkBh2P4y5ie63IJ6fjs="/>
+    </form:create>
+    <form:dependency dependencies="${dependencies}" id="d_com_huazhuo_shop_log_SysLog" render="${not empty dependencies}" z="XjZRXsjTu9SiW6Vfjk0vJruLQKM="/>
+</div>

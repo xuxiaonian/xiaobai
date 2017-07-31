@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<div xmlns:field="urn:jsptagdir:/WEB-INF/tags/form/fields" xmlns:form="urn:jsptagdir:/WEB-INF/tags/form" xmlns:jsp="http://java.sun.com/JSP/Page" version="2.0">
+    <jsp:directive.page contentType="text/html;charset=UTF-8"/>
+    <jsp:output omit-xml-declaration="yes"/>
+    <form:update id="fu_com_huazhuo_shop_domain_Shops" modelAttribute="shops" path="/shopses" versionField="Version" z="KW/SRpLZ2nS1oB7uXaCFSPdYLiY=">
+        <field:input field="name" id="c_com_huazhuo_shop_domain_Shops_name" z="9w0XKIQCKTM3KKhBdDwWtSSVcgY="/>
+        <field:input field="url" id="c_com_huazhuo_shop_domain_Shops_url" z="O0bXQXhFfTka5qBc5jVMCgHQ+UU="/>
+        <field:input field="content" id="c_com_huazhuo_shop_domain_Shops_content" z="wFrgINjNfeJBZq96hVn35HxOrkY="/>
+        <field:datetime dateTimePattern="${shops_createdat_date_format}" field="createdAt" id="c_com_huazhuo_shop_domain_Shops_createdAt" z="EQGxHBabhS+3fV9LtZgKq8mkbGU="/>
+        <field:datetime dateTimePattern="${shops_updatedat_date_format}" field="updatedAt" id="c_com_huazhuo_shop_domain_Shops_updatedAt" z="ZOWDTwYNO0sPGSMXpCShPOBlKoc="/>
+        <field:input field="address" id="c_com_huazhuo_shop_domain_Shops_address" z="iY9ejxeEHw73Mk5iNx+bcuaO/AM="/>
+        <field:input field="phone" id="c_com_huazhuo_shop_domain_Shops_phone" z="MUsDddArgMB1JpBzQe4jC2EOlOQ="/>
+        <field:input field="startYear" id="c_com_huazhuo_shop_domain_Shops_startYear" z="8JMOwAlDIjJssF7dforRSdB6Joc="/>
+        <field:input field="brand" id="c_com_huazhuo_shop_domain_Shops_brand" z="zwGa/1heNO1Fcz11bn1emZunLBo="/>
+        <field:input field="openTime" id="c_com_huazhuo_shop_domain_Shops_openTime" z="GG4cR9nuLkM0u8bRjsLLVUYtHHY="/>
+        <field:input field="cost" id="c_com_huazhuo_shop_domain_Shops_cost" z="4G3uU1Ui395514iyViJnxMI25MQ="/>
+        <field:input field="lon" id="c_com_huazhuo_shop_domain_Shops_lon" z="gdk9MUxl/bgcYFLMC5M8Dd5Q1B8="/>
+        <field:input field="lat" id="c_com_huazhuo_shop_domain_Shops_lat" z="gYWjpAZal2snbqT3oY/aCmV+GBc="/>
+        <field:select field="company" id="c_com_huazhuo_shop_domain_Shops_company" itemValue="id" items="${companys}" path="/companys" z="HuI7DfwAJtZLnhXX+G6Lt8EX6nc="/>
+        <field:select field="cities" id="c_com_huazhuo_shop_domain_Shops_cities" itemValue="id" items="${citieses}" path="/citieses" z="5Y1aFWhWDtkgnclCe934016YgFA="/>
+        <field:input field="persion" id="c_com_huazhuo_shop_domain_Shops_persion" z="G87yAnwQiLotYnQ0c/g15EP/3B0="/>
+        <field:input field="servicePhone" id="c_com_huazhuo_shop_domain_Shops_servicePhone" z="iXmx6NzHHW7WTOZgBPSuaIfGlIU="/>
+    </form:update>
+</div>

@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<div xmlns:field="urn:jsptagdir:/WEB-INF/tags/form/fields" xmlns:form="urn:jsptagdir:/WEB-INF/tags/form" xmlns:jsp="http://java.sun.com/JSP/Page" version="2.0">
+    <jsp:directive.page contentType="text/html;charset=UTF-8"/>
+    <jsp:output omit-xml-declaration="yes"/>
+    <form:update id="fu_com_huazhuo_shop_security_BackGroupAuthority" modelAttribute="backGroupAuthority" path="/backgroupauthoritys" versionField="Version" z="xZD7UzzM6CWZaI6GxnbY/PKnH7M=">
+        <field:select field="permissionGroup" id="c_com_huazhuo_shop_security_BackGroupAuthority_permissionGroup" itemValue="id" items="${backgroupses}" path="/backgroupses" required="true" z="e0TibOf5mVoghMY7NvzGhAhXIjE="/>
+        <field:select field="authority" id="c_com_huazhuo_shop_security_BackGroupAuthority_authority" itemValue="id" items="${backauthoritys}" path="/backauthoritys" required="true" z="sex1Ow9KTQCOUOscHpg4HvYhXmY="/>
+    </form:update>
+</div>

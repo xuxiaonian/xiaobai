@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<div xmlns:jsp="http://java.sun.com/JSP/Page" xmlns:page="urn:jsptagdir:/WEB-INF/tags/form" xmlns:table="urn:jsptagdir:/WEB-INF/tags/form/fields" version="2.0">
+    <jsp:directive.page contentType="text/html;charset=UTF-8"/>
+    <jsp:output omit-xml-declaration="yes"/>
+    <page:list id="pl_com_huazhuo_shop_city_Areas" items="${areases}" z="9IorKwZVnIzj7YinKo0yp09fUcY=">
+        <table:table data="${areases}" id="l_com_huazhuo_shop_city_Areas" path="/areases" z="o4djPx4TfHXyJ1cCZtUD5YBWHBU=">
+            <table:column id="c_com_huazhuo_shop_city_Areas_cityId" property="cityId" z="BlYLYwR1o1eYpJIj9tuLZ0gBXtY="/>
+            <table:column id="c_com_huazhuo_shop_city_Areas_cityName" property="cityName" z="XfSAxJ6SdPu8BQiW8DWTygyqWoQ="/>
+            <table:column id="c_com_huazhuo_shop_city_Areas_areaName" property="areaName" z="cE9yLNpPCNFUNayuvD0IHedAYOE="/>
+            <table:column id="c_com_huazhuo_shop_city_Areas_provinceId" property="provinceId" z="VHEi5CG1483mO5r5RXgcyLgYabY="/>
+            <table:column id="c_com_huazhuo_shop_city_Areas_spell" property="spell" z="MPXm9PITQqr746iKdqrtNluh/S0="/>
+        </table:table>
+    </page:list>
+</div>

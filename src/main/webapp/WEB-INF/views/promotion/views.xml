@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE tiles-definitions PUBLIC "-//Apache Software Foundation//DTD Tiles Configuration 2.1//EN" "http://tiles.apache.org/dtds/tiles-config_2_1.dtd">
+<tiles-definitions>
+
+  <definition extends="default" name="promotion/list">
+        <put-attribute name="body" value="/WEB-INF/views/promotion/list.jsp"/>
+    </definition>
+  <definition extends="default" name="promotion/add">
+        <put-attribute name="body" value="/WEB-INF/views/promotion/add.jsp"/>
+    </definition>
+     <definition extends="default" name="promotion/update">
+        <put-attribute name="body" value="/WEB-INF/views/promotion/update.jsp"/>
+    </definition>
+     <definition extends="default" name="promotion/look">
+        <put-attribute name="body" value="/WEB-INF/views/promotion/look.jsp"/>
+    </definition>
+</tiles-definitions>

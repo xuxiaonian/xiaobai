@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<div xmlns:field="urn:jsptagdir:/WEB-INF/tags/form/fields" xmlns:jsp="http://java.sun.com/JSP/Page" xmlns:page="urn:jsptagdir:/WEB-INF/tags/form" version="2.0">
+    <jsp:directive.page contentType="text/html;charset=UTF-8"/>
+    <jsp:output omit-xml-declaration="yes"/>
+    <page:show id="ps_com_huazhuo_shop_domain_ShopFastMail" object="${shopfastmail}" path="/shopfastmails" z="457XqqzLUQBeOBMV8JForsdndqc=">
+        <field:display field="shopId" id="s_com_huazhuo_shop_domain_ShopFastMail_shopId" object="${shopfastmail}" z="+MDRlU2tHMhPzLryArwpBmU8LuI="/>
+        <field:display field="mailName" id="s_com_huazhuo_shop_domain_ShopFastMail_mailName" object="${shopfastmail}" z="HyZ7XGNUqKNlJQLiRWDe0tU8i8c="/>
+        <field:display field="cost" id="s_com_huazhuo_shop_domain_ShopFastMail_cost" object="${shopfastmail}" z="rQosGMwo/sMgtf9NPRTeprCM0zs="/>
+        <field:display field="defCheck" id="s_com_huazhuo_shop_domain_ShopFastMail_defCheck" object="${shopfastmail}" z="CoynIEyEVZfYZ0ooznbq9eUDTKs="/>
+        <field:display date="true" dateTimePattern="${shopFastMail_createdat_date_format}" field="createdAt" id="s_com_huazhuo_shop_domain_ShopFastMail_createdAt" object="${shopfastmail}" z="yWCjgpCOF0jsCpvEr3d1s1fACkE="/>
+        <field:display date="true" dateTimePattern="${shopFastMail_updatedat_date_format}" field="updatedAt" id="s_com_huazhuo_shop_domain_ShopFastMail_updatedAt" object="${shopfastmail}" z="ecAeCu16it0aNcCIPd2cSBXZI+4="/>
+        <field:display field="att1" id="s_com_huazhuo_shop_domain_ShopFastMail_att1" object="${shopfastmail}" z="rlic3uuA3M3Ne0WHMi5u2rMp62I="/>
+        <field:display field="att2" id="s_com_huazhuo_shop_domain_ShopFastMail_att2" object="${shopfastmail}" z="wBfQZQ/Za6uPhHBKnfx8eDBZuEM="/>
+        <field:display field="att3" id="s_com_huazhuo_shop_domain_ShopFastMail_att3" object="${shopfastmail}" z="Wsu7ieNTVOLDiQuIu4lQ7QhQqms="/>
+        <field:display field="att4" id="s_com_huazhuo_shop_domain_ShopFastMail_att4" object="${shopfastmail}" z="ZKRaYVMQkLvjfPa9liwESLoJpzc="/>
+        <field:display field="att5" id="s_com_huazhuo_shop_domain_ShopFastMail_att5" object="${shopfastmail}" z="swlJtcED2KuevOPDIzOGYf4REBk="/>
+    </page:show>
+</div>

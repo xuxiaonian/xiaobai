@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<div xmlns:field="urn:jsptagdir:/WEB-INF/tags/form/fields" xmlns:jsp="http://java.sun.com/JSP/Page" xmlns:page="urn:jsptagdir:/WEB-INF/tags/form" version="2.0">
+    <jsp:directive.page contentType="text/html;charset=UTF-8"/>
+    <jsp:output omit-xml-declaration="yes"/>
+    <page:show id="ps_com_huazhuo_shop_domain_ShopOrderReturnImg" object="${shoporderreturnimg}" path="/shoporderreturnimgs" z="EWmc9M4Xrl/4gh9YpC/UmjREY88=">
+        <field:display field="imgUrl" id="s_com_huazhuo_shop_domain_ShopOrderReturnImg_imgUrl" object="${shoporderreturnimg}" z="fYKBssp89TP4kxLAK/2KaNYMt3I="/>
+        <field:display date="true" dateTimePattern="${shopOrderReturnImg_createdat_date_format}" field="createdAt" id="s_com_huazhuo_shop_domain_ShopOrderReturnImg_createdAt" object="${shoporderreturnimg}" z="4odptrLtDEEuxkSTGFjuMFbrvcE="/>
+        <field:display date="true" dateTimePattern="${shopOrderReturnImg_updatedat_date_format}" field="updatedAt" id="s_com_huazhuo_shop_domain_ShopOrderReturnImg_updatedAt" object="${shoporderreturnimg}" z="VmSlGRDzFsV5s05qsaPBYda8n7w="/>
+        <field:display field="shopOrderReturnConsultId" id="s_com_huazhuo_shop_domain_ShopOrderReturnImg_shopOrderReturnConsultId" object="${shoporderreturnimg}" z="pSlhnEPsdXKiKQxQ3/wVQYJFpuU="/>
+    </page:show>
+</div>

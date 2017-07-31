@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<div xmlns:field="urn:jsptagdir:/WEB-INF/tags/form/fields" xmlns:jsp="http://java.sun.com/JSP/Page" xmlns:page="urn:jsptagdir:/WEB-INF/tags/form" version="2.0">
+    <jsp:directive.page contentType="text/html;charset=UTF-8"/>
+    <jsp:output omit-xml-declaration="yes"/>
+    <page:show id="ps_com_huazhuo_shop_city_Areas" object="${areas}" path="/areases" z="pPr3+dqdPcWzU5/AxssGc3URNYc=">
+        <field:display field="cityId" id="s_com_huazhuo_shop_city_Areas_cityId" object="${areas}" z="/7cTebvIFI9IaHL946CLjTWWnRM="/>
+        <field:display field="cityName" id="s_com_huazhuo_shop_city_Areas_cityName" object="${areas}" z="kp4ONdUC9Ev0/ehhO5hphzpGOM4="/>
+        <field:display field="areaName" id="s_com_huazhuo_shop_city_Areas_areaName" object="${areas}" z="sZGxifdRPs+QQAUJsE/mXdpVObY="/>
+        <field:display field="provinceId" id="s_com_huazhuo_shop_city_Areas_provinceId" object="${areas}" z="C9AXrOm/BMPJ/TICy8y9AExOfCk="/>
+        <field:display field="spell" id="s_com_huazhuo_shop_city_Areas_spell" object="${areas}" z="EgZd00YccC5y6Ihom0pSE4p0MJQ="/>
+    </page:show>
+</div>

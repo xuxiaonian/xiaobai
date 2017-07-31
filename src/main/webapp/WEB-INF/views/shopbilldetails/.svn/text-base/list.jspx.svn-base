@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<div xmlns:jsp="http://java.sun.com/JSP/Page" xmlns:page="urn:jsptagdir:/WEB-INF/tags/form" xmlns:table="urn:jsptagdir:/WEB-INF/tags/form/fields" version="2.0">
+    <jsp:directive.page contentType="text/html;charset=UTF-8"/>
+    <jsp:output omit-xml-declaration="yes"/>
+    <page:list id="pl_com_huazhuo_shop_bill_ShopBillDetail" items="${shopbilldetails}" z="vq8/xJQOTyEvC+87DWn9wDOSwWg=">
+        <table:table data="${shopbilldetails}" id="l_com_huazhuo_shop_bill_ShopBillDetail" path="/shopbilldetails" z="nNJTBUChi16qH4LUnQgt9JA+bmU=">
+            <table:column id="c_com_huazhuo_shop_bill_ShopBillDetail_shopOrders" property="shopOrders" z="KbruoPc8J5OS9XFaYZn2fPtwhOM="/>
+            <table:column id="c_com_huazhuo_shop_bill_ShopBillDetail_shopBill" property="shopBill" z="W0mmLWE9On71TjrRwdMtK7RC7UE="/>
+            <table:column id="c_com_huazhuo_shop_bill_ShopBillDetail_billEnumDetail" property="billEnumDetail" z="TPeWLMXGmn88nMRV2nyxymsrkz8="/>
+            <table:column id="c_com_huazhuo_shop_bill_ShopBillDetail_orderCost" property="orderCost" z="UY/3pSsYo0beZI6m9booXWdm1Ho="/>
+            <table:column id="c_com_huazhuo_shop_bill_ShopBillDetail_orderSettleCost" property="orderSettleCost" z="WN2vCAwFZgu2RYz+wyurP/PBZO4="/>
+            <table:column id="c_com_huazhuo_shop_bill_ShopBillDetail_isAdjustBill" property="isAdjustBill" z="C6Chay3HgSH40Ylh/weg3/5J9CA="/>
+        </table:table>
+    </page:list>
+</div>

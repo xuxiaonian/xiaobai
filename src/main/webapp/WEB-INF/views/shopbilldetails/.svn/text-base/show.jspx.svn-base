@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<div xmlns:field="urn:jsptagdir:/WEB-INF/tags/form/fields" xmlns:jsp="http://java.sun.com/JSP/Page" xmlns:page="urn:jsptagdir:/WEB-INF/tags/form" version="2.0">
+    <jsp:directive.page contentType="text/html;charset=UTF-8"/>
+    <jsp:output omit-xml-declaration="yes"/>
+    <page:show id="ps_com_huazhuo_shop_bill_ShopBillDetail" object="${shopbilldetail}" path="/shopbilldetails" z="LB+mvuUeWLI57hAp3Afopczrcjg=">
+        <field:display field="shopOrders" id="s_com_huazhuo_shop_bill_ShopBillDetail_shopOrders" object="${shopbilldetail}" z="f7Ufaf1GUhJpG7dp3O+7vE0e6ak="/>
+        <field:display field="shopBill" id="s_com_huazhuo_shop_bill_ShopBillDetail_shopBill" object="${shopbilldetail}" z="iPWkCrCCNjySdaQI2BnPQoVdXJA="/>
+        <field:display field="billEnumDetail" id="s_com_huazhuo_shop_bill_ShopBillDetail_billEnumDetail" object="${shopbilldetail}" z="r1cCJ98XMOcag6nL9rKXM3BR+u4="/>
+        <field:display field="orderCost" id="s_com_huazhuo_shop_bill_ShopBillDetail_orderCost" object="${shopbilldetail}" z="0FUmsJl5OHrh40faKyDer1u4dgE="/>
+        <field:display field="orderSettleCost" id="s_com_huazhuo_shop_bill_ShopBillDetail_orderSettleCost" object="${shopbilldetail}" z="mdBwJcdP32p9dzcaWS3o+hkl/BY="/>
+        <field:display field="isAdjustBill" id="s_com_huazhuo_shop_bill_ShopBillDetail_isAdjustBill" object="${shopbilldetail}" z="bs8pDhmcwfXq39WSKkyxWIIqYwY="/>
+    </page:show>
+</div>

@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<div xmlns:jsp="http://java.sun.com/JSP/Page" xmlns:page="urn:jsptagdir:/WEB-INF/tags/form" xmlns:table="urn:jsptagdir:/WEB-INF/tags/form/fields" version="2.0">
+    <jsp:directive.page contentType="text/html;charset=UTF-8"/>
+    <jsp:output omit-xml-declaration="yes"/>
+    <page:list id="pl_com_huazhuo_shop_domain_ShopOrderEvaluate" items="${shoporderevaluates}" z="ntmrKiakuWK2OHhAuhJMGNBxyt8=">
+        <table:table data="${shoporderevaluates}" id="l_com_huazhuo_shop_domain_ShopOrderEvaluate" path="/shoporderevaluates" z="yH6JeWB02vQ4JznY8IQuR+u6Nto=">
+            <table:column id="c_com_huazhuo_shop_domain_ShopOrderEvaluate_content" property="content" z="LxjM6lG89CtkR0z6wTor/uM8vlQ="/>
+            <table:column id="c_com_huazhuo_shop_domain_ShopOrderEvaluate_grade" property="grade" z="brM1vlos0f8fwNE6m8XtqTtSmC0="/>
+            <table:column date="true" dateTimePattern="${shopOrderEvaluate_createdat_date_format}" id="c_com_huazhuo_shop_domain_ShopOrderEvaluate_createdAt" property="createdAt" z="wWKNEznqyWMGTKxO6duGmG4xSas="/>
+            <table:column date="true" dateTimePattern="${shopOrderEvaluate_updatedat_date_format}" id="c_com_huazhuo_shop_domain_ShopOrderEvaluate_updatedAt" property="updatedAt" z="530cNfPTERunts5C39CtG0SjygQ="/>
+            <table:column id="c_com_huazhuo_shop_domain_ShopOrderEvaluate_mobileUserId" property="mobileUserId" z="+6L2j8wLAiITudkBZgss51oeSts="/>
+            <table:column id="c_com_huazhuo_shop_domain_ShopOrderEvaluate_shoppingProductsId" property="shoppingProductsId" z="5/wa/Zmm/S5OWnTscKNPEGmqYFs="/>
+        </table:table>
+    </page:list>
+</div>

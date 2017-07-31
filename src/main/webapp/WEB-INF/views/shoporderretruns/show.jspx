@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<div xmlns:field="urn:jsptagdir:/WEB-INF/tags/form/fields" xmlns:jsp="http://java.sun.com/JSP/Page" xmlns:page="urn:jsptagdir:/WEB-INF/tags/form" version="2.0">
+    <jsp:directive.page contentType="text/html;charset=UTF-8"/>
+    <jsp:output omit-xml-declaration="yes"/>
+    <page:show id="ps_com_huazhuo_shop_domain_ShopOrderRetrun" object="${shoporderretrun}" path="/shoporderretruns" z="BUfZUJ9mWPmNeb1xSqYHwJAM89s=">
+        <field:display field="returnNumber" id="s_com_huazhuo_shop_domain_ShopOrderRetrun_returnNumber" object="${shoporderretrun}" z="/9VhWwV9w2ySgzd0gV3PnQ3mtbM="/>
+        <field:display date="true" dateTimePattern="${shopOrderRetrun_returntime_date_format}" field="returnTime" id="s_com_huazhuo_shop_domain_ShopOrderRetrun_returnTime" object="${shoporderretrun}" z="3GgKYfc/m7c8MI8cdxgLGJo84Ds="/>
+        <field:display field="shopOrderId" id="s_com_huazhuo_shop_domain_ShopOrderRetrun_shopOrderId" object="${shoporderretrun}" z="SkeV99jTLJdy3Lh2XpF6EOzZv4U="/>
+        <field:display field="returnCost" id="s_com_huazhuo_shop_domain_ShopOrderRetrun_returnCost" object="${shoporderretrun}" z="tv3rgDkFV2v7NzdEl41G66w4FOA="/>
+        <field:display date="true" dateTimePattern="${shopOrderRetrun_createdat_date_format}" field="createdAt" id="s_com_huazhuo_shop_domain_ShopOrderRetrun_createdAt" object="${shoporderretrun}" z="uo9XHA03yek7cdWkDyLDTI65vHo="/>
+        <field:display date="true" dateTimePattern="${shopOrderRetrun_updatedat_date_format}" field="updatedAt" id="s_com_huazhuo_shop_domain_ShopOrderRetrun_updatedAt" object="${shoporderretrun}" z="vKhzrpDPDbQIkVGVWqXOgUeBal8="/>
+        <field:display field="shopOrderRetrunType" id="s_com_huazhuo_shop_domain_ShopOrderRetrun_shopOrderRetrunType" object="${shoporderretrun}" z="iQp1oZbuXobIa9zaviMEBao1Wk8="/>
+        <field:display field="logisticsCode" id="s_com_huazhuo_shop_domain_ShopOrderRetrun_logisticsCode" object="${shoporderretrun}" z="yBX3S3EZ4odELrTeypHboHm32Nk="/>
+        <field:display field="logisticsNumber" id="s_com_huazhuo_shop_domain_ShopOrderRetrun_logisticsNumber" object="${shoporderretrun}" z="6HeWDFpnOCcuIp8880+ew2eGS0U="/>
+        <field:display field="isDel" id="s_com_huazhuo_shop_domain_ShopOrderRetrun_isDel" object="${shoporderretrun}" z="quVELdWSKz0B57ApuozO9alebkc="/>
+        <field:display field="shopOrderReturnReason" id="s_com_huazhuo_shop_domain_ShopOrderRetrun_shopOrderReturnReason" object="${shoporderretrun}" z="pOLs+uc8Nn9sJtUfkUThnWTj6vc="/>
+        <field:display date="true" dateTimePattern="${shopOrderRetrun_shopagreetime_date_format}" field="shopAgreeTime" id="s_com_huazhuo_shop_domain_ShopOrderRetrun_shopAgreeTime" object="${shoporderretrun}" z="tu07B04gaPV8jDBRGzRzTUPfDb0="/>
+    </page:show>
+</div>

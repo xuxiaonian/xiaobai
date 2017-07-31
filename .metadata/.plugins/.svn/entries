@@ -1,0 +1,100 @@
+10
+
+dir
+4136
+svn://192.168.1.169/svn/project/touring-shop/trunk/shop/.metadata/.plugins
+svn://192.168.1.169
+
+
+
+2017-02-15T03:04:23.634451Z
+181
+yangchuan
+
+
+svn:special svn:externals svn:needs-lock
+
+
+
+
+
+
+
+
+
+
+
+2abd8a2e-3e7e-4a93-9a8e-0002e42a260f
+
+com.atlassian.connector.eclipse.jira.core
+dir
+
+com.collabnet.subversion.merge
+dir
+
+com.springsource.sts.roo.core
+dir
+
+org.eclipse.core.resources
+dir
+
+org.eclipse.core.runtime
+dir
+
+org.eclipse.debug.core
+dir
+
+org.eclipse.jdt.core
+dir
+
+org.eclipse.jdt.launching
+dir
+
+org.eclipse.jdt.ui
+dir
+
+org.eclipse.m2e.core
+dir
+
+org.eclipse.m2e.logback.configuration
+dir
+
+org.eclipse.mylyn.bugzilla.core
+dir
+
+org.eclipse.mylyn.tasks.ui
+dir
+
+org.eclipse.pde.core
+dir
+
+org.eclipse.team.cvs.core
+dir
+
+org.eclipse.ui
+dir
+
+org.eclipse.ui.ide
+dir
+
+org.eclipse.ui.intro
+dir
+
+org.eclipse.ui.workbench
+dir
+
+org.eclipse.wst.jsdt.core
+dir
+
+org.eclipse.wst.server.core
+dir
+
+org.springframework.ide.eclipse.aop.core
+dir
+
+org.springframework.ide.eclipse.beans.core.metadata
+dir
+
+org.springframework.ide.eclipse.osgi.targetdefinition
+dir
+

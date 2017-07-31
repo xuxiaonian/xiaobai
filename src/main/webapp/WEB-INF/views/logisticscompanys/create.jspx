@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<div xmlns:c="http://java.sun.com/jsp/jstl/core" xmlns:field="urn:jsptagdir:/WEB-INF/tags/form/fields" xmlns:form="urn:jsptagdir:/WEB-INF/tags/form" xmlns:jsp="http://java.sun.com/JSP/Page" xmlns:spring="http://www.springframework.org/tags" version="2.0">
+    <jsp:directive.page contentType="text/html;charset=UTF-8"/>
+    <jsp:output omit-xml-declaration="yes"/>
+    <form:create id="fc_com_huazhuo_shop_enumtype_LogisticsCompany" modelAttribute="logisticsCompany" path="/logisticscompanys" render="${empty dependencies}" z="fxCn9FQiQrlM/EVofFGorsnQB2w=">
+        <field:input field="logisticsCode" id="c_com_huazhuo_shop_enumtype_LogisticsCompany_logisticsCode" z="iG9nMa5mr0KOU1Spam8JqX1iOko="/>
+        <field:input field="logisticsName" id="c_com_huazhuo_shop_enumtype_LogisticsCompany_logisticsName" z="0dgLCL+OxTiroUsFLOfRZ51HaJ4="/>
+        <field:input field="companyType" id="c_com_huazhuo_shop_enumtype_LogisticsCompany_companyType" validationMessageCode="field_invalid_integer" z="PpAOfmoD6+52IsEhX/IzgWoGkEA="/>
+        <field:datetime dateTimePattern="${logisticsCompany_createdat_date_format}" field="createdAt" id="c_com_huazhuo_shop_enumtype_LogisticsCompany_createdAt" z="ibpBh2hh/IusHAV/wdSGzkgN3tY="/>
+        <field:datetime dateTimePattern="${logisticsCompany_updatedat_date_format}" field="updatedAt" id="c_com_huazhuo_shop_enumtype_LogisticsCompany_updatedAt" z="nRYb5HCBAKR8PBup9K8Oj5IH3/E="/>
+        <field:input field="att1" id="c_com_huazhuo_shop_enumtype_LogisticsCompany_att1" z="izIylyjo1bCGiwJ4iQnTYcgYLuI="/>
+        <field:input field="att2" id="c_com_huazhuo_shop_enumtype_LogisticsCompany_att2" z="Gtgae8XyKrfHuji+agmV5LT+a3A="/>
+    </form:create>
+    <form:dependency dependencies="${dependencies}" id="d_com_huazhuo_shop_enumtype_LogisticsCompany" render="${not empty dependencies}" z="pZE/9+y8dsxCFfR7kGTDAx0HJY8="/>
+</div>

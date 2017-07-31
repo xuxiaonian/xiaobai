@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<div xmlns:field="urn:jsptagdir:/WEB-INF/tags/form/fields" xmlns:form="urn:jsptagdir:/WEB-INF/tags/form" xmlns:jsp="http://java.sun.com/JSP/Page" version="2.0">
+    <jsp:directive.page contentType="text/html;charset=UTF-8"/>
+    <jsp:output omit-xml-declaration="yes"/>
+    <form:update id="fu_com_huazhuo_shop_domain_ShopOrderRetrun" modelAttribute="shopOrderRetrun" path="/shoporderretruns" versionField="Version" z="rHjNL5N4HYd+H+tpql49WJwr+n4=">
+        <field:input field="returnNumber" id="c_com_huazhuo_shop_domain_ShopOrderRetrun_returnNumber" z="9AFxuptF4/hATp1hTcsRW4A6eTQ="/>
+        <field:datetime dateTimePattern="${shopOrderRetrun_returntime_date_format}" field="returnTime" id="c_com_huazhuo_shop_domain_ShopOrderRetrun_returnTime" z="6KkPOGz88+dos0cW+jLtIsfjKtk="/>
+        <field:select field="shopOrderId" id="c_com_huazhuo_shop_domain_ShopOrderRetrun_shopOrderId" itemValue="id" items="${shoporderses}" path="/shoporderses" z="84TRDCuoih+C+Wf3Khj7YJiVdO4="/>
+        <field:input field="returnCost" id="c_com_huazhuo_shop_domain_ShopOrderRetrun_returnCost" validationMessageCode="field_invalid_number" z="zJqyyHMloM4ktrJ+I4jiBR7wxJo="/>
+        <field:datetime dateTimePattern="${shopOrderRetrun_createdat_date_format}" field="createdAt" id="c_com_huazhuo_shop_domain_ShopOrderRetrun_createdAt" z="f0b+X30Q2lnjlqSXM9MIVNgZk2w="/>
+        <field:datetime dateTimePattern="${shopOrderRetrun_updatedat_date_format}" field="updatedAt" id="c_com_huazhuo_shop_domain_ShopOrderRetrun_updatedAt" z="vK0+P7Lg7nQwh6Doj/yYIMDKEyI="/>
+        <field:select field="shopOrderRetrunType" id="c_com_huazhuo_shop_domain_ShopOrderRetrun_shopOrderRetrunType" itemValue="id" items="${shoporderretruntypes}" path="/shoporderretruntypes" z="7IqfsRTbHQIhItHzLjhq9RmcA+M="/>
+        <field:simple field="shopOrderReturnConsults" id="c_com_huazhuo_shop_domain_ShopOrderRetrun_shopOrderReturnConsults" messageCode="entity_reference_not_managed" messageCodeAttribute="Shop Order Return Consult" z="to+nACttM10S3jFPQfqqmjK/rp4="/>
+        <field:input field="logisticsCode" id="c_com_huazhuo_shop_domain_ShopOrderRetrun_logisticsCode" z="Jj2K557kT8WuqIY6DGJFYC9s8qI="/>
+        <field:input field="logisticsNumber" id="c_com_huazhuo_shop_domain_ShopOrderRetrun_logisticsNumber" z="w1JpJom033hVbWfkmafXFTx9YvA="/>
+        <field:checkbox field="isDel" id="c_com_huazhuo_shop_domain_ShopOrderRetrun_isDel" z="Zx8TZ4DgEIMqcpUgZ3lEBt9JVBE="/>
+        <field:select field="shopOrderReturnReason" id="c_com_huazhuo_shop_domain_ShopOrderRetrun_shopOrderReturnReason" itemValue="id" items="${shoporderreturnreasons}" path="/shoporderreturnreasons" z="AAfxsgo0cAEgBsI3PrRYtshBiUg="/>
+        <field:datetime dateTimePattern="${shopOrderRetrun_shopagreetime_date_format}" field="shopAgreeTime" id="c_com_huazhuo_shop_domain_ShopOrderRetrun_shopAgreeTime" z="r/xoNYD2K/nAwQCodoR0o9/ll6E="/>
+    </form:update>
+</div>

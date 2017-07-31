@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE tiles-definitions PUBLIC "-//Apache Software Foundation//DTD Tiles Configuration 2.1//EN" "http://tiles.apache.org/dtds/tiles-config_2_1.dtd">
+<tiles-definitions>
+    <definition extends="default" name="shoporderses/list">
+        <put-attribute name="body" value="/WEB-INF/views/shoporderses/list.jsp"/>
+    </definition>
+    <definition extends="public" name="shoporderses/send">
+        <put-attribute name="body" value="/WEB-INF/views/shoporderses/send.jsp"/>
+    </definition>
+     <definition extends="public" name="shoporderses/update">
+        <put-attribute name="body" value="/WEB-INF/views/shoporderses/update.jsp"/>
+    </definition>
+     <definition extends="public" name="shoporderses/cancel">
+        <put-attribute name="body" value="/WEB-INF/views/shoporderses/cancel.jsp"/>
+    </definition>
+    
+    <definition extends="public" name="shoporderses/showLogistics">
+        <put-attribute name="body" value="/WEB-INF/views/shoporderses/showLogistics.jsp"/>
+    </definition>
+<definition extends="default" name="shoporderses/show">
+        <put-attribute name="body" value="/WEB-INF/views/shoporderses/show.jsp"/>
+    </definition>
+<definition extends="default" name="shoporderses/create">
+        <put-attribute name="body" value="/WEB-INF/views/shoporderses/create.jspx"/>
+    </definition>
+
+</tiles-definitions>

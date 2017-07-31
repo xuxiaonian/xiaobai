@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<div xmlns:jsp="http://java.sun.com/JSP/Page" xmlns:page="urn:jsptagdir:/WEB-INF/tags/form" xmlns:table="urn:jsptagdir:/WEB-INF/tags/form/fields" version="2.0">
+    <jsp:directive.page contentType="text/html;charset=UTF-8"/>
+    <jsp:output omit-xml-declaration="yes"/>
+    <page:list id="pl_com_huazhuo_shop_bill_ShopBill" items="${shopbills}" z="KPdqaVIMiq3b7BvGswqWkfysVKE=">
+        <table:table data="${shopbills}" id="l_com_huazhuo_shop_bill_ShopBill" path="/shopbills" z="j4fBdLFFOTGqMUH/yXVcFV0S5HM=">
+            <table:column id="c_com_huazhuo_shop_bill_ShopBill_billNumber" property="billNumber" z="ZzGZgc6CTwMs+ya2CXtTI1ADrls="/>
+            <table:column date="true" dateTimePattern="${shopBill_billstart_date_format}" id="c_com_huazhuo_shop_bill_ShopBill_billStart" property="billStart" z="afTAg4qeTrCJYoEppGEueAc3FY8="/>
+            <table:column date="true" dateTimePattern="${shopBill_billend_date_format}" id="c_com_huazhuo_shop_bill_ShopBill_billEnd" property="billEnd" z="6QlQkwmu3kZhF0h1tzzjG0VelAg="/>
+            <table:column date="true" dateTimePattern="${shopBill_createdate_date_format}" id="c_com_huazhuo_shop_bill_ShopBill_createDate" property="createDate" z="PL0dk1z/s7zhE4mthOeqBP/UZ9o="/>
+            <table:column date="true" dateTimePattern="${shopBill_enterdate_date_format}" id="c_com_huazhuo_shop_bill_ShopBill_enterDate" property="enterDate" z="rMAj1AUrRxPf9NZCMiFMOy7h9lc="/>
+            <table:column date="true" dateTimePattern="${shopBill_settledate_date_format}" id="c_com_huazhuo_shop_bill_ShopBill_settleDate" property="settleDate" z="qh/MU07OHOp0TBIB6PX054qBkc8="/>
+        </table:table>
+    </page:list>
+</div>

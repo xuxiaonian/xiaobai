@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<div xmlns:c="http://java.sun.com/jsp/jstl/core" xmlns:field="urn:jsptagdir:/WEB-INF/tags/form/fields" xmlns:form="urn:jsptagdir:/WEB-INF/tags/form" xmlns:jsp="http://java.sun.com/JSP/Page" xmlns:spring="http://www.springframework.org/tags" version="2.0">
+    <jsp:directive.page contentType="text/html;charset=UTF-8"/>
+    <jsp:output omit-xml-declaration="yes"/>
+    <form:create id="fc_com_huazhuo_shop_domain_ShoppingCategories" modelAttribute="shoppingCategories" path="/shoppingcategorieses" render="${empty dependencies}" z="e6k78kpNgtkrUN5CtSsWxXoHuSs=">
+        <field:textarea field="name" id="c_com_huazhuo_shop_domain_ShoppingCategories_name" z="e2/Ak258CifTcCHWrTe/ue8kjEQ="/>
+        <field:textarea field="description" id="c_com_huazhuo_shop_domain_ShoppingCategories_description" z="BXVUhb2ZgY5c+RxXjJo52sRhb1s="/>
+        <field:textarea field="image" id="c_com_huazhuo_shop_domain_ShoppingCategories_image" z="/Ly57/no+7LU4euRB1BOCb2BtPk="/>
+        <field:input field="status" id="c_com_huazhuo_shop_domain_ShoppingCategories_status" validationMessageCode="field_invalid_integer" z="O9D+ksc6eX8kSYy0cnlCEB67T6s="/>
+        <field:input field="parentId" id="c_com_huazhuo_shop_domain_ShoppingCategories_parentId" validationMessageCode="field_invalid_integer" z="Rte8YrSIjb5za+sQAfmIcId1+kQ="/>
+        <field:input field="cityId" id="c_com_huazhuo_shop_domain_ShoppingCategories_cityId" validationMessageCode="field_invalid_integer" z="f/DNIrXu7HMGKyoVqoPcFawoxqA="/>
+        <field:datetime dateTimePattern="${shoppingCategories_createdat_date_format}" field="createdAt" id="c_com_huazhuo_shop_domain_ShoppingCategories_createdAt" z="Ietfx5AeHjtUe+Dyo0ozkmAc7TY="/>
+        <field:datetime dateTimePattern="${shoppingCategories_updatedat_date_format}" field="updatedAt" id="c_com_huazhuo_shop_domain_ShoppingCategories_updatedAt" z="t5miv8maxsZRf9n213t/d210kZE="/>
+        <field:input field="enabled" id="c_com_huazhuo_shop_domain_ShoppingCategories_enabled" validationMessageCode="field_invalid_integer" z="FT9JHSPAkVLbc4st2BY2YAptY8U="/>
+    </form:create>
+    <form:dependency dependencies="${dependencies}" id="d_com_huazhuo_shop_domain_ShoppingCategories" render="${not empty dependencies}" z="vYtLZJso3UBNFkb3f17x39bq+ug="/>
+</div>

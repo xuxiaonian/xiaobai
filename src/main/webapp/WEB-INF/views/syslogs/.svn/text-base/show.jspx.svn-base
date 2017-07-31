@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<div xmlns:field="urn:jsptagdir:/WEB-INF/tags/form/fields" xmlns:jsp="http://java.sun.com/JSP/Page" xmlns:page="urn:jsptagdir:/WEB-INF/tags/form" version="2.0">
+    <jsp:directive.page contentType="text/html;charset=UTF-8"/>
+    <jsp:output omit-xml-declaration="yes"/>
+    <page:show id="ps_com_huazhuo_shop_log_SysLog" object="${syslog}" path="/syslogs" z="HzqW84mt6svyGhbGgpc4OJvAo7k=">
+        <field:display field="content" id="s_com_huazhuo_shop_log_SysLog_content" object="${syslog}" z="CqVAbK2XRseBWNGsss3abcpv1Jg="/>
+        <field:display field="processId" id="s_com_huazhuo_shop_log_SysLog_processId" object="${syslog}" z="S8KK+z6R4kkG+v8wwGTq92EDCcM="/>
+        <field:display field="ip" id="s_com_huazhuo_shop_log_SysLog_ip" object="${syslog}" z="SlbzE9Kei2os3ABG2zEs5umMWKA="/>
+        <field:display field="sysLogType" id="s_com_huazhuo_shop_log_SysLog_sysLogType" object="${syslog}" z="8WlNxvakQ5Rdg8VmxPfpachDil0="/>
+        <field:display date="true" dateTimePattern="${sysLog_createdat_date_format}" field="createdAt" id="s_com_huazhuo_shop_log_SysLog_createdAt" object="${syslog}" z="H+SpvlB+qLidtktZLskdWm4ReQE="/>
+        <field:display date="true" dateTimePattern="${sysLog_updatedat_date_format}" field="updatedAt" id="s_com_huazhuo_shop_log_SysLog_updatedAt" object="${syslog}" z="VzqfhYpsGlveBSW1po+CWCnhzX0="/>
+        <field:display field="state" id="s_com_huazhuo_shop_log_SysLog_state" object="${syslog}" z="3LZa4XRjR/4eOX8Egxq4FNGpuqw="/>
+        <field:display field="operator" id="s_com_huazhuo_shop_log_SysLog_operator" object="${syslog}" z="JaH8ryD2LX38ZcXE8MlCc4a9ab0="/>
+    </page:show>
+</div>

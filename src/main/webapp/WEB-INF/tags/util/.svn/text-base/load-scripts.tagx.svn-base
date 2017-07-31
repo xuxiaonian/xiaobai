@@ -1,0 +1,32 @@
+<jsp:root xmlns:c="http://java.sun.com/jsp/jstl/core" xmlns:fn="http://java.sun.com/jsp/jstl/functions" xmlns:jsp="http://java.sun.com/JSP/Page" xmlns:spring="http://www.springframework.org/tags" version="2.0">
+
+  <jsp:output omit-xml-declaration="yes" />
+  
+  
+  <spring:url value="/resources/css/bootstrap.min.css" var="bootstrap" />
+  <spring:url value="/resources/css/mybootstrap.css" var="mybootstrap" />
+  <spring:url value="/resources/css/mystyle.css" var="mystyle" />
+  <spring:url value="/resources/css/buttons.css" var="buttons" />
+  <spring:url value="/resources/css/basic.css" var="basic" />
+  <spring:url value="/resources/css/style.css" var="style" />
+  <spring:url value="/resources/css/font-awesome.min.css" var="font" />
+  <spring:url value="/resources/js/jquery.min.js" var="jquery" />
+  <spring:url value="/resources/js/bootstrap.min.js" var="bootstrapjs" /> 
+   
+  <spring:url value="/resources/js/flat-ui.min.js" var="flatuijs" />
+  <spring:url value="/resources/js/application.js" var="applicationjs" />  
+  
+  
+<link rel="stylesheet" type="text/css" href="${bootstrap}" />
+<link rel="stylesheet" type="text/css" href="${mybootstrap}" />
+
+<link rel="stylesheet" type="text/css" href="${mystyle}" />
+<link rel="stylesheet" type="text/css" href="${buttons}" />
+<link rel="stylesheet" type="text/css" href="${basic}" />
+<link rel="stylesheet" type="text/css" href="${style}" />
+<link rel="stylesheet" type="text/css" href="${font}" />
+
+<script src="${jquery}" type="text/javascript"><!-- required for FF3 and Opera --></script>
+<script src="${bootstrapjs}" type="text/javascript"><!-- required for FF3 and Opera --></script>
+
+</jsp:root>

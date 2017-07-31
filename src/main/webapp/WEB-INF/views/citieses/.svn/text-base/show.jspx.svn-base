@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<div xmlns:field="urn:jsptagdir:/WEB-INF/tags/form/fields" xmlns:jsp="http://java.sun.com/JSP/Page" xmlns:page="urn:jsptagdir:/WEB-INF/tags/form" version="2.0">
+    <jsp:directive.page contentType="text/html;charset=UTF-8"/>
+    <jsp:output omit-xml-declaration="yes"/>
+    <page:show id="ps_com_huazhuo_shop_city_Cities" object="${cities}" path="/citieses" z="Ily2RSaUbe78GwJMP9O3BUxnZmc=">
+        <field:display field="name" id="s_com_huazhuo_shop_city_Cities_name" object="${cities}" z="dnzZWSs8TsjpQhATY1X18NfLk+g="/>
+        <field:display field="pinyin" id="s_com_huazhuo_shop_city_Cities_pinyin" object="${cities}" z="fmfvV7NuGnJ9AFTDxMYHIOXEY2M="/>
+        <field:display field="pinyinAbridge" id="s_com_huazhuo_shop_city_Cities_pinyinAbridge" object="${cities}" z="fyYahy7QIK3qilQ5K4cTQxYjbKM="/>
+        <field:display field="initial" id="s_com_huazhuo_shop_city_Cities_initial" object="${cities}" z="P9WA3ygjIFhgBq/voTb88bAWjdw="/>
+        <field:display field="zipcode" id="s_com_huazhuo_shop_city_Cities_zipcode" object="${cities}" z="9gWOXKomBw4rZqnOuTclkpubCjc="/>
+        <field:display field="status" id="s_com_huazhuo_shop_city_Cities_status" object="${cities}" z="IvhBYvVuf0FWgTJB/up1SMxGB+k="/>
+        <field:display date="true" dateTimePattern="${cities_createdat_date_format}" field="createdAt" id="s_com_huazhuo_shop_city_Cities_createdAt" object="${cities}" z="cO77yo6QVqInQHH8JvK3eeUIiUM="/>
+        <field:display date="true" dateTimePattern="${cities_updatedat_date_format}" field="updatedAt" id="s_com_huazhuo_shop_city_Cities_updatedAt" object="${cities}" z="miH7DPK4EcLDHOZKr3ooG8xPrfE="/>
+        <field:display field="count" id="s_com_huazhuo_shop_city_Cities_count" object="${cities}" z="Az1S3NmtuQMyEUsxVuuTxpPnx3U="/>
+        <field:display field="cityCode" id="s_com_huazhuo_shop_city_Cities_cityCode" object="${cities}" z="n1fNNp2L/w8RQoIyddPQxVZUWQU="/>
+        <field:display field="weather" id="s_com_huazhuo_shop_city_Cities_weather" object="${cities}" z="d4ICY5toW/sp+BMmd4iDt3Q3URY="/>
+        <field:display field="temperature" id="s_com_huazhuo_shop_city_Cities_temperature" object="${cities}" z="rQxyodDYwDLp/Ao9gzOR+potDYw="/>
+        <field:display field="pmTwoPointFive" id="s_com_huazhuo_shop_city_Cities_pmTwoPointFive" object="${cities}" z="+oSaKFT1Jz85vBdB5XfXZb0pPMI="/>
+        <field:display field="currentTemperature" id="s_com_huazhuo_shop_city_Cities_currentTemperature" object="${cities}" z="SMOleyWXtyog2dX2adqmUWQs3EY="/>
+        <field:display field="hint" id="s_com_huazhuo_shop_city_Cities_hint" object="${cities}" z="GL1AaUreI/mO5ZCnoyCrXtEaPxU="/>
+        <field:display field="provinces" id="s_com_huazhuo_shop_city_Cities_provinces" object="${cities}" z="oqZMAIVtpHlRFG6Ob4spfi60aQc="/>
+    </page:show>
+</div>

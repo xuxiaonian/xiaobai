@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<div xmlns:jsp="http://java.sun.com/JSP/Page" xmlns:page="urn:jsptagdir:/WEB-INF/tags/form" xmlns:table="urn:jsptagdir:/WEB-INF/tags/form/fields" version="2.0">
+    <jsp:directive.page contentType="text/html;charset=UTF-8"/>
+    <jsp:output omit-xml-declaration="yes"/>
+    <page:list id="pl_com_huazhuo_shop_city_Provinces" items="${provinceses}" z="aFXpCgX2/wp8dRbNUsHerWR39aY=">
+        <table:table data="${provinceses}" id="l_com_huazhuo_shop_city_Provinces" path="/provinceses" z="Cd7sobeNSDnj/tCw84Zm9v89huc=">
+            <table:column id="c_com_huazhuo_shop_city_Provinces_provinceName" property="provinceName" z="hBesabjxUAd80iHOl6x9aRVuVdc="/>
+            <table:column id="c_com_huazhuo_shop_city_Provinces_indexId" property="indexId" z="O3bLshQxWkuYkVfGf9ice46jMOU="/>
+            <table:column id="c_com_huazhuo_shop_city_Provinces_spell" property="spell" z="NhjsyB3qvXaWpSxoJZLAV+OyGtM="/>
+            <table:column id="c_com_huazhuo_shop_city_Provinces_locality" property="locality" z="Nh+2ANQ4SQP/Pbj889VaGrmQE94="/>
+        </table:table>
+    </page:list>
+</div>

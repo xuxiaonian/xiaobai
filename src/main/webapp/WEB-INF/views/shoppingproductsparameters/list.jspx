@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<div xmlns:jsp="http://java.sun.com/JSP/Page" xmlns:page="urn:jsptagdir:/WEB-INF/tags/form" xmlns:table="urn:jsptagdir:/WEB-INF/tags/form/fields" version="2.0">
+    <jsp:directive.page contentType="text/html;charset=UTF-8"/>
+    <jsp:output omit-xml-declaration="yes"/>
+    <page:list id="pl_com_huazhuo_shop_domain_ShoppingProductsParameter" items="${shoppingproductsparameters}" z="6nlnYigLFKElX/03XVGRanO9z1w=">
+        <table:table data="${shoppingproductsparameters}" id="l_com_huazhuo_shop_domain_ShoppingProductsParameter" path="/shoppingproductsparameters" z="oVZg5CPHrW5kYZrCOTFvZqiqf6s=">
+            <table:column id="c_com_huazhuo_shop_domain_ShoppingProductsParameter_parameterType" property="parameterType" z="8pYme5GI8gnrHZ+cBZ5GoK2H4JM="/>
+            <table:column id="c_com_huazhuo_shop_domain_ShoppingProductsParameter_parameterValue" property="parameterValue" z="8NCm53r6tlCPM8klTXiOsv60aUw="/>
+            <table:column id="c_com_huazhuo_shop_domain_ShoppingProductsParameter_shoppingProducts" property="shoppingProducts" z="y6g/mQseOM22P7f4e8BF7LNieqg="/>
+        </table:table>
+    </page:list>
+</div>

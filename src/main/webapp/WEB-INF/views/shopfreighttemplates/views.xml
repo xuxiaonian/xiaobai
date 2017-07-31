@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE tiles-definitions PUBLIC "-//Apache Software Foundation//DTD Tiles Configuration 2.1//EN" "http://tiles.apache.org/dtds/tiles-config_2_1.dtd">
+<tiles-definitions>
+    <definition extends="default" name="shopfreighttemplates/list">
+        <put-attribute name="body" value="/WEB-INF/views/shopfreighttemplates/list.jsp"/>
+    </definition>
+      <definition extends="default" name="shopfreighttemplates/listShop">
+        <put-attribute name="body" value="/WEB-INF/views/shopfreighttemplates/listShop.jsp"/>
+    </definition>
+<definition extends="default" name="shopfreighttemplates/show">
+        <put-attribute name="body" value="/WEB-INF/views/shopfreighttemplates/show.jspx"/>
+    </definition>
+<definition extends="default" name="shopfreighttemplates/create">
+        <put-attribute name="body" value="/WEB-INF/views/shopfreighttemplates/create.jsp"/>
+    </definition>
+<definition extends="default" name="shopfreighttemplates/update">
+        <put-attribute name="body" value="/WEB-INF/views/shopfreighttemplates/update.jsp"/>
+    </definition>
+<definition extends="public" name="shopfreighttemplates/city">
+        <put-attribute name="body" value="/WEB-INF/views/shopfreighttemplates/city.jsp"/>
+    </definition>
+    <definition extends="default" name="shopfreighttemplates/createShops">
+        <put-attribute name="body" value="/WEB-INF/views/shopfreighttemplates/createShops.jsp"/>
+    </definition>
+    <definition extends="default" name="shopfreighttemplates/update1">
+        <put-attribute name="body" value="/WEB-INF/views/shopfreighttemplates/update1.jsp"/>
+    </definition>
+    <definition extends="default" name="shopfreighttemplates/update2">
+        <put-attribute name="body" value="/WEB-INF/views/shopfreighttemplates/update2.jsp"/>
+    </definition>
+        <definition extends="default" name="shopfreighttemplates/calculation">
+        <put-attribute name="body" value="/WEB-INF/views/shopfreighttemplates/calculation.jsp"/>
+    </definition>
+</tiles-definitions>

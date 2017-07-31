@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<div xmlns:jsp="http://java.sun.com/JSP/Page" xmlns:page="urn:jsptagdir:/WEB-INF/tags/form" xmlns:table="urn:jsptagdir:/WEB-INF/tags/form/fields" version="2.0">
+    <jsp:directive.page contentType="text/html;charset=UTF-8"/>
+    <jsp:output omit-xml-declaration="yes"/>
+    <page:list id="pl_com_huazhuo_shop_domain_Company" items="${companys}" z="wc5CIE6GswPMFa0Ddnv1xY3ZE9Y=">
+        <table:table data="${companys}" id="l_com_huazhuo_shop_domain_Company" path="/companys" z="CwgWI9+Ji+mgWYaqSOVXmKAT5EI=">
+            <table:column id="c_com_huazhuo_shop_domain_Company_name" property="name" z="+fBljxCdOJIBXIsQhhTrfYVQNYM="/>
+            <table:column id="c_com_huazhuo_shop_domain_Company_imgUrl" property="imgUrl" z="WQp/cF+JEvhKYu8kggAfbxvOB1o="/>
+            <table:column id="c_com_huazhuo_shop_domain_Company_address" property="address" z="tem2j4dLoSK9FTX4Wbqa/UqrKjo="/>
+            <table:column id="c_com_huazhuo_shop_domain_Company_legalPersion" property="legalPersion" z="CEl7zOm2CcbHL0uL9iqxeatQ2ZU="/>
+            <table:column date="true" dateTimePattern="${company_createdat_date_format}" id="c_com_huazhuo_shop_domain_Company_createdAt" property="createdAt" z="ZsS5E9x2A/D9bOSwk4qOUyu412U="/>
+            <table:column id="c_com_huazhuo_shop_domain_Company_remark" property="remark" z="JKg8vk9hNiBkuUgHnJxU6eqTWj0="/>
+        </table:table>
+    </page:list>
+</div>

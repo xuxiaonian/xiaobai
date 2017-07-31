@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<div xmlns:field="urn:jsptagdir:/WEB-INF/tags/form/fields" xmlns:jsp="http://java.sun.com/JSP/Page" xmlns:page="urn:jsptagdir:/WEB-INF/tags/form" version="2.0">
+    <jsp:directive.page contentType="text/html;charset=UTF-8"/>
+    <jsp:output omit-xml-declaration="yes"/>
+    <page:show id="ps_com_huazhuo_shop_domain_ShopAddress" object="${shopaddress}" path="/shopaddresses" z="s8jeVXYAIDZWb1kPJn6hX/ZGkpk=">
+        <field:display field="contact" id="s_com_huazhuo_shop_domain_ShopAddress_contact" object="${shopaddress}" z="ZwqaQZ7yjzxLQi1j/7dz+FIG7ZY="/>
+        <field:display field="provinces" id="s_com_huazhuo_shop_domain_ShopAddress_provinces" object="${shopaddress}" z="XwJXKkj+B7giM1R0xuakvxfSEkM="/>
+        <field:display field="cities" id="s_com_huazhuo_shop_domain_ShopAddress_cities" object="${shopaddress}" z="eakySGyFLhgRJMgM8iEv8pTPWMw="/>
+        <field:display field="areas" id="s_com_huazhuo_shop_domain_ShopAddress_areas" object="${shopaddress}" z="vvBQM3i+WpCLYWfWMCxw4nGt1zg="/>
+        <field:display field="address" id="s_com_huazhuo_shop_domain_ShopAddress_address" object="${shopaddress}" z="+DlcniZX86xvJvN7I0Efkl9gFgM="/>
+        <field:display field="zipcood" id="s_com_huazhuo_shop_domain_ShopAddress_zipcood" object="${shopaddress}" z="s+XOKMUO3AD+W8rfZL0f/yREyfU="/>
+        <field:display field="phoneNumber" id="s_com_huazhuo_shop_domain_ShopAddress_phoneNumber" object="${shopaddress}" z="EJv6ggGfYMTUZlFKBX/h/Ojofwg="/>
+        <field:display field="tel1" id="s_com_huazhuo_shop_domain_ShopAddress_tel1" object="${shopaddress}" z="CRftFymb9K1epXHNDrG2v+uheFg="/>
+        <field:display field="tel2" id="s_com_huazhuo_shop_domain_ShopAddress_tel2" object="${shopaddress}" z="Bdc+bta4M7JcIxuiMGA0/za0CqA="/>
+        <field:display field="tel3" id="s_com_huazhuo_shop_domain_ShopAddress_tel3" object="${shopaddress}" z="+/Iao/yOkLdQbd51JuwJBqQWhF8="/>
+        <field:display field="sendProduct" id="s_com_huazhuo_shop_domain_ShopAddress_sendProduct" object="${shopaddress}" z="NGJtduoTf9qqc1iOmBYjEM0H5OM="/>
+        <field:display field="returnProduct" id="s_com_huazhuo_shop_domain_ShopAddress_returnProduct" object="${shopaddress}" z="wvROZmbgiNn5DlF3CNTUG+oPJoo="/>
+        <field:display field="shopId" id="s_com_huazhuo_shop_domain_ShopAddress_shopId" object="${shopaddress}" z="hN6+uN7XbcVP1XVjeRDs6CQujGc="/>
+        <field:display date="true" dateTimePattern="${shopAddress_createdat_date_format}" field="createdAt" id="s_com_huazhuo_shop_domain_ShopAddress_createdAt" object="${shopaddress}" z="F/mtzNJUp3cp0Q+kZz45y0GQ4lY="/>
+        <field:display date="true" dateTimePattern="${shopAddress_updatedat_date_format}" field="updatedAt" id="s_com_huazhuo_shop_domain_ShopAddress_updatedAt" object="${shopaddress}" z="oKV3OFdanEDUBmtqZ6sTnlGzMp8="/>
+    </page:show>
+</div>

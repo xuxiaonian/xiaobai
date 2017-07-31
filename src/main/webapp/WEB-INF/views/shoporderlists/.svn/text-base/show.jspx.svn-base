@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<div xmlns:field="urn:jsptagdir:/WEB-INF/tags/form/fields" xmlns:jsp="http://java.sun.com/JSP/Page" xmlns:page="urn:jsptagdir:/WEB-INF/tags/form" version="2.0">
+    <jsp:directive.page contentType="text/html;charset=UTF-8"/>
+    <jsp:output omit-xml-declaration="yes"/>
+    <page:show id="ps_com_huazhuo_shop_domain_ShopOrderList" object="${shoporderlist}" path="/shoporderlists" z="POjEjqP9XSmxIXz0mUYa5s14aaY=">
+        <field:display field="shopOrderId" id="s_com_huazhuo_shop_domain_ShopOrderList_shopOrderId" object="${shoporderlist}" z="DVL8n4dcaj5Pf2+fwO9kRHZQyGI="/>
+        <field:display field="buyCouts" id="s_com_huazhuo_shop_domain_ShopOrderList_buyCouts" object="${shoporderlist}" z="633bTToVmUH3ZIdFKK9cohgXRKE="/>
+        <field:display field="productId" id="s_com_huazhuo_shop_domain_ShopOrderList_productId" object="${shoporderlist}" z="JgXLO9Lv5w/5GattTiX044Chpbg="/>
+        <field:display field="productName" id="s_com_huazhuo_shop_domain_ShopOrderList_productName" object="${shoporderlist}" z="54t+Pj3SqqjxJgH/h7b42l79oqU="/>
+        <field:display field="productProperty" id="s_com_huazhuo_shop_domain_ShopOrderList_productProperty" object="${shoporderlist}" z="uc0Ag6cX4PPhKm+wpXVJb87wRDA="/>
+        <field:display field="price" id="s_com_huazhuo_shop_domain_ShopOrderList_price" object="${shoporderlist}" z="2aVloDFoCb0uPz08g77arByLJCY="/>
+        <field:display date="true" dateTimePattern="${shopOrderList_createdat_date_format}" field="createdAt" id="s_com_huazhuo_shop_domain_ShopOrderList_createdAt" object="${shoporderlist}" z="qdqi8GSDQPiIgBAuZsDrJIkv+mQ="/>
+        <field:display date="true" dateTimePattern="${shopOrderList_updatedat_date_format}" field="updatedAt" id="s_com_huazhuo_shop_domain_ShopOrderList_updatedAt" object="${shoporderlist}" z="NuD+tsYkK1y1EopeLjk9NP8Bh5E="/>
+        <field:display field="att1" id="s_com_huazhuo_shop_domain_ShopOrderList_att1" object="${shoporderlist}" z="wjKuKeX8Wd2bIuB+QF4rJxAowk8="/>
+        <field:display field="att2" id="s_com_huazhuo_shop_domain_ShopOrderList_att2" object="${shoporderlist}" z="Ftk3j1qzqwzhuutmY43bkRZBob0="/>
+        <field:display field="att3" id="s_com_huazhuo_shop_domain_ShopOrderList_att3" object="${shoporderlist}" z="K7NHW3cE8sD0QSzo7oc39QfXDck="/>
+        <field:display field="att4" id="s_com_huazhuo_shop_domain_ShopOrderList_att4" object="${shoporderlist}" z="jDfnCyWIc7Hf2a+im4dsamwlT0U="/>
+        <field:display field="att5" id="s_com_huazhuo_shop_domain_ShopOrderList_att5" object="${shoporderlist}" z="/CaqUyZPn3Q1cTqkEVKN8puj7sQ="/>
+    </page:show>
+</div>

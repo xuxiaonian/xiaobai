@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<div xmlns:jsp="http://java.sun.com/JSP/Page" xmlns:page="urn:jsptagdir:/WEB-INF/tags/form" xmlns:table="urn:jsptagdir:/WEB-INF/tags/form/fields" version="2.0">
+    <jsp:directive.page contentType="text/html;charset=UTF-8"/>
+    <jsp:output omit-xml-declaration="yes"/>
+    <page:list id="pl_com_huazhuo_shop_domain_ShopAddress" items="${shopaddresses}" z="G0deqcbXm0AyVbjo0f8i1MwcZzk=">
+        <table:table data="${shopaddresses}" id="l_com_huazhuo_shop_domain_ShopAddress" path="/shopaddresses" z="6PQSgrQLDAnWgOR0B4+DztKm8SU=">
+            <table:column id="c_com_huazhuo_shop_domain_ShopAddress_contact" property="contact" z="dhBMrlRRQrFy0L/0qbqXE4gKcFE="/>
+            <table:column id="c_com_huazhuo_shop_domain_ShopAddress_provinces" property="provinces" z="/HFw9hqIRJPcnjt7K6HoFSiAnCI="/>
+            <table:column id="c_com_huazhuo_shop_domain_ShopAddress_cities" property="cities" z="KRQjPo1v4MbNzNSLdlu4+Kpd19Y="/>
+            <table:column id="c_com_huazhuo_shop_domain_ShopAddress_areas" property="areas" z="YitrlD6yCorergQct0NvslcLE/I="/>
+            <table:column id="c_com_huazhuo_shop_domain_ShopAddress_address" property="address" z="wTSL5Ysc+2uhexJMhg/1CLq/84M="/>
+            <table:column id="c_com_huazhuo_shop_domain_ShopAddress_zipcood" property="zipcood" z="FHxdWI6H41WpKCN4o6BsAAs7MPI="/>
+        </table:table>
+    </page:list>
+</div>
